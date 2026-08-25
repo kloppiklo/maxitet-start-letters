@@ -139,7 +139,7 @@ function buildLetter(teacher: (typeof DATA_SNAPSHOT.teachers)[number]) {
       const group = resolveGroup(item, warnings);
       return `• ${group.group}\n  Куратор группы: ${group.curator}\n  Ссылка на чат: ${group.chat}\n  Дата старта: ${firstDate(item.schedule)}\n  Расписание: ${item.schedule}\n  Формат: ${lessonFormat(item)}`;
     });
-    return `Данные по старту дисциплины «${subject}»:\nКурс: ${courses.length === 1 ? courses[0] : courses.join("/") || "—"}\nГруппы:\n${groupLines.join("\n")}\nСсылка на силлабус: ${links[0] || "—"}`;
+    return `Данные по старту дисциплины «${subject}»:\nКурс: ${courses.length === 1 ? courses[0] : courses.join("/") || "—"}\n${groupLines.join("\n")}\nСсылка на силлабус: ${links[0] || "—"}`;
   }).join("\n\n");
 
   const materials = MATERIALS.map(([title, link]) => `• ${title}: ${link}`).join("\n");
