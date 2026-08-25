@@ -137,9 +137,9 @@ function buildLetter(teacher: (typeof DATA_SNAPSHOT.teachers)[number]) {
     if (links.length > 1) warnings.push(`${subject}: найдено несколько ссылок на силлабус.`);
     const groupLines = items.map((item) => {
       const group = resolveGroup(item, warnings);
-      return `• ${group.group}\n  Куратор группы: ${group.curator}\n  Ссылка на чат: ${group.chat}\n  Дата старта: ${firstDate(item.schedule)}\n  Расписание: ${item.schedule}\n  Формат: ${lessonFormat(item)}`;
+      return `Куратор группы: ${group.curator}\nСсылка на чат: ${group.chat}\nДата старта: ${firstDate(item.schedule)}\nРасписание: ${item.schedule}\nФормат: ${lessonFormat(item)}`;
     });
-    return `Данные по старту дисциплины «${subject}»:\nКурс: ${courses.length === 1 ? courses[0] : courses.join("/") || "—"}\n${groupLines.join("\n")}\nСсылка на силлабус: ${links[0] || "—"}`;
+    return `Данные по старту дисциплины «${subject}»:\nКурс: ${courses.length === 1 ? courses[0] : courses.join("/") || "—"}\n${groupLines.join("\n\n")}\nСсылка на силлабус: ${links[0] || "—"}`;
   }).join("\n\n");
 
   const materials = MATERIALS.map(([title, link]) => `• ${title}: ${link}`).join("\n");
