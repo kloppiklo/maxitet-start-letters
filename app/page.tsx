@@ -22,7 +22,7 @@ type Slot = { day: string; time: string; parity: "odd" | "even" | "both" };
 
 function parseSchedule(schedule: string): Slot[] {
   const result: Slot[] = [];
-  const dayMatches = [...schedule.matchAll(/\b(пн|вт|ср|чт|пт|сб|вс)\b/gi)];
+  const dayMatches = [...schedule.matchAll(/(?<![а-яё])(пн|вт|ср|чт|пт|сб|вс)(?![а-яё])/gi)];
   for (let index = 0; index < dayMatches.length; index++) {
     const match = dayMatches[index];
     const day = match[1].toLowerCase();
@@ -104,7 +104,9 @@ function richifyLetter(letter: string, linkLabels: Map<string, string>) {
     cursor = index + url.length;
   }
   html += escapeHtml(letter.slice(cursor));
-  return html.replaceAll("\n", "<br>");
+  return html
+    .replaceAll("\n", "<br>")
+    .replace(/(^|<br>)(Данные по старту дисциплины «.*?»:)(?=<br>)/g, "$1<strong>$2</strong>");
 }
 
 function buildLetter(teacher: (typeof DATA_SNAPSHOT.teachers)[number]) {
