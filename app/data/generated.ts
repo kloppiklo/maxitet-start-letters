@@ -596,19 +596,27 @@ export const DATA_SNAPSHOT = {
         },
         {
           "sourceSheet": "Реклама",
-          "sourceRow": 48,
+          "sourceRow": 47,
           "teacher": "Ворожейкина Светлана",
           "firstName": "Светлана",
           "teacherFormat": "",
           "direction": "Реклама",
           "subject": "Введение в специальность Экономика",
-          "group": "Все группы",
-          "course": 4,
+          "group": "Экономика",
+          "course": 1,
           "schedule": "пн 15:40-17:10 нечет/чет",
           "load": 1.5,
           "status": "Назначено (онлайн)",
           "confirmed": true,
-          "syllabusCandidates": [],
+          "syllabusCandidates": [
+            {
+              "course": 1,
+              "direction": "Реклама",
+              "subject": "Введение в специальность Экономика и бух. учёт",
+              "key": "введение в специальность экономика и бух. учет",
+              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCnG46EWsPqRYOyGY_po_OAAQW0fh0Mc4Kh_wjl0K7TKj0?e=bIazzU"
+            }
+          ],
           "chatInfo": null
         }
       ]
@@ -842,7 +850,7 @@ export const DATA_SNAPSHOT = {
       "assignments": [
         {
           "sourceSheet": "Реклама",
-          "sourceRow": 46,
+          "sourceRow": 45,
           "teacher": "Джафарова Айсель / Шипилова Эрика",
           "firstName": "Эрика",
           "teacherFormat": "",
@@ -1223,31 +1231,6 @@ export const DATA_SNAPSHOT = {
             "chat": "https://t.me/+ySPbTStnEShlYTBi",
             "sourceRow": 71
           }
-        },
-        {
-          "sourceSheet": "Реклама",
-          "sourceRow": 45,
-          "teacher": "Кадырова Диана",
-          "firstName": "Диана",
-          "teacherFormat": "Только очно",
-          "direction": "Реклама",
-          "subject": "Бизнес-аналитика",
-          "group": "Экономика",
-          "course": 4,
-          "schedule": "1. вт 12:00-13:30 нечет/чет 2. чт 14:00-15:30 нечет/чет",
-          "load": 3,
-          "status": "Не согласовано",
-          "confirmed": true,
-          "syllabusCandidates": [
-            {
-              "course": 4,
-              "direction": "Все",
-              "subject": "Бизнес-аналитика(ОП.01 Экономика организации)",
-              "key": "бизнес-аналитика(оп.01 экономика организации)",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQC9Qu5NjZPeRbMbp5Cv_pCkAcEtR_0k-rZxJzjqDUTp8jI?e=y58WLn"
-            }
-          ],
-          "chatInfo": null
         }
       ]
     },
@@ -2594,6 +2577,31 @@ export const DATA_SNAPSHOT = {
       "firstName": "Владислав",
       "assignments": [
         {
+          "sourceSheet": "Реклама",
+          "sourceRow": 48,
+          "teacher": "Моргунов Владислав",
+          "firstName": "Владислав",
+          "teacherFormat": "Только онлайн",
+          "direction": "Реклама",
+          "subject": "Бизнес-аналитика",
+          "group": "Экономика",
+          "course": 2,
+          "schedule": "1. вт 12:00-13:30 нечет/чет 2. ср 15:40-17:10 нечет/чет",
+          "load": 3,
+          "status": "Назначено (онлайн)",
+          "confirmed": true,
+          "syllabusCandidates": [
+            {
+              "course": 2,
+              "direction": "Другое",
+              "subject": "Бизнес-аналитика(ОП.01 Экономика организации)",
+              "key": "бизнес-аналитика(оп.01 экономика организации)",
+              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCW8mlLf3UdSqRcUnUTFKOPAULQCMp5G9j4cLy2C8sJ2e0?e=jvI4JB"
+            }
+          ],
+          "chatInfo": null
+        },
+        {
           "sourceSheet": "ИСП",
           "sourceRow": 30,
           "teacher": "Моргунов Владислав",
@@ -2614,37 +2622,6 @@ export const DATA_SNAPSHOT = {
               "subject": "Системное программирование",
               "key": "системное программирование",
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQBTBRoqSvEaR64upSu16QNRAa-EWXB_leo0Zp2_GT1U7TI?e=zsC6Wg"
-            }
-          ],
-          "chatInfo": {
-            "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
-            "curator": "",
-            "curatorLead": "",
-            "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
-            "sourceRow": 102
-          }
-        },
-        {
-          "sourceSheet": "ИСП",
-          "sourceRow": 32,
-          "teacher": "Моргунов Владислав",
-          "firstName": "Владислав",
-          "teacherFormat": "Только онлайн",
-          "direction": "ИСП",
-          "subject": "Введение в разработку игр",
-          "group": "Все группы",
-          "course": 3,
-          "schedule": "пт 15:40-17:10 нечет 14:00-15:30 чет",
-          "load": 1.5,
-          "status": "Нужно согласование",
-          "confirmed": false,
-          "syllabusCandidates": [
-            {
-              "course": 3,
-              "direction": "ИСП",
-              "subject": "Введение в разработку игр",
-              "key": "введение в разработку игр",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQB_cgMMvFWZR6iBC4oLIMVRAT-KBzzcGLTaaV2jLJmRoiQ?e=XofBln"
             }
           ],
           "chatInfo": {
@@ -3249,6 +3226,37 @@ export const DATA_SNAPSHOT = {
       "name": "Соловей Алина",
       "firstName": "Алина",
       "assignments": [
+        {
+          "sourceSheet": "Дизайн",
+          "sourceRow": 5,
+          "teacher": "Соловей Алина",
+          "firstName": "Алина",
+          "teacherFormat": "Только очно",
+          "direction": "Дизайн",
+          "subject": "Дизайн-проектирование (Графика, Figma)",
+          "group": "СПБ-2",
+          "course": 2,
+          "schedule": "пн 10:00-11:30 нечет / пн 12:00-13:30 чет",
+          "load": 1.5,
+          "status": "Назначено",
+          "confirmed": true,
+          "syllabusCandidates": [
+            {
+              "course": 2,
+              "direction": "Другое",
+              "subject": "Дизайн-проектирование",
+              "key": "дизайн-проектирование",
+              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAjFPww27NqSo3z9kcnqeNeAbZiq2amnfTLTCOpXMuhXJI?e=0hzS5g"
+            }
+          ],
+          "chatInfo": {
+            "group": "СПБ 2-25 Дизайн",
+            "curator": "Лихачева Ирина",
+            "curatorLead": "Павлова",
+            "chat": "https://t.me/+NXPxXeLWtHBkZGRi",
+            "sourceRow": 57
+          }
+        },
         {
           "sourceSheet": "Дизайн",
           "sourceRow": 29,
