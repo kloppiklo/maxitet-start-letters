@@ -5,18 +5,6 @@ import { DATA_SNAPSHOT } from "./data/generated";
 
 type Assignment = (typeof DATA_SNAPSHOT.teachers)[number]["assignments"][number];
 
-const GROUPS = [
-  "МСК-ИСП-1 курс-1 группа", "МСК-ИСП-1 курс-2 группа", "МСК-ИСП-1 курс-3 группа", "МСК-ИСП-1 курс-4 группа",
-  "СПБ-ИСП-1 курс-1 группа", "СПБ-ИСП-1 курс-2 группа", "СПБ-ИСП-1 курс-3 группа",
-  "ОНЛ-ИСП-1 курс-1 группа", "ОНЛ-ИСП-1 курс-2 группа",
-  "МСК-Диз/Рек-1 курс-1 группа", "МСК-Диз/Рек-1 курс-2 группа", "МСК-Диз/Рек-1 курс-3 группа", "МСК-Диз/Рек-1 курс-4 группа", "МСК-Диз/Рек-1 курс-5 группа", "МСК-Диз/Рек-1 курс-6 группа", "МСК-Диз/Рек-1 курс-7 группа", "МСК-Диз/Рек-1 курс-8 группа",
-  "СПБ-Диз/Рек-1 курс-1 группа", "СПБ-Диз/Рек-1 курс-2 группа", "СПБ-Диз/Рек-1 курс-3 группа",
-  "Онл-Диз/Рек-1 курс-1 группа", "Онл-Диз/Рек-1 курс-2 группа",
-  "МСК-ИСП-2 курс-1 группа", "СПБ-ИСП-2 курс-1 группа", "ОНЛ-ИСП-2 курс-1 группа",
-  "МСК-Дизайн-2 курс-1 группа", "СПБ-Дизайн-2 курс-1 группа", "ОНЛ-Дизайн-2 курс-1 группа",
-  "МСК-Реклама-2 курс-1 группа", "СПБ-Реклама-2 курс-1 группа", "ОНЛ-Реклама-2 курс-1 группа",
-] as const;
-
 const MATERIALS = [
   ["1 курс — система оценивания и журнал оценок", "https://maximum02.sharepoint.com/:p:/s/college.maxitet/IQC0nlbLBJGeTKdMZCdx56-tAcG9UBhu54AF544EUWB5oOw?e=6ARf5q"],
   ["2 курс — система оценивания и журнал оценок", "https://maximum02.sharepoint.com/:p:/s/college.maxitet/IQB5rES31F4kRIO7QHqL6ClLAdWWobaCAN2QFbq2293kZVI?e=jEtTrn"],
@@ -71,38 +59,22 @@ function firstDate(schedule: string) {
   return "дата не определена";
 }
 
-function courseFor(item: Assignment) {
-  const courses = [...new Set(item.syllabusCandidates.map((candidate) => candidate.course))];
-  return courses.length === 1 ? courses[0] : null;
-}
-
-function directionLabel(direction: string, course: number) {
-  if (direction === "ИСП") return "ИСП";
-  if (course === 1) return "Диз/Рек";
-  return direction;
-}
-
-function resolveGroups(item: Assignment, warnings: string[]) {
-  const course = courseFor(item);
-  if (!course) {
-    warnings.push(`${item.subject}: курс не определяется однозначно.`);
-    return [item.group];
+function resolveGroup(item: Assignment, warnings: string[]) {
+  if (!item.chatInfo) {
+    warnings.push(`${item.subject}, ${item.group}: чат и куратор не найдены.`);
+    return { group: item.group, curator: "—", chat: "—" };
   }
-  const direction = directionLabel(item.direction, course);
-  if (/все группы/i.test(item.group)) {
-    const matches = GROUPS.filter((group) => group.toLowerCase().includes(`-${direction.toLowerCase()}-${course} курс-`));
-    if (matches.length) return [...matches];
-    warnings.push(`${item.subject}: в базе нет перечня групп ${course}-го курса.`);
-    return [`Все группы направления ${item.direction}, ${course} курс`];
+  if (!item.chatInfo.curator && !/все группы/i.test(item.group)) {
+    warnings.push(`${item.chatInfo.group}: куратор не указан.`);
   }
-  const short = item.group.match(/^([А-ЯA-ZЁ]+)-(\d+)$/i);
-  if (!short) return [item.group];
-  const city = short[1].toUpperCase() === "ЕКБ" ? "ЕКТ" : short[1].toUpperCase();
-  const expected = `${city}-${direction}-${course} курс-${short[2]} группа`;
-  const existing = GROUPS.find((group) => group.toLowerCase() === expected.toLowerCase());
-  if (existing) return [existing];
-  warnings.push(`${item.subject}: группа «${item.group}» отсутствует в базе студентов.`);
-  return [item.group];
+  if (!item.chatInfo.chat) {
+    warnings.push(`${item.chatInfo.group}: ссылка на чат не указана.`);
+  }
+  return {
+    group: item.chatInfo.group,
+    curator: item.chatInfo.curator || "—",
+    chat: item.chatInfo.chat || "—",
+  };
 }
 
 function lessonFormat(item: Assignment) {
@@ -150,15 +122,16 @@ function buildLetter(teacher: (typeof DATA_SNAPSHOT.teachers)[number]) {
   const subjectList = [...sections.keys()].map((subject, index) => `${index + 1}. ${subject}`).join("\n");
   const blocks = [...sections.entries()].map(([subject, items]) => {
     const candidates = items.flatMap((item) => [...item.syllabusCandidates]);
-    const courses = [...new Set(candidates.map((candidate) => candidate.course))];
+    const courses = [...new Set(items.map((item) => item.course))];
     const links = [...new Set(candidates.map((candidate) => candidate.link).filter(Boolean))];
     if (!candidates.length) warnings.push(`${subject}: силлабус не найден.`);
     if (courses.length > 1) warnings.push(`${subject}: найдено несколько курсов — ${courses.join(", ")}.`);
     if (links.length > 1) warnings.push(`${subject}: найдено несколько ссылок на силлабус.`);
-    const groupLines = items.flatMap((item) => resolveGroups(item, warnings).map((group) =>
-      `• ${group}\n  Дата старта: ${firstDate(item.schedule)}\n  Расписание: ${item.schedule}\n  Формат: ${lessonFormat(item)}`
-    ));
-    return `Данные по старту дисциплины «${subject}»:\nКурс: ${courses.length === 1 ? courses[0] : courses.join("/") || "—"}\nГруппы:\n${groupLines.join("\n")}\nСсылка на чат:\nСсылка на силлабус: ${links[0] || "—"}`;
+    const groupLines = items.map((item) => {
+      const group = resolveGroup(item, warnings);
+      return `• ${group.group}\n  Куратор группы: ${group.curator}\n  Ссылка на чат: ${group.chat}\n  Дата старта: ${firstDate(item.schedule)}\n  Расписание: ${item.schedule}\n  Формат: ${lessonFormat(item)}`;
+    });
+    return `Данные по старту дисциплины «${subject}»:\nКурс: ${courses.length === 1 ? courses[0] : courses.join("/") || "—"}\nГруппы:\n${groupLines.join("\n")}\nСсылка на силлабус: ${links[0] || "—"}`;
   }).join("\n\n");
 
   const materials = MATERIALS.map(([title, link]) => `• ${title}: ${link}`).join("\n");
@@ -167,6 +140,11 @@ function buildLetter(teacher: (typeof DATA_SNAPSHOT.teachers)[number]) {
   for (const items of sections.values()) {
     for (const candidate of items.flatMap((item) => [...item.syllabusCandidates])) {
       if (candidate.link) linkLabels.set(candidate.link, "Открыть силлабус");
+    }
+    for (const item of items) {
+      for (const match of item.chatInfo?.chat.matchAll(/https?:\/\/[^\s]+/g) ?? []) {
+        linkLabels.set(match[0], "Открыть чат группы");
+      }
     }
   }
   for (const [, link] of MATERIALS) linkLabels.set(link, "Открыть материал");
@@ -238,7 +216,7 @@ export default function Home() {
           <div className="source-list">
             <div><span>✓</span><p><b>Распределение</b><small>{teacher.assignments.length} назначений найдено</small></p></div>
             <div><span>✓</span><p><b>Силлабусы</b><small>ссылки добавлены автоматически</small></p></div>
-            <div><span>✓</span><p><b>База студентов</b><small>группы 1–2 курса распознаны</small></p></div>
+            <div><span>✓</span><p><b>Чаты и кураторы</b><small>добавлены по курсу и группе</small></p></div>
           </div>
 
           {result.warnings.length > 0 && (
