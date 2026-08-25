@@ -14,6 +14,8 @@ const MATERIALS = [
   ["Мини-гайд по М.Классу", "https://maximum02.sharepoint.com/:v:/s/college.maxitet/IQC_ogo7qkjnQIhnkZGpZIYxATznpYc9C-vwOTA7JqbSo08?e=v3N5Xu"],
 ] as const;
 
+const KPI_SCREENSHOT_URL = "https://kloppiklo.github.io/maxitet-start-letters/kpi-rating.png";
+
 const DAY_INDEX: Record<string, number> = { вс: 0, пн: 1, вт: 2, ср: 3, чт: 4, пт: 5, сб: 6 };
 const DAY_FULL = ["воскресенье", "понедельник", "вторник", "среда", "четверг", "пятница", "суббота"];
 const MONTHS = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября", "октября", "ноября", "декабря"];
@@ -105,6 +107,10 @@ function richifyLetter(letter: string, linkLabels: Map<string, string>) {
   }
   html += escapeHtml(letter.slice(cursor));
   return html
+    .replace(
+      "\n\nПо любым вопросам всегда на связи!",
+      `\n\n<img src="${KPI_SCREENSHOT_URL}" alt="Пример рейтинга преподавателей" width="900" style="display:block;width:100%;max-width:900px;height:auto;border:0;margin:8px 0">\n\nПо любым вопросам всегда на связи!`,
+    )
     .replaceAll("\n", "<br>")
     .replace(/(^|<br>)(Данные по старту дисциплины «.*?»:)(?=<br>)/g, "$1<strong>$2</strong>");
 }
