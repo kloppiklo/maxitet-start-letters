@@ -15,6 +15,15 @@ const MATERIALS = [
 ] as const;
 
 const KPI_SCREENSHOT_URL = "https://kloppiklo.github.io/maxitet-start-letters/kpi-rating.png";
+const TELEGRAM_BOT_URL = "https://t.me/spomaxitetbot";
+
+const TRAINING_CENTER_ADDRESSES: Record<string, string> = {
+  "МСК": "МСК — ул. Покровка, 28, стр. 2",
+  "СПБ": "СПБ — ул. Рубинштейна, 13",
+  "НН": "НН — ул. Костина, 3",
+  "ЕКБ": "ЕКБ — ул. Луначарского, 80",
+  "ЕКТ": "ЕКБ — ул. Луначарского, 80",
+};
 
 const FRIENDLY_NAMES: Record<string, string> = {
   "Александра": "Саша",
@@ -117,6 +126,12 @@ function lessonFormat(item: Assignment) {
   return online ? "онлайн-семинар" : "очно, семинар";
 }
 
+function trainingCenterAddress(item: Assignment) {
+  if (!lessonFormat(item).startsWith("очно")) return "";
+  const city = item.group.toUpperCase().match(/^([А-ЯЁA-Z]+)/)?.[1] ?? "";
+  return TRAINING_CENTER_ADDRESSES[city] ?? "";
+}
+
 function escapeHtml(value: string) {
   return value
     .replaceAll("&", "&amp;")
@@ -169,13 +184,15 @@ function buildLetter(teacher: (typeof DATA_SNAPSHOT.teachers)[number]) {
     if (links.length > 1) warnings.push(`${subject}: найдено несколько ссылок на силлабус.`);
     const groupLines = items.map((item) => {
       const group = resolveGroup(item, warnings);
-      return `Группа: ${group.group}\nКуратор группы: ${group.curator}\nСсылка на чат: ${group.chat}\nДата старта: ${firstDate(item.schedule)}\nРасписание: ${item.schedule}\nФормат: ${lessonFormat(item)}`;
+      const address = trainingCenterAddress(item);
+      return `Группа: ${group.group}\nКуратор группы: ${group.curator}\nСсылка на чат: ${group.chat}\nДата старта: ${firstDate(item.schedule)}\nРасписание: ${item.schedule}\nФормат: ${lessonFormat(item)}${address ? `\nАдрес УЦ: ${address}` : ""}`;
     });
-    return `Данные по старту дисциплины «${subject}»:\nКурс: ${courses.length === 1 ? courses[0] : courses.join("/") || "—"}\n${groupLines.join("\n\n")}\nСсылка на силлабус: ${links[0] || "—"}`;
+    const fourthCourseNote = courses.includes(4) ? "\nВажно: 4 курс — сокращённый курс продолжительностью 2 месяца." : "";
+    return `Данные по старту дисциплины «${subject}»:\nКурс: ${courses.length === 1 ? courses[0] : courses.join("/") || "—"}${fourthCourseNote}\n${groupLines.join("\n\n")}\nСсылка на силлабус: ${links[0] || "—"}`;
   }).join("\n\n");
 
   const materials = MATERIALS.map(([title, link]) => `• ${title}: ${link}`).join("\n");
-  const letter = `${friendlyGreetingName(teacher)}, привет!\n\nСовсем скоро у тебя стартуют группы по:\n${subjectList}\n\nВ этом письме предлагаю синхронизироваться по основным моментам.\n\n${blocks}\n\n! Стартуем с нечётной недели !\n\nЗа день до старта проверяем основные аспекты.\nЛичный кабинет:\n• группа подключена\n• при необходимости — переименовать группу в разделе «Управление группами» для более удобной ориентации в ЛК\n• расписание и контент курса отображаются корректно\n\nПосле старта:\n• проверить, что ты состоишь в чате со студентами\n\nТакже делюсь дополнительными материалами, необходимыми для работы:\n${materials}\n\nКаждый семестр мы сводим рейтинг преподавателей, в котором будут учтены следующие KPI:\n• оценка за открытый урок не ниже 5\n• посещаемость студентов не ниже 75%, ДЗ — не ниже 80% в среднем\n• очки активности студентов в М.Классе — не ниже 150 очков в среднем\n• место в рейтинге также зависит от нагрузки: чем она выше, тем выше показатель\n\nПо любым вопросам всегда на связи!\nУспешного старта!`;
+  const letter = `${friendlyGreetingName(teacher)}, привет!\n\nВажно: сохрани себе силлабус и материалы из него на ближайшие пары. Скоро у нас будет переезд почты и всех файлов, поэтому лучше скачать всё необходимое заранее.\n\nОбязательно добавься в нашего Telegram-бота: ${TELEGRAM_BOT_URL}\n\nСовсем скоро у тебя стартуют группы по:\n${subjectList}\n\nВ этом письме предлагаю синхронизироваться по основным моментам.\n\n${blocks}\n\n! Стартуем с нечётной недели !\n\nЗа день до старта проверяем основные аспекты.\nЛичный кабинет:\n• группа подключена\n• при необходимости — переименовать группу в разделе «Управление группами» для более удобной ориентации в ЛК\n• расписание и контент курса отображаются корректно\n\nПосле старта:\n• проверить, что ты состоишь в чате со студентами\n\nТакже делюсь дополнительными материалами, необходимыми для работы:\n${materials}\n\nКаждый семестр мы сводим рейтинг преподавателей, в котором будут учтены следующие KPI:\n• оценка за открытый урок не ниже 5\n• посещаемость студентов не ниже 75%, ДЗ — не ниже 80% в среднем\n• очки активности студентов в М.Классе — не ниже 150 очков в среднем\n• место в рейтинге также зависит от нагрузки: чем она выше, тем выше показатель\n\nПо любым вопросам всегда на связи!\nУспешного старта!`;
   const linkLabels = new Map<string, string>();
   for (const items of sections.values()) {
     for (const candidate of items.flatMap((item) => [...item.syllabusCandidates])) {
@@ -188,6 +205,7 @@ function buildLetter(teacher: (typeof DATA_SNAPSHOT.teachers)[number]) {
     }
   }
   for (const [, link] of MATERIALS) linkLabels.set(link, "Открыть материал");
+  linkLabels.set(TELEGRAM_BOT_URL, "@spomaxitetbot");
   return { letter, letterHtml: richifyLetter(letter, linkLabels), warnings: [...new Set(warnings)] };
 }
 
