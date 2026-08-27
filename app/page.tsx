@@ -209,6 +209,26 @@ const letter = `${friendlyGreetingName(teacher)}, привет!\n\nВажно: �
   return { letter, letterHtml: richifyLetter(letter, linkLabels), warnings: [...new Set(warnings)] };
 }
 
+function copyFormattedHtml(html: string) {
+  const container = document.createElement("div");
+  container.contentEditable = "true";
+  container.style.position = "fixed";
+  container.style.left = "-10000px";
+  container.style.top = "0";
+  container.innerHTML = html;
+  document.body.appendChild(container);
+
+  const selection = window.getSelection();
+  const range = document.createRange();
+  range.selectNodeContents(container);
+  selection?.removeAllRanges();
+  selection?.addRange(range);
+  const copied = document.execCommand("copy");
+  selection?.removeAllRanges();
+  container.remove();
+  return copied;
+}
+
 export default function Home() {
   const defaultTeacher = DATA_SNAPSHOT.teachers.find((teacher) => teacher.name === "Молодцов Павел") ?? DATA_SNAPSHOT.teachers[0];
   const [query, setQuery] = useState(defaultTeacher.name);
@@ -226,14 +246,23 @@ export default function Home() {
 
   const copyLetter = async () => {
     const richLetter = `<div style="font-family:Arial,sans-serif;font-size:14px;line-height:1.55;color:#1f2430">${result.letterHtml}</div>`;
-    if (typeof ClipboardItem !== "undefined" && navigator.clipboard.write) {
-      await navigator.clipboard.write([
-        new ClipboardItem({
-          "text/plain": new Blob([result.letter], { type: "text/plain" }),
-          "text/html": new Blob([richLetter], { type: "text/html" }),
-        }),
-      ]);
-    } else {
+    let copied = copyFormattedHtml(richLetter);
+
+    if (!copied && typeof ClipboardItem !== "undefined" && navigator.clipboard.write) {
+      try {
+        await navigator.clipboard.write([
+          new ClipboardItem({
+            "text/plain": new Blob([result.letter], { type: "text/plain" }),
+            "text/html": new Blob([richLetter], { type: "text/html" }),
+          }),
+        ]);
+        copied = true;
+      } catch {
+        copied = false;
+      }
+    }
+
+    if (!copied) {
       await navigator.clipboard.writeText(result.letter);
     }
     setCopied(true);
