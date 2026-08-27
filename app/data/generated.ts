@@ -7,7 +7,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "—",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 13,
           "teacher": "—",
           "firstName": "—",
@@ -38,38 +38,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
-          "sourceRow": 15,
-          "teacher": "—",
-          "firstName": "—",
-          "teacherFormat": "",
-          "direction": "Реклама",
-          "subject": "Копирайтинг",
-          "group": "НН-1",
-          "course": 2,
-          "schedule": "1. пн 14:00-15:30 нечет; 2. пт 12:00-13:30 нечет/чет",
-          "load": 2.25,
-          "status": "В процессе найма",
-          "confirmed": true,
-          "syllabusCandidates": [
-            {
-              "course": 2,
-              "direction": "Другое",
-              "subject": "Копирайтинг",
-              "key": "копирайтинг",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAqFlYutuArSba_KvvGWyVuAW8XwTLgF83od80J136BX3k?e=SAqNjK"
-            }
-          ],
-          "chatInfo": {
-            "group": "НН 1-25 Реклама",
-            "curator": "",
-            "curatorLead": "",
-            "chat": "",
-            "sourceRow": 36
-          }
-        },
-        {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 20,
           "teacher": "—",
           "firstName": "—",
@@ -106,7 +75,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Цаплева",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 8,
           "teacher": "Анна Цаплева",
           "firstName": "Цаплева",
@@ -564,7 +533,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Светлана",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 17,
           "teacher": "Ворожейкина Светлана",
           "firstName": "Светлана",
@@ -595,7 +564,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 47,
           "teacher": "Ворожейкина Светлана",
           "firstName": "Светлана",
@@ -655,68 +624,6 @@ export const DATA_SNAPSHOT = {
             "chat": "https://t.me/+PfMfS_LaJ5s5NzZi",
             "sourceRow": 59
           }
-        },
-        {
-          "sourceSheet": "ИСП",
-          "sourceRow": 13,
-          "teacher": "Гайворонская Нина",
-          "firstName": "Нина",
-          "teacherFormat": "И очно, и онлайн",
-          "direction": "ИСП",
-          "subject": "Управление проектами",
-          "group": "СПБ-1",
-          "course": 2,
-          "schedule": "вт 15:40-17:10 нечет/чет",
-          "load": 1.5,
-          "status": "Назначено",
-          "confirmed": true,
-          "syllabusCandidates": [
-            {
-              "course": 2,
-              "direction": "Другое",
-              "subject": "Управление проектами",
-              "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
-            }
-          ],
-          "chatInfo": {
-            "group": "СПБ 1-25 ИСП",
-            "curator": "Радченко Александра",
-            "curatorLead": "Павлова",
-            "chat": "https://t.me/+PfMfS_LaJ5s5NzZi",
-            "sourceRow": 59
-          }
-        },
-        {
-          "sourceSheet": "ИСП",
-          "sourceRow": 27,
-          "teacher": "Гайворонская Нина",
-          "firstName": "Нина",
-          "teacherFormat": "И очно, и онлайн",
-          "direction": "ИСП",
-          "subject": "Backend-разработка. Разработка программных модулей",
-          "group": "Все группы",
-          "course": 3,
-          "schedule": "1. вт 10:00-11:30 нечет/чет 2. пт 10:00-11:30 нечет/чет",
-          "load": 3,
-          "status": "Назначено",
-          "confirmed": true,
-          "syllabusCandidates": [
-            {
-              "course": 3,
-              "direction": "ИСП",
-              "subject": "Backend-разработка. Разработка программных модулей",
-              "key": "backend-разработка. разработка программных модулей",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCZz4Owb-YORonpgVVm4o--AYoFV_rNjqEcT_qpVhgsgDk?e=5aoqiy"
-            }
-          ],
-          "chatInfo": {
-            "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
-            "curator": "",
-            "curatorLead": "",
-            "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
-            "sourceRow": 102
-          }
         }
       ]
     },
@@ -725,7 +632,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Виктория",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 30,
           "teacher": "Горлова Виктория",
           "firstName": "Виктория",
@@ -787,7 +694,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Айсель",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 10,
           "teacher": "Джафарова Айсель",
           "firstName": "Айсель",
@@ -818,7 +725,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 25,
           "teacher": "Джафарова Айсель",
           "firstName": "Айсель",
@@ -838,37 +745,6 @@ export const DATA_SNAPSHOT = {
               "subject": "Продукт и УТП",
               "key": "продукт и утп",
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQChdNdHlLCYR5hhZLn9vUqhAU_R9fIuc-1dXZKMsqPHwqc?e=9CLxjL"
-            }
-          ],
-          "chatInfo": null
-        }
-      ]
-    },
-    {
-      "name": "Джафарова Айсель / Шипилова Эрика",
-      "firstName": "Эрика",
-      "assignments": [
-        {
-          "sourceSheet": "Реклама",
-          "sourceRow": 45,
-          "teacher": "Джафарова Айсель / Шипилова Эрика",
-          "firstName": "Эрика",
-          "teacherFormat": "",
-          "direction": "Реклама",
-          "subject": "Подготовка к государственному экзамену",
-          "group": "Все группы",
-          "course": 4,
-          "schedule": "пн 15:40-17:10 нечет/чет",
-          "load": 1.5,
-          "status": "Нужно согласование расписания",
-          "confirmed": false,
-          "syllabusCandidates": [
-            {
-              "course": 4,
-              "direction": "Реклама",
-              "subject": "Подготовка к ГИА",
-              "key": "подготовка к гиа",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQBdYqzxLa_iSqbk4zMMGE7JARPKSG1TzCVYQi5OgbutZ4w?e=zBJRJ0"
             }
           ],
           "chatInfo": null
@@ -908,6 +784,37 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+swj1X_GkNGY3YzFi",
             "sourceRow": 101
+          }
+        },
+        {
+          "sourceSheet": "ИСП",
+          "sourceRow": 27,
+          "teacher": "Ермолинский Андрей",
+          "firstName": "Андрей",
+          "teacherFormat": "Только онлайн",
+          "direction": "ИСП",
+          "subject": "Backend-разработка. Разработка программных модулей",
+          "group": "Все группы",
+          "course": 3,
+          "schedule": "1. вт 10:00-11:30 нечет/чет 2. пт 10:00-11:30 нечет/чет",
+          "load": 3,
+          "status": "Назначено (онлайн)",
+          "confirmed": true,
+          "syllabusCandidates": [
+            {
+              "course": 3,
+              "direction": "ИСП",
+              "subject": "Backend-разработка. Разработка программных модулей",
+              "key": "backend-разработка. разработка программных модулей",
+              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCZz4Owb-YORonpgVVm4o--AYoFV_rNjqEcT_qpVhgsgDk?e=5aoqiy"
+            }
+          ],
+          "chatInfo": {
+            "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+            "curator": "",
+            "curatorLead": "",
+            "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+            "sourceRow": 102
           }
         },
         {
@@ -1010,7 +917,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Ксения",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 7,
           "teacher": "Жукова Ксения",
           "firstName": "Ксения",
@@ -1038,6 +945,43 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "",
             "sourceRow": 33
+          }
+        }
+      ]
+    },
+    {
+      "name": "Зарубина Ольга",
+      "firstName": "Ольга",
+      "assignments": [
+        {
+          "sourceSheet": "Реклама+ЭК",
+          "sourceRow": 15,
+          "teacher": "Зарубина Ольга",
+          "firstName": "Ольга",
+          "teacherFormat": "",
+          "direction": "Реклама",
+          "subject": "Копирайтинг",
+          "group": "НН-1",
+          "course": 2,
+          "schedule": "1. ср 14:00-15:30 нечет; 2. пт 12:00-13:30 нечет/чет",
+          "load": 2.25,
+          "status": "Назначено",
+          "confirmed": true,
+          "syllabusCandidates": [
+            {
+              "course": 2,
+              "direction": "Другое",
+              "subject": "Копирайтинг",
+              "key": "копирайтинг",
+              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAqFlYutuArSba_KvvGWyVuAW8XwTLgF83od80J136BX3k?e=SAqNjK"
+            }
+          ],
+          "chatInfo": {
+            "group": "НН 1-25 Реклама",
+            "curator": "",
+            "curatorLead": "",
+            "chat": "",
+            "sourceRow": 36
           }
         }
       ]
@@ -1111,11 +1055,48 @@ export const DATA_SNAPSHOT = {
       ]
     },
     {
+      "name": "или",
+      "firstName": "или",
+      "assignments": [
+        {
+          "sourceSheet": "ИСП",
+          "sourceRow": 14,
+          "teacher": "или",
+          "firstName": "или",
+          "teacherFormat": "",
+          "direction": "ИСП",
+          "subject": "Управление проектами",
+          "group": "СПБ-2",
+          "course": 2,
+          "schedule": "вт 12:00-13:30 нечет/чет",
+          "load": 1.5,
+          "status": "Назначено",
+          "confirmed": true,
+          "syllabusCandidates": [
+            {
+              "course": 2,
+              "direction": "Другое",
+              "subject": "Управление проектами",
+              "key": "управление проектами",
+              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+            }
+          ],
+          "chatInfo": {
+            "group": "СПБ 2-25 ИСП",
+            "curator": "Толстикова Алиса",
+            "curatorLead": "Павлова",
+            "chat": "https://t.me/+GKMk6SzaU5g5MTgy",
+            "sourceRow": 60
+          }
+        }
+      ]
+    },
+    {
       "name": "Кадырова Диана",
       "firstName": "Диана",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 9,
           "teacher": "Кадырова Диана",
           "firstName": "Диана",
@@ -1146,7 +1127,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 23,
           "teacher": "Кадырова Диана",
           "firstName": "Диана",
@@ -1177,7 +1158,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 27,
           "teacher": "Кадырова Диана",
           "firstName": "Диана",
@@ -1202,7 +1183,7 @@ export const DATA_SNAPSHOT = {
           "chatInfo": null
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 39,
           "teacher": "Кадырова Диана",
           "firstName": "Диана",
@@ -1239,7 +1220,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Камилла",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 26,
           "teacher": "Кадырова Камилла",
           "firstName": "Камилла",
@@ -1264,7 +1245,7 @@ export const DATA_SNAPSHOT = {
           "chatInfo": null
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 28,
           "teacher": "Кадырова Камилла",
           "firstName": "Камилла",
@@ -1301,7 +1282,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Елизавета",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 11,
           "teacher": "Капускина Елизавета",
           "firstName": "Елизавета",
@@ -1332,7 +1313,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 12,
           "teacher": "Капускина Елизавета",
           "firstName": "Елизавета",
@@ -1363,7 +1344,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 19,
           "teacher": "Капускина Елизавета",
           "firstName": "Елизавета",
@@ -1462,7 +1443,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 24,
           "teacher": "Кипяткова Алина",
           "firstName": "Алина",
@@ -1499,7 +1480,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Карина",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 29,
           "teacher": "Кодзокова Карина",
           "firstName": "Карина",
@@ -1524,7 +1505,7 @@ export const DATA_SNAPSHOT = {
           "chatInfo": null
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 38,
           "teacher": "Кодзокова Карина",
           "firstName": "Карина",
@@ -1553,6 +1534,31 @@ export const DATA_SNAPSHOT = {
             "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
             "sourceRow": 102
           }
+        },
+        {
+          "sourceSheet": "Реклама+ЭК",
+          "sourceRow": 46,
+          "teacher": "Кодзокова Карина",
+          "firstName": "Карина",
+          "teacherFormat": "Только онлайн",
+          "direction": "Реклама",
+          "subject": "Интернет-реклама 4 курс",
+          "group": "Все группы",
+          "course": 4,
+          "schedule": "1. пн 12:00-13:30 нечет/чет 2. вт 12:00-13:30 нечет/чет 3. пт 12:00-13:30 нечет/чет",
+          "load": 4.5,
+          "status": "Назначено (онлайн)",
+          "confirmed": true,
+          "syllabusCandidates": [
+            {
+              "course": 4,
+              "direction": "Реклама",
+              "subject": "Интернет-реклама",
+              "key": "интернет-реклама",
+              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAX9ZCxIHS5QbIhKlNJpJozASJp3afyne2SJka2wSDkGv8?e=AtnyQV"
+            }
+          ],
+          "chatInfo": null
         }
       ]
     },
@@ -1565,7 +1571,7 @@ export const DATA_SNAPSHOT = {
           "sourceRow": 8,
           "teacher": "Колосов Иван",
           "firstName": "Иван",
-          "teacherFormat": "",
+          "teacherFormat": "Очно",
           "direction": "ИСП",
           "subject": "Веб-верстка HTML/CSS. Разработка программных модулей",
           "group": "НСК-1",
@@ -1596,7 +1602,7 @@ export const DATA_SNAPSHOT = {
           "sourceRow": 16,
           "teacher": "Колосов Иван",
           "firstName": "Иван",
-          "teacherFormat": "",
+          "teacherFormat": "Очно",
           "direction": "ИСП",
           "subject": "Управление проектами",
           "group": "НСК-1",
@@ -1759,7 +1765,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Юлия",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 16,
           "teacher": "Кузнецова Юлия",
           "firstName": "Юлия",
@@ -1790,7 +1796,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 36,
           "teacher": "Кузнецова Юлия",
           "firstName": "Юлия",
@@ -1854,20 +1860,20 @@ export const DATA_SNAPSHOT = {
       ]
     },
     {
-      "name": "Лихаева Ирина",
+      "name": "Лихачева Ирина",
       "firstName": "Ирина",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 4,
-          "teacher": "Лихаева Ирина",
+          "teacher": "Лихачева Ирина",
           "firstName": "Ирина",
           "teacherFormat": "",
           "direction": "Реклама",
           "subject": "Управление проектами",
           "group": "СПБ-1",
           "course": 2,
-          "schedule": "пн 10:00-11:30 нечет/чет",
+          "schedule": "пн 15:40-17:10 нечет 10:00-11:30 чет",
           "load": 1.5,
           "status": "Назначено",
           "confirmed": true,
@@ -1926,7 +1932,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 14,
           "teacher": "Личман Павел",
           "firstName": "Павел",
@@ -1957,7 +1963,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 21,
           "teacher": "Личман Павел",
           "firstName": "Павел",
@@ -2168,7 +2174,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Ксения",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 40,
           "teacher": "Мерида Ксения",
           "firstName": "Ксения",
@@ -2365,8 +2371,8 @@ export const DATA_SNAPSHOT = {
           "course": 2,
           "schedule": "ср 17:20-18:50 нечет / ср 19:00-20:30 нечет",
           "load": 1.5,
-          "status": "нужно согласование",
-          "confirmed": false,
+          "status": "Назначено",
+          "confirmed": true,
           "syllabusCandidates": [
             {
               "course": 2,
@@ -2577,7 +2583,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Владислав",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 48,
           "teacher": "Моргунов Владислав",
           "firstName": "Владислав",
@@ -2586,7 +2592,7 @@ export const DATA_SNAPSHOT = {
           "subject": "Бизнес-аналитика",
           "group": "Экономика",
           "course": 2,
-          "schedule": "1. вт 12:00-13:30 нечет/чет 2. ср 15:40-17:10 нечет/чет",
+          "schedule": "1. ср 15:40-17:10 нечет/чет 2. чт 17:20-18:50 нечет/чет",
           "load": 3,
           "status": "Назначено (онлайн)",
           "confirmed": true,
@@ -2706,6 +2712,37 @@ export const DATA_SNAPSHOT = {
       "name": "Петушкова Ксения",
       "firstName": "Ксения",
       "assignments": [
+        {
+          "sourceSheet": "Дизайн",
+          "sourceRow": 4,
+          "teacher": "Петушкова Ксения",
+          "firstName": "Ксения",
+          "teacherFormat": "И очно, и онлайн",
+          "direction": "Дизайн",
+          "subject": "Дизайн-проектирование (Графика, Figma)",
+          "group": "СПБ-1",
+          "course": 2,
+          "schedule": "пн 12:00-13:30 нечет/чет",
+          "load": 1.5,
+          "status": "Нужно согласование",
+          "confirmed": false,
+          "syllabusCandidates": [
+            {
+              "course": 2,
+              "direction": "Другое",
+              "subject": "Дизайн-проектирование",
+              "key": "дизайн-проектирование",
+              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAjFPww27NqSo3z9kcnqeNeAbZiq2amnfTLTCOpXMuhXJI?e=0hzS5g"
+            }
+          ],
+          "chatInfo": {
+            "group": "СПБ 1-25 Дизайн",
+            "curator": "Радченко Александра",
+            "curatorLead": "Павлова",
+            "chat": "https://t.me/+UgV7PgIS59U0Mjhi",
+            "sourceRow": 56
+          }
+        },
         {
           "sourceSheet": "Дизайн",
           "sourceRow": 6,
@@ -2924,32 +2961,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 47,
-          "teacher": "Петушкова Ксения",
-          "firstName": "Ксения",
-          "teacherFormat": "И очно, и онлайн",
-          "direction": "Дизайн",
-          "subject": "Дизайн среды",
-          "group": "Все группы",
-          "course": 4,
-          "schedule": "1. пн 12:00-13:30 нечет/чет 2. вт 12:00-13:30 нечет/чет 3 пт 12:00-13:30 нечет/чет",
-          "load": 4.5,
-          "status": "Назначено (онлайн)",
-          "confirmed": true,
-          "syllabusCandidates": [
-            {
-              "course": 4,
-              "direction": "Дизайн",
-              "subject": "Дизайн среды",
-              "key": "дизайн среды",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQBRfj7CM27MT7QcSRfSah6UAa3vYl7DUekzrBqpEUyz4QA?e=fwwmh4"
-            }
-          ],
-          "chatInfo": null
-        },
-        {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 22,
           "teacher": "Петушкова Ксения",
           "firstName": "Ксения",
@@ -2984,7 +2996,7 @@ export const DATA_SNAPSHOT = {
           "sourceRow": 9,
           "teacher": "Пудеев Максим",
           "firstName": "Максим",
-          "teacherFormat": "",
+          "teacherFormat": "Онлайн",
           "direction": "ИСП",
           "subject": "Веб-верстка HTML/CSS. Разработка программных модулей",
           "group": "НН-1",
@@ -3008,6 +3020,37 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+dkkzeQBkPHwxMTky",
             "sourceRow": 35
+          }
+        },
+        {
+          "sourceSheet": "ИСП",
+          "sourceRow": 32,
+          "teacher": "Пудеев Максим",
+          "firstName": "Максим",
+          "teacherFormat": "Онлайн",
+          "direction": "ИСП",
+          "subject": "Введение в разработку игр",
+          "group": "Все группы",
+          "course": 3,
+          "schedule": "пт 15:40-17:10 нечет 14:00-15:30 чет",
+          "load": 1.5,
+          "status": "Согласовано",
+          "confirmed": true,
+          "syllabusCandidates": [
+            {
+              "course": 3,
+              "direction": "ИСП",
+              "subject": "Введение в разработку игр",
+              "key": "введение в разработку игр",
+              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQB_cgMMvFWZR6iBC4oLIMVRAT-KBzzcGLTaaV2jLJmRoiQ?e=XofBln"
+            }
+          ],
+          "chatInfo": {
+            "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+            "curator": "",
+            "curatorLead": "",
+            "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+            "sourceRow": 102
           }
         }
       ]
@@ -3085,11 +3128,11 @@ export const DATA_SNAPSHOT = {
       "firstName": "Никита",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 6,
           "teacher": "Рябухин Никита",
           "firstName": "Никита",
-          "teacherFormat": "",
+          "teacherFormat": "Очно",
           "direction": "Реклама",
           "subject": "Управление проектами",
           "group": "ЕКБ-1",
@@ -3120,7 +3163,7 @@ export const DATA_SNAPSHOT = {
           "sourceRow": 15,
           "teacher": "Рябухин Никита",
           "firstName": "Никита",
-          "teacherFormat": "",
+          "teacherFormat": "Очно",
           "direction": "ИСП",
           "subject": "Управление проектами",
           "group": "ЕКБ-1",
@@ -3236,7 +3279,7 @@ export const DATA_SNAPSHOT = {
           "subject": "Дизайн-проектирование (Графика, Figma)",
           "group": "СПБ-2",
           "course": 2,
-          "schedule": "пн 10:00-11:30 нечет / пн 12:00-13:30 чет",
+          "schedule": "пн 10:00-11:30 чет / пн 12:00-13:30 чет",
           "load": 1.5,
           "status": "Назначено",
           "confirmed": true,
@@ -3443,15 +3486,15 @@ export const DATA_SNAPSHOT = {
       "assignments": [
         {
           "sourceSheet": "ИСП",
-          "sourceRow": 14,
+          "sourceRow": 13,
           "teacher": "Чайка Наталия",
           "firstName": "Наталия",
           "teacherFormat": "",
           "direction": "ИСП",
           "subject": "Управление проектами",
-          "group": "СПБ-2",
+          "group": "СПБ-1",
           "course": 2,
-          "schedule": "вт 12:00-13:30 нечет/чет",
+          "schedule": "вт 15:40-17:10 нечет/чет",
           "load": 1.5,
           "status": "Назначено",
           "confirmed": true,
@@ -3465,11 +3508,11 @@ export const DATA_SNAPSHOT = {
             }
           ],
           "chatInfo": {
-            "group": "СПБ 2-25 ИСП",
-            "curator": "Толстикова Алиса",
+            "group": "СПБ 1-25 ИСП",
+            "curator": "Радченко Александра",
             "curatorLead": "Павлова",
-            "chat": "https://t.me/+GKMk6SzaU5g5MTgy",
-            "sourceRow": 60
+            "chat": "https://t.me/+PfMfS_LaJ5s5NzZi",
+            "sourceRow": 59
           }
         }
       ]
@@ -3479,7 +3522,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Виктория",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 18,
           "teacher": "Чегодаева Виктория",
           "firstName": "Виктория",
@@ -3510,7 +3553,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 32,
           "teacher": "Чегодаева Виктория",
           "firstName": "Виктория",
@@ -3547,7 +3590,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Ангелина",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 5,
           "teacher": "Черняева Ангелина",
           "firstName": "Ангелина",
@@ -3578,7 +3621,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 31,
           "teacher": "Черняева Ангелина",
           "firstName": "Ангелина",
@@ -3603,7 +3646,7 @@ export const DATA_SNAPSHOT = {
           "chatInfo": null
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 34,
           "teacher": "Черняева Ангелина",
           "firstName": "Ангелина",
@@ -3826,7 +3869,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 2,
           "teacher": "Шипилова Эрика",
           "firstName": "Эрика",
@@ -3857,7 +3900,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 3,
           "teacher": "Шипилова Эрика",
           "firstName": "Эрика",
@@ -3888,7 +3931,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 37,
           "teacher": "Шипилова Эрика",
           "firstName": "Эрика",
@@ -3913,7 +3956,7 @@ export const DATA_SNAPSHOT = {
           "chatInfo": null
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 44,
           "teacher": "Шипилова Эрика",
           "firstName": "Эрика",
@@ -3924,8 +3967,8 @@ export const DATA_SNAPSHOT = {
           "course": 4,
           "schedule": "1. вт 15:40-17:10 нечет/чет 2. пт 15:40-17:10 нечет/чет",
           "load": 3,
-          "status": "Нужно согласование расписания",
-          "confirmed": false,
+          "status": "Назначено",
+          "confirmed": true,
           "syllabusCandidates": [
             {
               "course": 4,
@@ -4043,7 +4086,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Анастасия",
       "assignments": [
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 33,
           "teacher": "Яблонских Анастасия",
           "firstName": "Анастасия",
@@ -4068,7 +4111,7 @@ export const DATA_SNAPSHOT = {
           "chatInfo": null
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 35,
           "teacher": "Яблонских Анастасия",
           "firstName": "Анастасия",
@@ -4099,7 +4142,7 @@ export const DATA_SNAPSHOT = {
           }
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 41,
           "teacher": "Яблонских Анастасия",
           "firstName": "Анастасия",
@@ -4124,7 +4167,7 @@ export const DATA_SNAPSHOT = {
           "chatInfo": null
         },
         {
-          "sourceSheet": "Реклама",
+          "sourceSheet": "Реклама+ЭК",
           "sourceRow": 42,
           "teacher": "Яблонских Анастасия",
           "firstName": "Анастасия",
