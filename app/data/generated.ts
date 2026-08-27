@@ -31,11 +31,20 @@ export const DATA_SNAPSHOT = {
           ],
           "chatInfo": {
             "group": "ЕКБ 1-25 Реклама",
-            "curator": "",
-            "curatorLead": "",
+            "curator": "Федотова Елена",
+            "curatorLead": "Гравис",
             "chat": "https://t.me/+HVwzKB5bkxMyNzAy",
             "sourceRow": 39
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ЕКБ 1-25 Реклама",
+              "curator": "Федотова Елена",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+HVwzKB5bkxMyNzAy",
+              "sourceRow": 39
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -62,11 +71,20 @@ export const DATA_SNAPSHOT = {
           ],
           "chatInfo": {
             "group": "ЕКБ 1-24 Реклама",
-            "curator": "",
-            "curatorLead": "",
-            "chat": "",
+            "curator": "Федотова Елена",
+            "curatorLead": "Гравис",
+            "chat": "https://t.me/+M0pHpw_JfRY3MWMy",
             "sourceRow": 68
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ЕКБ 1-24 Реклама",
+              "curator": "Федотова Елена",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+M0pHpw_JfRY3MWMy",
+              "sourceRow": 68
+            }
+          ]
         }
       ]
     },
@@ -99,11 +117,20 @@ export const DATA_SNAPSHOT = {
           ],
           "chatInfo": {
             "group": "НН 1-25 Реклама",
-            "curator": "",
-            "curatorLead": "",
-            "chat": "",
+            "curator": "Ковальчук Дарья",
+            "curatorLead": "Гравис",
+            "chat": "https://t.me/+dkkzeQBkPHwxMTky",
             "sourceRow": 36
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "НН 1-25 Реклама",
+              "curator": "Ковальчук Дарья",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+dkkzeQBkPHwxMTky",
+              "sourceRow": 36
+            }
+          ]
         }
       ]
     },
@@ -140,7 +167,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+lF1kdYUWcUM0OGQy",
             "sourceRow": 45
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-25 Дизайн",
+              "curator": "Завражнова Влада",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+lF1kdYUWcUM0OGQy",
+              "sourceRow": 45
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -171,7 +207,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+R6EMQX0rKZRjNmFi",
             "sourceRow": 46
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 2-25 Дизайн",
+              "curator": "Завражнова Влада",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+R6EMQX0rKZRjNmFi",
+              "sourceRow": 46
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -202,7 +247,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+DlT_8XkjK1MyNjYy",
             "sourceRow": 76
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-24 Дизайн",
+              "curator": "Джафарова Сабира",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+DlT_8XkjK1MyNjYy",
+              "sourceRow": 76
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -233,7 +287,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+9-0t_IPklo85OGEy",
             "sourceRow": 77
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 2-24 Дизайн",
+              "curator": "Пруцкова София",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+9-0t_IPklo85OGEy",
+              "sourceRow": 77
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -264,7 +327,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+Obv3fC3JgrI0NmE6",
             "sourceRow": 78
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 3-24 Дизайн",
+              "curator": "Кривошеева Анастасия (митапы Настя Б.)",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+Obv3fC3JgrI0NmE6",
+              "sourceRow": 78
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -295,7 +367,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+9-0t_IPklo85OGEy",
             "sourceRow": 77
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 2-24 Дизайн",
+              "curator": "Пруцкова София",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+9-0t_IPklo85OGEy",
+              "sourceRow": 77
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -326,7 +407,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+Obv3fC3JgrI0NmE6",
             "sourceRow": 78
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 3-24 Дизайн",
+              "curator": "Кривошеева Анастасия (митапы Настя Б.)",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+Obv3fC3JgrI0NmE6",
+              "sourceRow": 78
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -357,7 +447,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+l9VF9Btab3k1NjIy",
             "sourceRow": 100
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 1к (набор 26-27)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+l9VF9Btab3k1NjIy",
+              "sourceRow": 100
+            }
+          ]
         }
       ]
     },
@@ -394,7 +493,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
             "sourceRow": 102
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+              "sourceRow": 102
+            }
+          ]
         }
       ]
     },
@@ -431,7 +539,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+Nyl8ZJzu06c4Y2Fi",
             "sourceRow": 31
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "НСК 1-25 Дизайн",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+Nyl8ZJzu06c4Y2Fi",
+              "sourceRow": 31
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -462,7 +579,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+iBHncj0-Dlg2MDMy",
             "sourceRow": 73
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "НСК 1-24 Дизайн",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+iBHncj0-Dlg2MDMy",
+              "sourceRow": 73
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -493,7 +619,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+iBHncj0-Dlg2MDMy",
             "sourceRow": 73
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "НСК 1-24 Дизайн",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+iBHncj0-Dlg2MDMy",
+              "sourceRow": 73
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -524,7 +659,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
             "sourceRow": 102
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+              "sourceRow": 102
+            }
+          ]
         }
       ]
     },
@@ -561,7 +705,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+7HsqcUxttOBiYmNi",
             "sourceRow": 80
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 2-24 Реклама",
+              "curator": "Джафарова Сабира",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+7HsqcUxttOBiYmNi",
+              "sourceRow": 80
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -586,7 +739,8 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCnG46EWsPqRYOyGY_po_OAAQW0fh0Mc4Kh_wjl0K7TKj0?e=bIazzU"
             }
           ],
-          "chatInfo": null
+          "chatInfo": null,
+          "chatInfos": []
         }
       ]
     },
@@ -623,7 +777,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+PfMfS_LaJ5s5NzZi",
             "sourceRow": 59
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 1-25 ИСП",
+              "curator": "Радченко Александра",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+PfMfS_LaJ5s5NzZi",
+              "sourceRow": 59
+            }
+          ]
         }
       ]
     },
@@ -654,7 +817,29 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAIZCZ7RXRcR75eSua0sKKhAYNqHCLjGRMQx5fhDwsXRtE?e=oqdggl"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "СПБ 1-25 Реклама",
+            "curator": "Лихачева Ирина",
+            "curatorLead": "Павлова",
+            "chat": "https://t.me/+7ZBoFWoOlUJhZGNi",
+            "sourceRow": 61
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 1-25 Реклама",
+              "curator": "Лихачева Ирина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+7ZBoFWoOlUJhZGNi",
+              "sourceRow": 61
+            },
+            {
+              "group": "СПБ 2-25 Реклама",
+              "curator": "Павлова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+WggnOQb0WmMzNzI6",
+              "sourceRow": 63
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -685,7 +870,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+E6pfZTbBfwswZDVi",
             "sourceRow": 48
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-25 ИСП",
+              "curator": "Лавриненко Софья",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+E6pfZTbBfwswZDVi",
+              "sourceRow": 48
+            }
+          ]
         }
       ]
     },
@@ -722,7 +916,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+WUIiGflQjr5kOGZi",
             "sourceRow": 54
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 2-25 Реклама",
+              "curator": "Боярская Анастасия",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+WUIiGflQjr5kOGZi",
+              "sourceRow": 54
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -747,7 +950,29 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQChdNdHlLCYR5hhZLn9vUqhAU_R9fIuc-1dXZKMsqPHwqc?e=9CLxjL"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "МСК 1-25 Реклама",
+            "curator": "Боярская Анастасия",
+            "curatorLead": "Пострелко",
+            "chat": "https://t.me/+9-6GRoklOIA4NWQy",
+            "sourceRow": 52
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-25 Реклама",
+              "curator": "Боярская Анастасия",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+9-6GRoklOIA4NWQy",
+              "sourceRow": 52
+            },
+            {
+              "group": "МСК 2-25 Реклама",
+              "curator": "Боярская Анастасия",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+WUIiGflQjr5kOGZi",
+              "sourceRow": 54
+            }
+          ]
         }
       ]
     },
@@ -784,7 +1009,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+swj1X_GkNGY3YzFi",
             "sourceRow": 101
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "sourceRow": 101
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -815,7 +1049,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
             "sourceRow": 102
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+              "sourceRow": 102
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -846,7 +1089,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
             "sourceRow": 102
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+              "sourceRow": 102
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -877,7 +1129,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
             "sourceRow": 102
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+              "sourceRow": 102
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -908,7 +1169,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
             "sourceRow": 102
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+              "sourceRow": 102
+            }
+          ]
         }
       ]
     },
@@ -941,11 +1211,20 @@ export const DATA_SNAPSHOT = {
           ],
           "chatInfo": {
             "group": "НСК 1-25 Реклама",
-            "curator": "",
-            "curatorLead": "",
-            "chat": "",
+            "curator": "Шабанова Ксения",
+            "curatorLead": "Гравис",
+            "chat": "https://t.me/+Nyl8ZJzu06c4Y2Fi",
             "sourceRow": 33
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "НСК 1-25 Реклама",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+Nyl8ZJzu06c4Y2Fi",
+              "sourceRow": 33
+            }
+          ]
         }
       ]
     },
@@ -978,11 +1257,20 @@ export const DATA_SNAPSHOT = {
           ],
           "chatInfo": {
             "group": "НН 1-25 Реклама",
-            "curator": "",
-            "curatorLead": "",
-            "chat": "",
+            "curator": "Ковальчук Дарья",
+            "curatorLead": "Гравис",
+            "chat": "https://t.me/+dkkzeQBkPHwxMTky",
             "sourceRow": 36
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "НН 1-25 Реклама",
+              "curator": "Ковальчук Дарья",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+dkkzeQBkPHwxMTky",
+              "sourceRow": 36
+            }
+          ]
         }
       ]
     },
@@ -1019,7 +1307,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+lONUD_MSl4E3Nzky",
             "sourceRow": 85
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 1-24 Дизайн",
+              "curator": "Сатюкова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+lONUD_MSl4E3Nzky",
+              "sourceRow": 85
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -1050,7 +1347,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+swj1X_GkNGY3YzFi",
             "sourceRow": 101
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "sourceRow": 101
+            }
+          ]
         }
       ]
     },
@@ -1087,7 +1393,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+GKMk6SzaU5g5MTgy",
             "sourceRow": 60
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 2-25 ИСП",
+              "curator": "Толстикова Алиса",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+GKMk6SzaU5g5MTgy",
+              "sourceRow": 60
+            }
+          ]
         }
       ]
     },
@@ -1124,7 +1439,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+9-6GRoklOIA4NWQy",
             "sourceRow": 52
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-25 Реклама",
+              "curator": "Боярская Анастасия",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+9-6GRoklOIA4NWQy",
+              "sourceRow": 52
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -1155,7 +1479,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+l9VF9Btab3k1NjIy",
             "sourceRow": 100
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 1к (набор 26-27)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+l9VF9Btab3k1NjIy",
+              "sourceRow": 100
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -1180,7 +1513,43 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQChdNdHlLCYR5hhZLn9vUqhAU_R9fIuc-1dXZKMsqPHwqc?e=9CLxjL"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "НСК 1-25 Реклама",
+            "curator": "Шабанова Ксения",
+            "curatorLead": "Гравис",
+            "chat": "https://t.me/+Nyl8ZJzu06c4Y2Fi",
+            "sourceRow": 33
+          },
+          "chatInfos": [
+            {
+              "group": "НСК 1-25 Реклама",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+Nyl8ZJzu06c4Y2Fi",
+              "sourceRow": 33
+            },
+            {
+              "group": "НН 1-25 Реклама",
+              "curator": "Ковальчук Дарья",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+dkkzeQBkPHwxMTky",
+              "sourceRow": 36
+            },
+            {
+              "group": "ЕКБ 1-25 Реклама",
+              "curator": "Федотова Елена",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+HVwzKB5bkxMyNzAy",
+              "sourceRow": 39
+            },
+            {
+              "group": "ОНЛ 1-25 Реклама",
+              "curator": "Вансович Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+_wFXguku0G8xZThi",
+              "sourceRow": 43
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -1208,10 +1577,19 @@ export const DATA_SNAPSHOT = {
           "chatInfo": {
             "group": "Онл 1-24 Реклама",
             "curator": "Смелова Наталья",
-            "curatorLead": "",
+            "curatorLead": "Гравис",
             "chat": "https://t.me/+ySPbTStnEShlYTBi",
             "sourceRow": 71
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "Онл 1-24 Реклама",
+              "curator": "Смелова Наталья",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+ySPbTStnEShlYTBi",
+              "sourceRow": 71
+            }
+          ]
         }
       ]
     },
@@ -1242,7 +1620,29 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQChdNdHlLCYR5hhZLn9vUqhAU_R9fIuc-1dXZKMsqPHwqc?e=9CLxjL"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "СПБ 1-25 Реклама",
+            "curator": "Лихачева Ирина",
+            "curatorLead": "Павлова",
+            "chat": "https://t.me/+7ZBoFWoOlUJhZGNi",
+            "sourceRow": 61
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 1-25 Реклама",
+              "curator": "Лихачева Ирина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+7ZBoFWoOlUJhZGNi",
+              "sourceRow": 61
+            },
+            {
+              "group": "СПБ 2-25 Реклама",
+              "curator": "Павлова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+WggnOQb0WmMzNzI6",
+              "sourceRow": 63
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -1269,11 +1669,20 @@ export const DATA_SNAPSHOT = {
           ],
           "chatInfo": {
             "group": "ОНЛ 1-25 Реклама",
-            "curator": "",
-            "curatorLead": "",
-            "chat": "",
+            "curator": "Вансович Ксения",
+            "curatorLead": "Гравис",
+            "chat": "https://t.me/+_wFXguku0G8xZThi",
             "sourceRow": 43
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ОНЛ 1-25 Реклама",
+              "curator": "Вансович Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+_wFXguku0G8xZThi",
+              "sourceRow": 43
+            }
+          ]
         }
       ]
     },
@@ -1310,7 +1719,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+7ZBoFWoOlUJhZGNi",
             "sourceRow": 61
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 1-25 Реклама",
+              "curator": "Лихачева Ирина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+7ZBoFWoOlUJhZGNi",
+              "sourceRow": 61
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -1341,7 +1759,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+WggnOQb0WmMzNzI6",
             "sourceRow": 63
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 2-25 Реклама",
+              "curator": "Павлова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+WggnOQb0WmMzNzI6",
+              "sourceRow": 63
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -1372,7 +1799,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+FjWkhF-XGBkzZjNi",
             "sourceRow": 87
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 1-24 Реклама",
+              "curator": "Радченко Александра",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+FjWkhF-XGBkzZjNi",
+              "sourceRow": 87
+            }
+          ]
         }
       ]
     },
@@ -1409,7 +1845,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+Y55_xsyp3sE3ZGU6",
             "sourceRow": 34
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "НН 1-25 Дизайн",
+              "curator": "Смелова Наталья",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+Y55_xsyp3sE3ZGU6",
+              "sourceRow": 34
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -1440,7 +1885,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+swj1X_GkNGY3YzFi",
             "sourceRow": 101
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "sourceRow": 101
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -1471,7 +1925,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+swj1X_GkNGY3YzFi",
             "sourceRow": 101
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "sourceRow": 101
+            }
+          ]
         }
       ]
     },
@@ -1502,7 +1965,29 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAIZCZ7RXRcR75eSua0sKKhAYNqHCLjGRMQx5fhDwsXRtE?e=oqdggl"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "МСК 1-25 Реклама",
+            "curator": "Боярская Анастасия",
+            "curatorLead": "Пострелко",
+            "chat": "https://t.me/+9-6GRoklOIA4NWQy",
+            "sourceRow": 52
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-25 Реклама",
+              "curator": "Боярская Анастасия",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+9-6GRoklOIA4NWQy",
+              "sourceRow": 52
+            },
+            {
+              "group": "МСК 2-25 Реклама",
+              "curator": "Боярская Анастасия",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+WUIiGflQjr5kOGZi",
+              "sourceRow": 54
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -1533,7 +2018,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
             "sourceRow": 102
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+              "sourceRow": 102
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -1558,7 +2052,36 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAX9ZCxIHS5QbIhKlNJpJozASJp3afyne2SJka2wSDkGv8?e=AtnyQV"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "МСК 1-23 Реклама",
+            "curator": "Пруцкова Софья",
+            "curatorLead": "Пострелко",
+            "chat": "https://t.me/+_QXYDnQrDjowZTky",
+            "sourceRow": 91
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-23 Реклама",
+              "curator": "Пруцкова Софья",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+_QXYDnQrDjowZTky",
+              "sourceRow": 91
+            },
+            {
+              "group": "СПБ 1-23 Реклама",
+              "curator": "Сатюкова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+onKhAx62cKA4Zjgy",
+              "sourceRow": 94
+            },
+            {
+              "group": "ОНЛ 1-23 Реклама",
+              "curator": "Маслова Светлана",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+WSongQf6LFg0NzE6",
+              "sourceRow": 97
+            }
+          ]
         }
       ]
     },
@@ -1591,11 +2114,20 @@ export const DATA_SNAPSHOT = {
           ],
           "chatInfo": {
             "group": "НСК 1-25 ИСП",
-            "curator": "",
-            "curatorLead": "",
-            "chat": "",
+            "curator": "Шабанова Ксения",
+            "curatorLead": "Гравис",
+            "chat": "https://t.me/+Nyl8ZJzu06c4Y2Fi",
             "sourceRow": 32
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "НСК 1-25 ИСП",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+Nyl8ZJzu06c4Y2Fi",
+              "sourceRow": 32
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -1622,11 +2154,20 @@ export const DATA_SNAPSHOT = {
           ],
           "chatInfo": {
             "group": "НСК 1-25 ИСП",
-            "curator": "",
-            "curatorLead": "",
-            "chat": "",
+            "curator": "Шабанова Ксения",
+            "curatorLead": "Гравис",
+            "chat": "https://t.me/+Nyl8ZJzu06c4Y2Fi",
             "sourceRow": 32
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "НСК 1-25 ИСП",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+Nyl8ZJzu06c4Y2Fi",
+              "sourceRow": 32
+            }
+          ]
         }
       ]
     },
@@ -1663,7 +2204,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+E6pfZTbBfwswZDVi",
             "sourceRow": 48
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-25 ИСП",
+              "curator": "Лавриненко Софья",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+E6pfZTbBfwswZDVi",
+              "sourceRow": 48
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -1694,7 +2244,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+ekvxr0oliec3MGI6",
             "sourceRow": 49
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 2-25 ИСП",
+              "curator": "Рощупкина Полина",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+ekvxr0oliec3MGI6",
+              "sourceRow": 49
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -1725,7 +2284,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+OFpz4Nbugls3MGJi",
             "sourceRow": 50
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 3-25 ИСП",
+              "curator": "Комкова Любовь",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+OFpz4Nbugls3MGJi",
+              "sourceRow": 50
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -1756,7 +2324,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
             "sourceRow": 102
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+              "sourceRow": 102
+            }
+          ]
         }
       ]
     },
@@ -1793,7 +2370,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+93tV8dHCPXA0MmUy",
             "sourceRow": 79
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-24 Реклама",
+              "curator": "Агеенко Татьяна",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+93tV8dHCPXA0MmUy",
+              "sourceRow": 79
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -1818,7 +2404,71 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQC9L8-_d75mRY080PkvYKxRATNeFRd1KVBJ0z30Ccv5054?e=vrymcY"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "ВЛГ 1-24 Реклама",
+            "curator": "Грёзина Влада",
+            "curatorLead": "Павлова",
+            "chat": "Общая группа - https://t.me/+jd2GN5-77twwZWMy",
+            "sourceRow": 65
+          },
+          "chatInfos": [
+            {
+              "group": "ВЛГ 1-24 Реклама",
+              "curator": "Грёзина Влада",
+              "curatorLead": "Павлова",
+              "chat": "Общая группа - https://t.me/+jd2GN5-77twwZWMy",
+              "sourceRow": 65
+            },
+            {
+              "group": "ЕКБ 1-24 Реклама",
+              "curator": "Федотова Елена",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+M0pHpw_JfRY3MWMy",
+              "sourceRow": 68
+            },
+            {
+              "group": "Онл 1-24 Реклама",
+              "curator": "Смелова Наталья",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+ySPbTStnEShlYTBi",
+              "sourceRow": 71
+            },
+            {
+              "group": "НСК 1-24 Реклама",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+iBHncj0-Dlg2MDMy",
+              "sourceRow": 74
+            },
+            {
+              "group": "МСК 1-24 Реклама",
+              "curator": "Агеенко Татьяна",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+93tV8dHCPXA0MmUy",
+              "sourceRow": 79
+            },
+            {
+              "group": "МСК 2-24 Реклама",
+              "curator": "Джафарова Сабира",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+7HsqcUxttOBiYmNi",
+              "sourceRow": 80
+            },
+            {
+              "group": "МСК 3-24 Реклама",
+              "curator": "Завражнова Влада",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+dIkgzOY-SpZmMGEy",
+              "sourceRow": 81
+            },
+            {
+              "group": "СПБ 1-24 Реклама",
+              "curator": "Радченко Александра",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+FjWkhF-XGBkzZjNi",
+              "sourceRow": 87
+            }
+          ]
         }
       ]
     },
@@ -1855,7 +2505,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+l9VF9Btab3k1NjIy",
             "sourceRow": 100
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 1к (набор 26-27)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+l9VF9Btab3k1NjIy",
+              "sourceRow": 100
+            }
+          ]
         }
       ]
     },
@@ -1892,7 +2551,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+7ZBoFWoOlUJhZGNi",
             "sourceRow": 61
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 1-25 Реклама",
+              "curator": "Лихачева Ирина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+7ZBoFWoOlUJhZGNi",
+              "sourceRow": 61
+            }
+          ]
         }
       ]
     },
@@ -1929,7 +2597,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+Nyl8ZJzu06c4Y2Fi",
             "sourceRow": 31
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "НСК 1-25 Дизайн",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+Nyl8ZJzu06c4Y2Fi",
+              "sourceRow": 31
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -1956,11 +2633,20 @@ export const DATA_SNAPSHOT = {
           ],
           "chatInfo": {
             "group": "НСК 1-25 Реклама",
-            "curator": "",
-            "curatorLead": "",
-            "chat": "",
+            "curator": "Шабанова Ксения",
+            "curatorLead": "Гравис",
+            "chat": "https://t.me/+Nyl8ZJzu06c4Y2Fi",
             "sourceRow": 33
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "НСК 1-25 Реклама",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+Nyl8ZJzu06c4Y2Fi",
+              "sourceRow": 33
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -1987,11 +2673,20 @@ export const DATA_SNAPSHOT = {
           ],
           "chatInfo": {
             "group": "НСК 1-24 Реклама",
-            "curator": "",
-            "curatorLead": "",
-            "chat": "",
+            "curator": "Шабанова Ксения",
+            "curatorLead": "Гравис",
+            "chat": "https://t.me/+iBHncj0-Dlg2MDMy",
             "sourceRow": 74
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "НСК 1-24 Реклама",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+iBHncj0-Dlg2MDMy",
+              "sourceRow": 74
+            }
+          ]
         }
       ]
     },
@@ -2028,7 +2723,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+swj1X_GkNGY3YzFi",
             "sourceRow": 101
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "sourceRow": 101
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -2059,7 +2763,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+_n6mGYRemABlZDMy",
             "sourceRow": 70
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "Онл 1-24 Дизайн",
+              "curator": "Султанова Екатерина",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+_n6mGYRemABlZDMy",
+              "sourceRow": 70
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -2090,7 +2803,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
             "sourceRow": 102
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+              "sourceRow": 102
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -2115,7 +2837,36 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQDlm8wWVlUmS43GBndkG2nXAfnkAbYNh5xY1d_hUHeJNBU?e=qpCP7n"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "МСК 1-23 Дизайн",
+            "curator": "Пруцкова Софья",
+            "curatorLead": "Пострелко",
+            "chat": "https://t.me/+_QXYDnQrDjowZTky",
+            "sourceRow": 90
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-23 Дизайн",
+              "curator": "Пруцкова Софья",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+_QXYDnQrDjowZTky",
+              "sourceRow": 90
+            },
+            {
+              "group": "СПБ 1-23 Дизайн",
+              "curator": "Сатюкова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+onKhAx62cKA4Zjgy",
+              "sourceRow": 93
+            },
+            {
+              "group": "ОНЛ 1-23 Дизайн",
+              "curator": "Маслова Светлана",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+WSongQf6LFg0NzE6",
+              "sourceRow": 96
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -2140,7 +2891,36 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD2-HwrM-WFSIyWXavEewxnAdTRWYJ9t-1KP77sBMRp_DY?e=HcxA5I"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "МСК 1-23 Дизайн",
+            "curator": "Пруцкова Софья",
+            "curatorLead": "Пострелко",
+            "chat": "https://t.me/+_QXYDnQrDjowZTky",
+            "sourceRow": 90
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-23 Дизайн",
+              "curator": "Пруцкова Софья",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+_QXYDnQrDjowZTky",
+              "sourceRow": 90
+            },
+            {
+              "group": "СПБ 1-23 Дизайн",
+              "curator": "Сатюкова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+onKhAx62cKA4Zjgy",
+              "sourceRow": 93
+            },
+            {
+              "group": "ОНЛ 1-23 Дизайн",
+              "curator": "Маслова Светлана",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+WSongQf6LFg0NzE6",
+              "sourceRow": 96
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -2165,7 +2945,36 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQBDYnIASaXpR70Y5jxVmceSAakaUbrGSrMsTE_XWEpcNkg?e=12xQzE"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "МСК 1-23 Дизайн",
+            "curator": "Пруцкова Софья",
+            "curatorLead": "Пострелко",
+            "chat": "https://t.me/+_QXYDnQrDjowZTky",
+            "sourceRow": 90
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-23 Дизайн",
+              "curator": "Пруцкова Софья",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+_QXYDnQrDjowZTky",
+              "sourceRow": 90
+            },
+            {
+              "group": "СПБ 1-23 Дизайн",
+              "curator": "Сатюкова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+onKhAx62cKA4Zjgy",
+              "sourceRow": 93
+            },
+            {
+              "group": "ОНЛ 1-23 Дизайн",
+              "curator": "Маслова Светлана",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+WSongQf6LFg0NzE6",
+              "sourceRow": 96
+            }
+          ]
         }
       ]
     },
@@ -2196,7 +3005,71 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAawinapoYMQLOvNIXrBjWOAWSC4QaIye4X74dUO7_HMvM?e=FjBzqy"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "ВЛГ 1-24 Реклама",
+            "curator": "Грёзина Влада",
+            "curatorLead": "Павлова",
+            "chat": "Общая группа - https://t.me/+jd2GN5-77twwZWMy",
+            "sourceRow": 65
+          },
+          "chatInfos": [
+            {
+              "group": "ВЛГ 1-24 Реклама",
+              "curator": "Грёзина Влада",
+              "curatorLead": "Павлова",
+              "chat": "Общая группа - https://t.me/+jd2GN5-77twwZWMy",
+              "sourceRow": 65
+            },
+            {
+              "group": "ЕКБ 1-24 Реклама",
+              "curator": "Федотова Елена",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+M0pHpw_JfRY3MWMy",
+              "sourceRow": 68
+            },
+            {
+              "group": "Онл 1-24 Реклама",
+              "curator": "Смелова Наталья",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+ySPbTStnEShlYTBi",
+              "sourceRow": 71
+            },
+            {
+              "group": "НСК 1-24 Реклама",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+iBHncj0-Dlg2MDMy",
+              "sourceRow": 74
+            },
+            {
+              "group": "МСК 1-24 Реклама",
+              "curator": "Агеенко Татьяна",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+93tV8dHCPXA0MmUy",
+              "sourceRow": 79
+            },
+            {
+              "group": "МСК 2-24 Реклама",
+              "curator": "Джафарова Сабира",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+7HsqcUxttOBiYmNi",
+              "sourceRow": 80
+            },
+            {
+              "group": "МСК 3-24 Реклама",
+              "curator": "Завражнова Влада",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+dIkgzOY-SpZmMGEy",
+              "sourceRow": 81
+            },
+            {
+              "group": "СПБ 1-24 Реклама",
+              "curator": "Радченко Александра",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+FjWkhF-XGBkzZjNi",
+              "sourceRow": 87
+            }
+          ]
         }
       ]
     },
@@ -2233,7 +3106,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+OFpz4Nbugls3MGJi",
             "sourceRow": 50
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 3-25 ИСП",
+              "curator": "Комкова Любовь",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+OFpz4Nbugls3MGJi",
+              "sourceRow": 50
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -2264,7 +3146,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+ekvxr0oliec3MGI6",
             "sourceRow": 49
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 2-25 ИСП",
+              "curator": "Рощупкина Полина",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+ekvxr0oliec3MGI6",
+              "sourceRow": 49
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -2289,7 +3180,36 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQC9Qu5NjZPeRbMbp5Cv_pCkAcEtR_0k-rZxJzjqDUTp8jI?e=y58WLn"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "МСК 1-23 ИСП",
+            "curator": "Цыганова Екатерина",
+            "curatorLead": "Павлова",
+            "chat": "https://t.me/+575kUrlvP283YzNi",
+            "sourceRow": 92
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-23 ИСП",
+              "curator": "Цыганова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+575kUrlvP283YzNi",
+              "sourceRow": 92
+            },
+            {
+              "group": "СПб 1-23 ИСП",
+              "curator": "Цыганова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+tSJUwXnek8BkY2Ji",
+              "sourceRow": 95
+            },
+            {
+              "group": "ОНЛ 1-23 ИСП",
+              "curator": "Барцева Ирина",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+jg7Wa-IvJzQzMDgy",
+              "sourceRow": 98
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -2320,7 +3240,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+575kUrlvP283YzNi",
             "sourceRow": 92
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-23 ИСП",
+              "curator": "Цыганова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+575kUrlvP283YzNi",
+              "sourceRow": 92
+            }
+          ]
         }
       ]
     },
@@ -2355,9 +3284,18 @@ export const DATA_SNAPSHOT = {
             "group": "ОНЛ 1-25 Дизайн",
             "curator": "Вансович Ксения",
             "curatorLead": "Гравис",
-            "chat": "",
+            "chat": "https://t.me/+_wFXguku0G8xZThi",
             "sourceRow": 42
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ОНЛ 1-25 Дизайн",
+              "curator": "Вансович Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+_wFXguku0G8xZThi",
+              "sourceRow": 42
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -2388,7 +3326,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+GKMk6SzaU5g5MTgy",
             "sourceRow": 60
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 2-25 ИСП",
+              "curator": "Толстикова Алиса",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+GKMk6SzaU5g5MTgy",
+              "sourceRow": 60
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -2419,7 +3366,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+lwwm3dtOeplhYTUy",
             "sourceRow": 41
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ОНЛ 1-25 ИСП",
+              "curator": "Пежемская Анастасия",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+lwwm3dtOeplhYTUy",
+              "sourceRow": 41
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -2450,7 +3406,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+lwwm3dtOeplhYTUy",
             "sourceRow": 41
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ОНЛ 1-25 ИСП",
+              "curator": "Пежемская Анастасия",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+lwwm3dtOeplhYTUy",
+              "sourceRow": 41
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -2481,7 +3446,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+swj1X_GkNGY3YzFi",
             "sourceRow": 101
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "sourceRow": 101
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -2512,7 +3486,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
             "sourceRow": 102
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+              "sourceRow": 102
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -2543,7 +3526,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+jg7Wa-IvJzQzMDgy",
             "sourceRow": 98
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ОНЛ 1-23 ИСП",
+              "curator": "Барцева Ирина",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+jg7Wa-IvJzQzMDgy",
+              "sourceRow": 98
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -2574,7 +3566,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+tSJUwXnek8BkY2Ji",
             "sourceRow": 95
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПб 1-23 ИСП",
+              "curator": "Цыганова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+tSJUwXnek8BkY2Ji",
+              "sourceRow": 95
+            }
+          ]
         }
       ]
     },
@@ -2605,7 +3606,43 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCW8mlLf3UdSqRcUnUTFKOPAULQCMp5G9j4cLy2C8sJ2e0?e=jvI4JB"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "ЕКБ 1-25 Экономика",
+            "curator": "Федотова Елена",
+            "curatorLead": "Гравис",
+            "chat": "https://t.me/+HVwzKB5bkxMyNzAy",
+            "sourceRow": 40
+          },
+          "chatInfos": [
+            {
+              "group": "ЕКБ 1-25 Экономика",
+              "curator": "Федотова Елена",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+HVwzKB5bkxMyNzAy",
+              "sourceRow": 40
+            },
+            {
+              "group": "ОНЛ 1-25 Экономика",
+              "curator": "Вансович Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+_wFXguku0G8xZThi",
+              "sourceRow": 44
+            },
+            {
+              "group": "МСК 1-25 Экономика",
+              "curator": "Боярская Анастасия",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+9-6GRoklOIA4NWQy",
+              "sourceRow": 53
+            },
+            {
+              "group": "СПБ 1-25 Экономика",
+              "curator": "Лихачева Ирина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+7ZBoFWoOlUJhZGNi",
+              "sourceRow": 62
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -2636,7 +3673,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
             "sourceRow": 102
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+              "sourceRow": 102
+            }
+          ]
         }
       ]
     },
@@ -2673,7 +3719,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+swj1X_GkNGY3YzFi",
             "sourceRow": 101
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "sourceRow": 101
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -2702,9 +3757,18 @@ export const DATA_SNAPSHOT = {
             "group": "ОНЛ 1-25 Дизайн",
             "curator": "Вансович Ксения",
             "curatorLead": "Гравис",
-            "chat": "",
+            "chat": "https://t.me/+_wFXguku0G8xZThi",
             "sourceRow": 42
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ОНЛ 1-25 Дизайн",
+              "curator": "Вансович Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+_wFXguku0G8xZThi",
+              "sourceRow": 42
+            }
+          ]
         }
       ]
     },
@@ -2741,7 +3805,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+UgV7PgIS59U0Mjhi",
             "sourceRow": 56
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 1-25 Дизайн",
+              "curator": "Радченко Александра",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+UgV7PgIS59U0Mjhi",
+              "sourceRow": 56
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -2772,7 +3845,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+SLtsV3ewrZ40MTVi",
             "sourceRow": 58
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 3-25 Дизайн",
+              "curator": "Лихачева Ирина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+SLtsV3ewrZ40MTVi",
+              "sourceRow": 58
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -2803,7 +3885,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+UgV7PgIS59U0Mjhi",
             "sourceRow": 56
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 1-25 Дизайн",
+              "curator": "Радченко Александра",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+UgV7PgIS59U0Mjhi",
+              "sourceRow": 56
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -2834,7 +3925,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+NXPxXeLWtHBkZGRi",
             "sourceRow": 57
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 2-25 Дизайн",
+              "curator": "Лихачева Ирина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+NXPxXeLWtHBkZGRi",
+              "sourceRow": 57
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -2865,7 +3965,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+SLtsV3ewrZ40MTVi",
             "sourceRow": 58
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 3-25 Дизайн",
+              "curator": "Лихачева Ирина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+SLtsV3ewrZ40MTVi",
+              "sourceRow": 58
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -2896,7 +4005,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+SBTcj-R6Pxg1NzEy",
             "sourceRow": 86
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 2-24 Дизайн",
+              "curator": "Павлова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+SBTcj-R6Pxg1NzEy",
+              "sourceRow": 86
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -2927,7 +4045,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+lONUD_MSl4E3Nzky",
             "sourceRow": 85
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 1-24 Дизайн",
+              "curator": "Сатюкова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+lONUD_MSl4E3Nzky",
+              "sourceRow": 85
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -2958,7 +4085,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
             "sourceRow": 102
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+              "sourceRow": 102
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -2983,7 +4119,22 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAPRrEdEB0hQreUcWpFqRT3AYQ1NxwaCGLtIvrDDZI1uMk?e=ds4Z23"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "СПБ 1-23 Реклама",
+            "curator": "Сатюкова Екатерина",
+            "curatorLead": "Павлова",
+            "chat": "https://t.me/+onKhAx62cKA4Zjgy",
+            "sourceRow": 94
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 1-23 Реклама",
+              "curator": "Сатюкова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+onKhAx62cKA4Zjgy",
+              "sourceRow": 94
+            }
+          ]
         }
       ]
     },
@@ -3020,7 +4171,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+dkkzeQBkPHwxMTky",
             "sourceRow": 35
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "НН 1-25 ИСП",
+              "curator": "Ковальчук Дарья",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+dkkzeQBkPHwxMTky",
+              "sourceRow": 35
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -3051,7 +4211,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
             "sourceRow": 102
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+              "sourceRow": 102
+            }
+          ]
         }
       ]
     },
@@ -3088,7 +4257,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+swj1X_GkNGY3YzFi",
             "sourceRow": 101
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "sourceRow": 101
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -3119,7 +4297,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+swj1X_GkNGY3YzFi",
             "sourceRow": 101
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "sourceRow": 101
+            }
+          ]
         }
       ]
     },
@@ -3152,11 +4339,20 @@ export const DATA_SNAPSHOT = {
           ],
           "chatInfo": {
             "group": "ЕКБ 1-25 Реклама",
-            "curator": "",
-            "curatorLead": "",
+            "curator": "Федотова Елена",
+            "curatorLead": "Гравис",
             "chat": "https://t.me/+HVwzKB5bkxMyNzAy",
             "sourceRow": 39
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ЕКБ 1-25 Реклама",
+              "curator": "Федотова Елена",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+HVwzKB5bkxMyNzAy",
+              "sourceRow": 39
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -3187,7 +4383,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+LpOYu0OTiWU3MzNi",
             "sourceRow": 37
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ЕКБ 1-25 ИСП",
+              "curator": "Савченков Роман",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+LpOYu0OTiWU3MzNi",
+              "sourceRow": 37
+            }
+          ]
         }
       ]
     },
@@ -3224,7 +4429,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+DlT_8XkjK1MyNjYy",
             "sourceRow": 76
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-24 Дизайн",
+              "curator": "Джафарова Сабира",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+DlT_8XkjK1MyNjYy",
+              "sourceRow": 76
+            }
+          ]
         }
       ]
     },
@@ -3261,7 +4475,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+swj1X_GkNGY3YzFi",
             "sourceRow": 101
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "sourceRow": 101
+            }
+          ]
         }
       ]
     },
@@ -3298,7 +4521,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+NXPxXeLWtHBkZGRi",
             "sourceRow": 57
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 2-25 Дизайн",
+              "curator": "Лихачева Ирина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+NXPxXeLWtHBkZGRi",
+              "sourceRow": 57
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -3329,7 +4561,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+SBTcj-R6Pxg1NzEy",
             "sourceRow": 86
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 2-24 Дизайн",
+              "curator": "Павлова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+SBTcj-R6Pxg1NzEy",
+              "sourceRow": 86
+            }
+          ]
         }
       ]
     },
@@ -3366,7 +4607,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+LpOYu0OTiWU3MzNi",
             "sourceRow": 37
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ЕКБ 1-25 ИСП",
+              "curator": "Савченков Роман",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+LpOYu0OTiWU3MzNi",
+              "sourceRow": 37
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -3391,7 +4641,36 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQDsU1B5Y4dsTIRvHoxPrn7WAZjIpzxe2j1lC6kQtAwFOlU?e=zL6uD7"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "МСК 1-23 ИСП",
+            "curator": "Цыганова Екатерина",
+            "curatorLead": "Павлова",
+            "chat": "https://t.me/+575kUrlvP283YzNi",
+            "sourceRow": 92
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-23 ИСП",
+              "curator": "Цыганова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+575kUrlvP283YzNi",
+              "sourceRow": 92
+            },
+            {
+              "group": "СПб 1-23 ИСП",
+              "curator": "Цыганова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+tSJUwXnek8BkY2Ji",
+              "sourceRow": 95
+            },
+            {
+              "group": "ОНЛ 1-23 ИСП",
+              "curator": "Барцева Ирина",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+jg7Wa-IvJzQzMDgy",
+              "sourceRow": 98
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -3408,7 +4687,36 @@ export const DATA_SNAPSHOT = {
           "status": "Назначено (онлайн)",
           "confirmed": true,
           "syllabusCandidates": [],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "МСК 1-23 ИСП",
+            "curator": "Цыганова Екатерина",
+            "curatorLead": "Павлова",
+            "chat": "https://t.me/+575kUrlvP283YzNi",
+            "sourceRow": 92
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-23 ИСП",
+              "curator": "Цыганова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+575kUrlvP283YzNi",
+              "sourceRow": 92
+            },
+            {
+              "group": "СПб 1-23 ИСП",
+              "curator": "Цыганова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+tSJUwXnek8BkY2Ji",
+              "sourceRow": 95
+            },
+            {
+              "group": "ОНЛ 1-23 ИСП",
+              "curator": "Барцева Ирина",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+jg7Wa-IvJzQzMDgy",
+              "sourceRow": 98
+            }
+          ]
         }
       ]
     },
@@ -3445,7 +4753,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+Y55_xsyp3sE3ZGU6",
             "sourceRow": 34
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "НН 1-25 Дизайн",
+              "curator": "Смелова Наталья",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+Y55_xsyp3sE3ZGU6",
+              "sourceRow": 34
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -3476,7 +4793,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+dkkzeQBkPHwxMTky",
             "sourceRow": 35
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "НН 1-25 ИСП",
+              "curator": "Ковальчук Дарья",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+dkkzeQBkPHwxMTky",
+              "sourceRow": 35
+            }
+          ]
         }
       ]
     },
@@ -3513,7 +4839,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+PfMfS_LaJ5s5NzZi",
             "sourceRow": 59
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 1-25 ИСП",
+              "curator": "Радченко Александра",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+PfMfS_LaJ5s5NzZi",
+              "sourceRow": 59
+            }
+          ]
         }
       ]
     },
@@ -3550,7 +4885,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+dIkgzOY-SpZmMGEy",
             "sourceRow": 81
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 3-24 Реклама",
+              "curator": "Завражнова Влада",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+dIkgzOY-SpZmMGEy",
+              "sourceRow": 81
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -3581,7 +4925,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+swj1X_GkNGY3YzFi",
             "sourceRow": 101
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "sourceRow": 101
+            }
+          ]
         }
       ]
     },
@@ -3618,7 +4971,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Павлова",
             "chat": "https://t.me/+WggnOQb0WmMzNzI6",
             "sourceRow": 63
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 2-25 Реклама",
+              "curator": "Павлова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+WggnOQb0WmMzNzI6",
+              "sourceRow": 63
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -3643,7 +5005,43 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAIZCZ7RXRcR75eSua0sKKhAYNqHCLjGRMQx5fhDwsXRtE?e=oqdggl"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "НСК 1-25 Реклама",
+            "curator": "Шабанова Ксения",
+            "curatorLead": "Гравис",
+            "chat": "https://t.me/+Nyl8ZJzu06c4Y2Fi",
+            "sourceRow": 33
+          },
+          "chatInfos": [
+            {
+              "group": "НСК 1-25 Реклама",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+Nyl8ZJzu06c4Y2Fi",
+              "sourceRow": 33
+            },
+            {
+              "group": "НН 1-25 Реклама",
+              "curator": "Ковальчук Дарья",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+dkkzeQBkPHwxMTky",
+              "sourceRow": 36
+            },
+            {
+              "group": "ЕКБ 1-25 Реклама",
+              "curator": "Федотова Елена",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+HVwzKB5bkxMyNzAy",
+              "sourceRow": 39
+            },
+            {
+              "group": "ОНЛ 1-25 Реклама",
+              "curator": "Вансович Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+_wFXguku0G8xZThi",
+              "sourceRow": 43
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -3668,7 +5066,71 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQDsqcs9DOKETadOT_S3LghRATQOv36oBlCUUK1_Ra5Li5I?e=F27E2N"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "ВЛГ 1-24 Реклама",
+            "curator": "Грёзина Влада",
+            "curatorLead": "Павлова",
+            "chat": "Общая группа - https://t.me/+jd2GN5-77twwZWMy",
+            "sourceRow": 65
+          },
+          "chatInfos": [
+            {
+              "group": "ВЛГ 1-24 Реклама",
+              "curator": "Грёзина Влада",
+              "curatorLead": "Павлова",
+              "chat": "Общая группа - https://t.me/+jd2GN5-77twwZWMy",
+              "sourceRow": 65
+            },
+            {
+              "group": "ЕКБ 1-24 Реклама",
+              "curator": "Федотова Елена",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+M0pHpw_JfRY3MWMy",
+              "sourceRow": 68
+            },
+            {
+              "group": "Онл 1-24 Реклама",
+              "curator": "Смелова Наталья",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+ySPbTStnEShlYTBi",
+              "sourceRow": 71
+            },
+            {
+              "group": "НСК 1-24 Реклама",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+iBHncj0-Dlg2MDMy",
+              "sourceRow": 74
+            },
+            {
+              "group": "МСК 1-24 Реклама",
+              "curator": "Агеенко Татьяна",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+93tV8dHCPXA0MmUy",
+              "sourceRow": 79
+            },
+            {
+              "group": "МСК 2-24 Реклама",
+              "curator": "Джафарова Сабира",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+7HsqcUxttOBiYmNi",
+              "sourceRow": 80
+            },
+            {
+              "group": "МСК 3-24 Реклама",
+              "curator": "Завражнова Влада",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+dIkgzOY-SpZmMGEy",
+              "sourceRow": 81
+            },
+            {
+              "group": "СПБ 1-24 Реклама",
+              "curator": "Радченко Александра",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+FjWkhF-XGBkzZjNi",
+              "sourceRow": 87
+            }
+          ]
         }
       ]
     },
@@ -3705,7 +5167,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+n0YnvU8Kl7VhZWMy",
             "sourceRow": 38
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ЕКБ 1-25 Дизайн",
+              "curator": "Федотова Елена",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+n0YnvU8Kl7VhZWMy",
+              "sourceRow": 38
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -3736,7 +5207,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+n0YnvU8Kl7VhZWMy",
             "sourceRow": 38
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ЕКБ 1-25 Дизайн",
+              "curator": "Федотова Елена",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+n0YnvU8Kl7VhZWMy",
+              "sourceRow": 38
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -3767,7 +5247,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+M0pHpw_JfRY3MWMy",
             "sourceRow": 67
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ЕКБ 1-24 Дизайн",
+              "curator": "Федотова Елена",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+M0pHpw_JfRY3MWMy",
+              "sourceRow": 67
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -3798,7 +5287,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+M0pHpw_JfRY3MWMy",
             "sourceRow": 67
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ЕКБ 1-24 Дизайн",
+              "curator": "Федотова Елена",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+M0pHpw_JfRY3MWMy",
+              "sourceRow": 67
+            }
+          ]
         }
       ]
     },
@@ -3835,7 +5333,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+lF1kdYUWcUM0OGQy",
             "sourceRow": 45
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-25 Дизайн",
+              "curator": "Завражнова Влада",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+lF1kdYUWcUM0OGQy",
+              "sourceRow": 45
+            }
+          ]
         },
         {
           "sourceSheet": "Дизайн",
@@ -3866,7 +5373,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+R6EMQX0rKZRjNmFi",
             "sourceRow": 46
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 2-25 Дизайн",
+              "curator": "Завражнова Влада",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+R6EMQX0rKZRjNmFi",
+              "sourceRow": 46
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -3897,7 +5413,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+9-6GRoklOIA4NWQy",
             "sourceRow": 52
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-25 Реклама",
+              "curator": "Боярская Анастасия",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+9-6GRoklOIA4NWQy",
+              "sourceRow": 52
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -3928,7 +5453,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Пострелко",
             "chat": "https://t.me/+WUIiGflQjr5kOGZi",
             "sourceRow": 54
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 2-25 Реклама",
+              "curator": "Боярская Анастасия",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+WUIiGflQjr5kOGZi",
+              "sourceRow": 54
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -3953,7 +5487,71 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQC9L8-_d75mRY080PkvYKxRATNeFRd1KVBJ0z30Ccv5054?e=vrymcY"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "ВЛГ 1-24 Реклама",
+            "curator": "Грёзина Влада",
+            "curatorLead": "Павлова",
+            "chat": "Общая группа - https://t.me/+jd2GN5-77twwZWMy",
+            "sourceRow": 65
+          },
+          "chatInfos": [
+            {
+              "group": "ВЛГ 1-24 Реклама",
+              "curator": "Грёзина Влада",
+              "curatorLead": "Павлова",
+              "chat": "Общая группа - https://t.me/+jd2GN5-77twwZWMy",
+              "sourceRow": 65
+            },
+            {
+              "group": "ЕКБ 1-24 Реклама",
+              "curator": "Федотова Елена",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+M0pHpw_JfRY3MWMy",
+              "sourceRow": 68
+            },
+            {
+              "group": "Онл 1-24 Реклама",
+              "curator": "Смелова Наталья",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+ySPbTStnEShlYTBi",
+              "sourceRow": 71
+            },
+            {
+              "group": "НСК 1-24 Реклама",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+iBHncj0-Dlg2MDMy",
+              "sourceRow": 74
+            },
+            {
+              "group": "МСК 1-24 Реклама",
+              "curator": "Агеенко Татьяна",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+93tV8dHCPXA0MmUy",
+              "sourceRow": 79
+            },
+            {
+              "group": "МСК 2-24 Реклама",
+              "curator": "Джафарова Сабира",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+7HsqcUxttOBiYmNi",
+              "sourceRow": 80
+            },
+            {
+              "group": "МСК 3-24 Реклама",
+              "curator": "Завражнова Влада",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+dIkgzOY-SpZmMGEy",
+              "sourceRow": 81
+            },
+            {
+              "group": "СПБ 1-24 Реклама",
+              "curator": "Радченко Александра",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+FjWkhF-XGBkzZjNi",
+              "sourceRow": 87
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -3978,7 +5576,36 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCBb1qyEH8nQqIk9x_zkEbiAcmGJK42YG1XHu2eaG2pH_A?e=TcYZl0"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "МСК 1-23 Реклама",
+            "curator": "Пруцкова Софья",
+            "curatorLead": "Пострелко",
+            "chat": "https://t.me/+_QXYDnQrDjowZTky",
+            "sourceRow": 91
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-23 Реклама",
+              "curator": "Пруцкова Софья",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+_QXYDnQrDjowZTky",
+              "sourceRow": 91
+            },
+            {
+              "group": "СПБ 1-23 Реклама",
+              "curator": "Сатюкова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+onKhAx62cKA4Zjgy",
+              "sourceRow": 94
+            },
+            {
+              "group": "ОНЛ 1-23 Реклама",
+              "curator": "Маслова Светлана",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+WSongQf6LFg0NzE6",
+              "sourceRow": 97
+            }
+          ]
         }
       ]
     },
@@ -4015,7 +5642,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+l9VF9Btab3k1NjIy",
             "sourceRow": 100
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 1к (набор 26-27)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+l9VF9Btab3k1NjIy",
+              "sourceRow": 100
+            }
+          ]
         },
         {
           "sourceSheet": "ИСП",
@@ -4040,7 +5676,36 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD8euKacg4KRYqVTxKvVT4gAfLAHTH3fZVHj36YfGaiMEQ?e=vmzysi"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "МСК 1-23 ИСП",
+            "curator": "Цыганова Екатерина",
+            "curatorLead": "Павлова",
+            "chat": "https://t.me/+575kUrlvP283YzNi",
+            "sourceRow": 92
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-23 ИСП",
+              "curator": "Цыганова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+575kUrlvP283YzNi",
+              "sourceRow": 92
+            },
+            {
+              "group": "СПб 1-23 ИСП",
+              "curator": "Цыганова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+tSJUwXnek8BkY2Ji",
+              "sourceRow": 95
+            },
+            {
+              "group": "ОНЛ 1-23 ИСП",
+              "curator": "Барцева Ирина",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+jg7Wa-IvJzQzMDgy",
+              "sourceRow": 98
+            }
+          ]
         }
       ]
     },
@@ -4077,7 +5742,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "Гравис",
             "chat": "https://t.me/+_n6mGYRemABlZDMy",
             "sourceRow": 70
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "Онл 1-24 Дизайн",
+              "curator": "Султанова Екатерина",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+_n6mGYRemABlZDMy",
+              "sourceRow": 70
+            }
+          ]
         }
       ]
     },
@@ -4108,7 +5782,71 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQDsqcs9DOKETadOT_S3LghRATQOv36oBlCUUK1_Ra5Li5I?e=F27E2N"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "ВЛГ 1-24 Реклама",
+            "curator": "Грёзина Влада",
+            "curatorLead": "Павлова",
+            "chat": "Общая группа - https://t.me/+jd2GN5-77twwZWMy",
+            "sourceRow": 65
+          },
+          "chatInfos": [
+            {
+              "group": "ВЛГ 1-24 Реклама",
+              "curator": "Грёзина Влада",
+              "curatorLead": "Павлова",
+              "chat": "Общая группа - https://t.me/+jd2GN5-77twwZWMy",
+              "sourceRow": 65
+            },
+            {
+              "group": "ЕКБ 1-24 Реклама",
+              "curator": "Федотова Елена",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+M0pHpw_JfRY3MWMy",
+              "sourceRow": 68
+            },
+            {
+              "group": "Онл 1-24 Реклама",
+              "curator": "Смелова Наталья",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+ySPbTStnEShlYTBi",
+              "sourceRow": 71
+            },
+            {
+              "group": "НСК 1-24 Реклама",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+iBHncj0-Dlg2MDMy",
+              "sourceRow": 74
+            },
+            {
+              "group": "МСК 1-24 Реклама",
+              "curator": "Агеенко Татьяна",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+93tV8dHCPXA0MmUy",
+              "sourceRow": 79
+            },
+            {
+              "group": "МСК 2-24 Реклама",
+              "curator": "Джафарова Сабира",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+7HsqcUxttOBiYmNi",
+              "sourceRow": 80
+            },
+            {
+              "group": "МСК 3-24 Реклама",
+              "curator": "Завражнова Влада",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+dIkgzOY-SpZmMGEy",
+              "sourceRow": 81
+            },
+            {
+              "group": "СПБ 1-24 Реклама",
+              "curator": "Радченко Александра",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+FjWkhF-XGBkzZjNi",
+              "sourceRow": 87
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -4139,7 +5877,16 @@ export const DATA_SNAPSHOT = {
             "curatorLead": "",
             "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
             "sourceRow": 102
-          }
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+              "sourceRow": 102
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -4164,7 +5911,71 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAawinapoYMQLOvNIXrBjWOAWSC4QaIye4X74dUO7_HMvM?e=FjBzqy"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "ВЛГ 1-24 Реклама",
+            "curator": "Грёзина Влада",
+            "curatorLead": "Павлова",
+            "chat": "Общая группа - https://t.me/+jd2GN5-77twwZWMy",
+            "sourceRow": 65
+          },
+          "chatInfos": [
+            {
+              "group": "ВЛГ 1-24 Реклама",
+              "curator": "Грёзина Влада",
+              "curatorLead": "Павлова",
+              "chat": "Общая группа - https://t.me/+jd2GN5-77twwZWMy",
+              "sourceRow": 65
+            },
+            {
+              "group": "ЕКБ 1-24 Реклама",
+              "curator": "Федотова Елена",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+M0pHpw_JfRY3MWMy",
+              "sourceRow": 68
+            },
+            {
+              "group": "Онл 1-24 Реклама",
+              "curator": "Смелова Наталья",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+ySPbTStnEShlYTBi",
+              "sourceRow": 71
+            },
+            {
+              "group": "НСК 1-24 Реклама",
+              "curator": "Шабанова Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+iBHncj0-Dlg2MDMy",
+              "sourceRow": 74
+            },
+            {
+              "group": "МСК 1-24 Реклама",
+              "curator": "Агеенко Татьяна",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+93tV8dHCPXA0MmUy",
+              "sourceRow": 79
+            },
+            {
+              "group": "МСК 2-24 Реклама",
+              "curator": "Джафарова Сабира",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+7HsqcUxttOBiYmNi",
+              "sourceRow": 80
+            },
+            {
+              "group": "МСК 3-24 Реклама",
+              "curator": "Завражнова Влада",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+dIkgzOY-SpZmMGEy",
+              "sourceRow": 81
+            },
+            {
+              "group": "СПБ 1-24 Реклама",
+              "curator": "Радченко Александра",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+FjWkhF-XGBkzZjNi",
+              "sourceRow": 87
+            }
+          ]
         },
         {
           "sourceSheet": "Реклама+ЭК",
@@ -4189,7 +6000,36 @@ export const DATA_SNAPSHOT = {
               "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQBnQvTsb_wGRrKRvSCMNyV7AR-ki_LYP3xuhiiBWDpdmlE?e=CCVX4W"
             }
           ],
-          "chatInfo": null
+          "chatInfo": {
+            "group": "МСК 1-23 Реклама",
+            "curator": "Пруцкова Софья",
+            "curatorLead": "Пострелко",
+            "chat": "https://t.me/+_QXYDnQrDjowZTky",
+            "sourceRow": 91
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-23 Реклама",
+              "curator": "Пруцкова Софья",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+_QXYDnQrDjowZTky",
+              "sourceRow": 91
+            },
+            {
+              "group": "СПБ 1-23 Реклама",
+              "curator": "Сатюкова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+onKhAx62cKA4Zjgy",
+              "sourceRow": 94
+            },
+            {
+              "group": "ОНЛ 1-23 Реклама",
+              "curator": "Маслова Светлана",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+WSongQf6LFg0NzE6",
+              "sourceRow": 97
+            }
+          ]
         }
       ]
     }
