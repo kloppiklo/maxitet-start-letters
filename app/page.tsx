@@ -102,22 +102,22 @@ function firstDate(schedule: string) {
   return "дата не определена";
 }
 
-function resolveGroup(item: Assignment, warnings: string[]) {
-  if (!item.chatInfo) {
+function resolveGroups(item: Assignment, warnings: string[]) {
+  const chatInfos = item.chatInfos.length ? item.chatInfos : item.chatInfo ? [item.chatInfo] : [];
+  if (!chatInfos.length) {
     warnings.push(`${item.subject}, ${item.group}: чат и куратор не найдены.`);
-    return { group: item.group, curator: "—", chat: "—" };
+    return [{ group: item.group, curator: "—", chat: "—" }];
   }
-  if (!item.chatInfo.curator && !/все группы/i.test(item.group)) {
-    warnings.push(`${item.chatInfo.group}: куратор не указан.`);
-  }
-  if (!item.chatInfo.chat) {
-    warnings.push(`${item.chatInfo.group}: ссылка на чат не указана.`);
-  }
-  return {
-    group: item.chatInfo.group,
-    curator: item.chatInfo.curator || "—",
-    chat: item.chatInfo.chat || "—",
-  };
+  return chatInfos.map((chatInfo) => {
+    const isStream = /потоковые лекции/i.test(chatInfo.group);
+    if (!chatInfo.curator && !isStream) warnings.push(`${chatInfo.group}: куратор не указан.`);
+    if (!chatInfo.chat) warnings.push(`${chatInfo.group}: ссылка на чат не указана.`);
+    return {
+      group: chatInfo.group,
+      curator: chatInfo.curator || "—",
+      chat: chatInfo.chat || "—",
+    };
+  });
 }
 
 function lessonFormat(item: Assignment) {
@@ -126,9 +126,9 @@ function lessonFormat(item: Assignment) {
   return online ? "онлайн-семинар" : "очно, семинар";
 }
 
-function trainingCenterAddress(item: Assignment) {
+function trainingCenterAddress(item: Assignment, group: string) {
   if (!lessonFormat(item).startsWith("очно")) return "";
-  const city = item.group.toUpperCase().match(/^([А-ЯЁA-Z]+)/)?.[1] ?? "";
+  const city = group.toUpperCase().match(/^([А-ЯЁA-Z]+)/)?.[1] ?? "";
   return TRAINING_CENTER_ADDRESSES[city] ?? "";
 }
 
@@ -182,11 +182,10 @@ function buildLetter(teacher: (typeof DATA_SNAPSHOT.teachers)[number]) {
     if (!candidates.length) warnings.push(`${subject}: силлабус не найден.`);
     if (courses.length > 1) warnings.push(`${subject}: найдено несколько курсов — ${courses.join(", ")}.`);
     if (links.length > 1) warnings.push(`${subject}: найдено несколько ссылок на силлабус.`);
-    const groupLines = items.map((item) => {
-      const group = resolveGroup(item, warnings);
-      const address = trainingCenterAddress(item);
+    const groupLines = items.flatMap((item) => resolveGroups(item, warnings).map((group) => {
+      const address = trainingCenterAddress(item, group.group);
       return `Группа: ${group.group}\nКуратор группы: ${group.curator}\nСсылка на чат: ${group.chat}\nДата старта: ${firstDate(item.schedule)}\nРасписание: ${item.schedule}\nФормат: ${lessonFormat(item)}${address ? `\nАдрес УЦ: ${address}` : ""}`;
-    });
+    }));
     const fourthCourseNote = courses.includes(4) ? "\nВажно: 4 курс — сокращённый курс продолжительностью 2 месяца." : "";
     return `Данные по старту дисциплины «${subject}»:\nКурс: ${courses.length === 1 ? courses[0] : courses.join("/") || "—"}${fourthCourseNote}\n${groupLines.join("\n\n")}\nСсылка на силлабус: ${links[0] || "—"}`;
   }).join("\n\n");
@@ -199,8 +198,11 @@ const letter = `${friendlyGreetingName(teacher)}, привет!\n\nВажно: �
       if (candidate.link) linkLabels.set(candidate.link, "Открыть силлабус");
     }
     for (const item of items) {
-      for (const match of item.chatInfo?.chat.matchAll(/https?:\/\/[^\s]+/g) ?? []) {
-        linkLabels.set(match[0], "Открыть чат группы");
+      const chatInfos = item.chatInfos.length ? item.chatInfos : item.chatInfo ? [item.chatInfo] : [];
+      for (const chatInfo of chatInfos) {
+        for (const match of chatInfo.chat.matchAll(/https?:\/\/[^\s]+/g)) {
+          linkLabels.set(match[0], "Открыть чат группы");
+        }
       }
     }
   }
