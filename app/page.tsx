@@ -209,23 +209,24 @@ const letter = `${friendlyGreetingName(teacher)}, привет!\n\nВажно: �
   return { letter, letterHtml: richifyLetter(letter, linkLabels), warnings: [...new Set(warnings)] };
 }
 
-function copyFormattedHtml(html: string) {
-  const container = document.createElement("div");
-  container.contentEditable = "true";
-  container.style.position = "fixed";
-  container.style.left = "-10000px";
-  container.style.top = "0";
-  container.innerHTML = html;
-  document.body.appendChild(container);
+function copyFormattedHtml(html: string, plainText: string) {
+  let copied = false;
+  const handleCopy = (event: ClipboardEvent) => {
+    if (!event.clipboardData) return;
+    event.preventDefault();
+    event.clipboardData.setData("text/html", html);
+    event.clipboardData.setData("text/plain", plainText);
+    copied = true;
+  };
 
-  const selection = window.getSelection();
-  const range = document.createRange();
-  range.selectNodeContents(container);
-  selection?.removeAllRanges();
-  selection?.addRange(range);
-  const copied = document.execCommand("copy");
-  selection?.removeAllRanges();
-  container.remove();
+  document.addEventListener("copy", handleCopy);
+  try {
+    document.execCommand("copy");
+  } catch {
+    copied = false;
+  } finally {
+    document.removeEventListener("copy", handleCopy);
+  }
   return copied;
 }
 
@@ -246,7 +247,7 @@ export default function Home() {
 
   const copyLetter = async () => {
     const richLetter = `<div style="font-family:Arial,sans-serif;font-size:14px;line-height:1.55;color:#1f2430">${result.letterHtml}</div>`;
-    let copied = copyFormattedHtml(richLetter);
+    let copied = copyFormattedHtml(richLetter, result.letter);
 
     if (!copied && typeof ClipboardItem !== "undefined" && navigator.clipboard.write) {
       try {
