@@ -165,8 +165,8 @@ function richifyLetter(letter: string, linkLabels: Map<string, string>) {
 function buildLetter(teacher: (typeof DATA_SNAPSHOT.teachers)[number]) {
   const warnings: string[] = [];
   const excluded = teacher.assignments.filter((item) => !item.confirmed);
-  if (excluded.length) warnings.push(`${excluded.length} назначение исключено: требуется согласование.`);
-  const active = teacher.assignments.filter((item) => item.confirmed);
+  if (excluded.length) warnings.push(`${excluded.length} назначение требует согласования.`);
+  const active = teacher.assignments;
   const sections = new Map<string, Assignment[]>();
   for (const item of active) {
     const key = item.subject.toLowerCase().startsWith("подготовка к государственному") ? "Подготовка к государственному экзамену" : item.subject;
@@ -300,7 +300,7 @@ export default function Home() {
           <div className="facts">
             <div><span>Старт</span><strong>2 сентября</strong><small>среда</small></div>
             <div><span>Неделя</span><strong>Нечётная</strong><small>первая</small></div>
-            <div><span>Нагрузка</span><strong>{teacher.assignments.filter((item) => item.confirmed).reduce((sum, item) => sum + item.load, 0)} ч</strong><small>в неделю</small></div>
+            <div><span>Нагрузка</span><strong>{teacher.assignments.reduce((sum, item) => sum + item.load, 0)} ч</strong><small>в неделю</small></div>
           </div>
 
           <div className="source-list">
