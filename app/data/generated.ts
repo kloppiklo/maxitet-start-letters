@@ -1007,7 +1007,7 @@ export const DATA_SNAPSHOT = {
             "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
             "curator": "",
             "curatorLead": "",
-            "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+            "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
             "sourceRow": 101
           },
           "chatInfos": [
@@ -1015,7 +1015,7 @@ export const DATA_SNAPSHOT = {
               "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
               "curator": "",
               "curatorLead": "",
-              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
               "sourceRow": 101
             }
           ]
@@ -1345,7 +1345,7 @@ export const DATA_SNAPSHOT = {
             "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
             "curator": "",
             "curatorLead": "",
-            "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+            "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
             "sourceRow": 101
           },
           "chatInfos": [
@@ -1353,7 +1353,7 @@ export const DATA_SNAPSHOT = {
               "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
               "curator": "",
               "curatorLead": "",
-              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
               "sourceRow": 101
             }
           ]
@@ -1883,7 +1883,7 @@ export const DATA_SNAPSHOT = {
             "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
             "curator": "",
             "curatorLead": "",
-            "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+            "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
             "sourceRow": 101
           },
           "chatInfos": [
@@ -1891,7 +1891,7 @@ export const DATA_SNAPSHOT = {
               "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
               "curator": "",
               "curatorLead": "",
-              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
               "sourceRow": 101
             }
           ]
@@ -1923,7 +1923,7 @@ export const DATA_SNAPSHOT = {
             "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
             "curator": "",
             "curatorLead": "",
-            "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+            "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
             "sourceRow": 101
           },
           "chatInfos": [
@@ -1931,7 +1931,7 @@ export const DATA_SNAPSHOT = {
               "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
               "curator": "",
               "curatorLead": "",
-              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
               "sourceRow": 101
             }
           ]
@@ -2721,7 +2721,7 @@ export const DATA_SNAPSHOT = {
             "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
             "curator": "",
             "curatorLead": "",
-            "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+            "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
             "sourceRow": 101
           },
           "chatInfos": [
@@ -2729,7 +2729,7 @@ export const DATA_SNAPSHOT = {
               "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
               "curator": "",
               "curatorLead": "",
-              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
               "sourceRow": 101
             }
           ]
@@ -3444,7 +3444,7 @@ export const DATA_SNAPSHOT = {
             "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
             "curator": "",
             "curatorLead": "",
-            "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+            "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
             "sourceRow": 101
           },
           "chatInfos": [
@@ -3452,7 +3452,7 @@ export const DATA_SNAPSHOT = {
               "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
               "curator": "",
               "curatorLead": "",
-              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
               "sourceRow": 101
             }
           ]
@@ -3717,7 +3717,7 @@ export const DATA_SNAPSHOT = {
             "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
             "curator": "",
             "curatorLead": "",
-            "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+            "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
             "sourceRow": 101
           },
           "chatInfos": [
@@ -3725,7 +3725,7 @@ export const DATA_SNAPSHOT = {
               "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
               "curator": "",
               "curatorLead": "",
-              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
               "sourceRow": 101
             }
           ]
@@ -4255,7 +4255,7 @@ export const DATA_SNAPSHOT = {
             "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
             "curator": "",
             "curatorLead": "",
-            "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+            "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
             "sourceRow": 101
           },
           "chatInfos": [
@@ -4263,7 +4263,7 @@ export const DATA_SNAPSHOT = {
               "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
               "curator": "",
               "curatorLead": "",
-              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
               "sourceRow": 101
             }
           ]
@@ -4295,7 +4295,7 @@ export const DATA_SNAPSHOT = {
             "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
             "curator": "",
             "curatorLead": "",
-            "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+            "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
             "sourceRow": 101
           },
           "chatInfos": [
@@ -4303,7 +4303,7 @@ export const DATA_SNAPSHOT = {
               "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
               "curator": "",
               "curatorLead": "",
-              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
               "sourceRow": 101
             }
           ]
@@ -4473,7 +4473,7 @@ export const DATA_SNAPSHOT = {
             "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
             "curator": "",
             "curatorLead": "",
-            "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+            "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
             "sourceRow": 101
           },
           "chatInfos": [
@@ -4481,7 +4481,7 @@ export const DATA_SNAPSHOT = {
               "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
               "curator": "",
               "curatorLead": "",
-              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
               "sourceRow": 101
             }
           ]
@@ -4923,7 +4923,7 @@ export const DATA_SNAPSHOT = {
             "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
             "curator": "",
             "curatorLead": "",
-            "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+            "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
             "sourceRow": 101
           },
           "chatInfos": [
@@ -4931,7 +4931,7 @@ export const DATA_SNAPSHOT = {
               "group": "ПОТОКОВЫЕ ЛЕКЦИИ 2к (бывш 1к)",
               "curator": "",
               "curatorLead": "",
-              "chat": "https://t.me/+swj1X_GkNGY3YzFi",
+              "chat": "https://t.me/+ufnLAKzyMwBiMmJi",
               "sourceRow": 101
             }
           ]
