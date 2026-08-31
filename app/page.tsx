@@ -121,8 +121,9 @@ function resolveGroups(item: Assignment, warnings: string[]) {
 }
 
 function lessonFormat(item: Assignment) {
-  const online = /онлайн/i.test(item.status) || /только онлайн/i.test(item.teacherFormat);
-  if (/все группы/i.test(item.group)) return online ? "онлайн-потоковая лекция" : "очная потоковая лекция";
+  const online = /онлайн/i.test(item.mode) || /онлайн/i.test(item.status) || /только онлайн|^онлайн$/i.test(item.teacherFormat);
+  const stream = /поток/i.test(item.lessonType) || /все группы/i.test(item.group);
+  if (stream) return online ? "онлайн-потоковая лекция" : "очная потоковая лекция";
   return online ? "онлайн-семинар" : "очно, семинар";
 }
 
