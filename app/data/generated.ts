@@ -7,14 +7,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "—",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 13,
+          "sourceSheet": "Расписание",
+          "sourceRow": 63,
           "teacher": "—",
           "firstName": "—",
           "teacherFormat": "",
           "direction": "Реклама",
           "subject": "Копирайтинг",
           "group": "ЕКБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "1. пн 14:00-15:30 нечет; 2. пт 10:00-11:30 нечет/чет",
           "load": 2.25,
@@ -47,14 +50,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 20,
+          "sourceSheet": "Расписание",
+          "sourceRow": 70,
           "teacher": "—",
           "firstName": "—",
           "teacherFormat": "",
           "direction": "Реклама",
           "subject": "Бренд-менеджмент",
           "group": "ЕКБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "1. вт 17:20-18:50 нечет/чет 2. ср 17:20-18:50 чет",
           "load": 2.25,
@@ -89,57 +95,11 @@ export const DATA_SNAPSHOT = {
       ]
     },
     {
-      "name": "Анна Цаплева",
-      "firstName": "Цаплева",
-      "assignments": [
-        {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 8,
-          "teacher": "Анна Цаплева",
-          "firstName": "Цаплева",
-          "teacherFormat": "",
-          "direction": "Реклама",
-          "subject": "Управление проектами",
-          "group": "НН-1",
-          "course": 2,
-          "schedule": "пн 10:00-11:30 нечет/чет",
-          "load": 1.5,
-          "status": "Назначено",
-          "confirmed": true,
-          "syllabusCandidates": [
-            {
-              "course": 2,
-              "direction": "Все",
-              "subject": "Управление проектами",
-              "key": "управление проектами",
-              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
-            }
-          ],
-          "chatInfo": {
-            "group": "НН 1-25 Реклама",
-            "curator": "Ковальчук Дарья",
-            "curatorLead": "Гравис",
-            "chat": "https://t.me/+dkkzeQBkPHwxMTky",
-            "sourceRow": 36
-          },
-          "chatInfos": [
-            {
-              "group": "НН 1-25 Реклама",
-              "curator": "Ковальчук Дарья",
-              "curatorLead": "Гравис",
-              "chat": "https://t.me/+dkkzeQBkPHwxMTky",
-              "sourceRow": 36
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Бузина Мария",
       "firstName": "Мария",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
+          "sourceSheet": "Расписание",
           "sourceRow": 2,
           "teacher": "Бузина Мария",
           "firstName": "Мария",
@@ -147,6 +107,9 @@ export const DATA_SNAPSHOT = {
           "direction": "Дизайн",
           "subject": "Дизайн-проектирование (Графика, Figma)",
           "group": "МСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пт 12:00-13:00 нечет/чет",
           "load": 1.5,
@@ -179,7 +142,7 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
+          "sourceSheet": "Расписание",
           "sourceRow": 3,
           "teacher": "Бузина Мария",
           "firstName": "Мария",
@@ -187,6 +150,9 @@ export const DATA_SNAPSHOT = {
           "direction": "Дизайн",
           "subject": "Дизайн-проектирование (Графика, Figma)",
           "group": "МСК-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пт 14:00-15:30 нечет/чет",
           "load": 1.5,
@@ -219,14 +185,103 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 18,
+          "sourceSheet": "Расписание",
+          "sourceRow": 11,
+          "teacher": "Бузина Мария",
+          "firstName": "Мария",
+          "teacherFormat": "И очно, и онлайн",
+          "direction": "Дизайн",
+          "subject": "Управление проектами",
+          "group": "МСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
+          "course": 2,
+          "schedule": "пн 10:00-11:30 нечет/чет",
+          "load": 1.5,
+          "status": "Назначено",
+          "confirmed": true,
+          "syllabusCandidates": [
+            {
+              "course": 2,
+              "direction": "Все",
+              "subject": "Управление проектами",
+              "key": "управление проектами",
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
+            }
+          ],
+          "chatInfo": {
+            "group": "МСК 1-25 Дизайн",
+            "curator": "Завражнова Влада",
+            "curatorLead": "Пострелко",
+            "chat": "https://t.me/+lF1kdYUWcUM0OGQy",
+            "sourceRow": 45
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-25 Дизайн",
+              "curator": "Завражнова Влада",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+lF1kdYUWcUM0OGQy",
+              "sourceRow": 45
+            }
+          ]
+        },
+        {
+          "sourceSheet": "Расписание",
+          "sourceRow": 12,
+          "teacher": "Бузина Мария",
+          "firstName": "Мария",
+          "teacherFormat": "И очно, и онлайн",
+          "direction": "Дизайн",
+          "subject": "Управление проектами",
+          "group": "МСК-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
+          "course": 2,
+          "schedule": "пн 12:00-13:30 нечет/чет",
+          "load": 1.5,
+          "status": "Назначено",
+          "confirmed": true,
+          "syllabusCandidates": [
+            {
+              "course": 2,
+              "direction": "Все",
+              "subject": "Управление проектами",
+              "key": "управление проектами",
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
+            }
+          ],
+          "chatInfo": {
+            "group": "МСК 2-25 Дизайн",
+            "curator": "Завражнова Влада",
+            "curatorLead": "Пострелко",
+            "chat": "https://t.me/+R6EMQX0rKZRjNmFi",
+            "sourceRow": 46
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 2-25 Дизайн",
+              "curator": "Завражнова Влада",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+R6EMQX0rKZRjNmFi",
+              "sourceRow": 46
+            }
+          ]
+        },
+        {
+          "sourceSheet": "Расписание",
+          "sourceRow": 19,
           "teacher": "Бузина Мария",
           "firstName": "Мария",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Тренинг дизайн-мышления",
           "group": "МСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "вт 15:40-17:10 нечет/чет",
           "load": 1.5,
@@ -259,14 +314,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 19,
+          "sourceSheet": "Расписание",
+          "sourceRow": 20,
           "teacher": "Бузина Мария",
           "firstName": "Мария",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Тренинг дизайн-мышления",
           "group": "МСК-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "ср 14:00-15:30 нечет, 15:40-17:10 чет",
           "load": 1.5,
@@ -299,14 +357,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 20,
+          "sourceSheet": "Расписание",
+          "sourceRow": 21,
           "teacher": "Бузина Мария",
           "firstName": "Мария",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Тренинг дизайн-мышления",
           "group": "МСК-3",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "ср 10:00-11:30 нечет/чет",
           "load": 1.5,
@@ -339,14 +400,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 26,
+          "sourceSheet": "Расписание",
+          "sourceRow": 27,
           "teacher": "Бузина Мария",
           "firstName": "Мария",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Искусственный интеллект в дизайне",
           "group": "МСК-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "вт 14:00-15:30 нечет/чет",
           "load": 1.5,
@@ -379,14 +443,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 27,
+          "sourceSheet": "Расписание",
+          "sourceRow": 28,
           "teacher": "Бузина Мария",
           "firstName": "Мария",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Искусственный интеллект в дизайне",
           "group": "МСК-3",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "вт 10:00-11:30 нечет/чет",
           "load": 1.5,
@@ -419,18 +486,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 33,
+          "sourceSheet": "Расписание",
+          "sourceRow": 34,
           "teacher": "Бузина Мария",
           "firstName": "Мария",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Формальная композиция",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 1,
           "schedule": "1. пн 15:40-17:10 нечет/чет; 2. пт 10:00-1:30 чет",
           "load": 2.25,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -465,18 +535,21 @@ export const DATA_SNAPSHOT = {
       "firstName": "Сергей",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 45,
+          "sourceSheet": "Расписание",
+          "sourceRow": 46,
           "teacher": "Вердян Сергей",
           "firstName": "Сергей",
           "teacherFormat": "Только онлайн",
           "direction": "Дизайн",
           "subject": "Моушен-дизайн",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "1. пт 12:00-13:30 нечет/чет чт 12:00-13:30 чет",
           "load": 2.25,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -511,7 +584,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Светлана",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
+          "sourceSheet": "Расписание",
           "sourceRow": 8,
           "teacher": "Виноградова Светлана",
           "firstName": "Светлана",
@@ -519,6 +592,9 @@ export const DATA_SNAPSHOT = {
           "direction": "Дизайн",
           "subject": "Дизайн-проектирование (Графика, Figma)",
           "group": "НСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пт 10:00-11:30 нечет/чет",
           "load": 1.5,
@@ -551,14 +627,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 24,
+          "sourceSheet": "Расписание",
+          "sourceRow": 25,
           "teacher": "Виноградова Светлана",
           "firstName": "Светлана",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Тренинг дизайн-мышления",
           "group": "НСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "вт 12:00-13:30 нечет/чет",
           "load": 1.5,
@@ -591,14 +670,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 31,
+          "sourceSheet": "Расписание",
+          "sourceRow": 32,
           "teacher": "Виноградова Светлана",
           "firstName": "Светлана",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Искусственный интеллект в дизайне",
           "group": "НСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "ср 12:00-13:30 нечет/чет",
           "load": 1.5,
@@ -631,18 +713,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 44,
+          "sourceSheet": "Расписание",
+          "sourceRow": 45,
           "teacher": "Виноградова Светлана",
           "firstName": "Светлана",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Стилизация",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "1. чт 12:00-13:30 нечет/чет; 2. пт 14:00-15:30 чет",
           "load": 2.25,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -677,14 +762,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Светлана",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 17,
+          "sourceSheet": "Расписание",
+          "sourceRow": 67,
           "teacher": "Ворожейкина Светлана",
           "firstName": "Светлана",
-          "teacherFormat": "",
+          "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Бренд-менеджмент",
           "group": "МСК-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "1. вт 12:00-13:30 нечет/чет 2. вт 14:00-15:30 чет",
           "load": 2.25,
@@ -717,18 +805,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 47,
+          "sourceSheet": "Расписание",
+          "sourceRow": 137,
           "teacher": "Ворожейкина Светлана",
           "firstName": "Светлана",
-          "teacherFormat": "",
-          "direction": "Реклама",
+          "teacherFormat": "И очно, и онлайн",
+          "direction": "Экономика",
           "subject": "Введение в специальность Экономика",
           "group": "Экономика",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 1,
           "schedule": "пн 15:40-17:10 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -741,6 +832,27 @@ export const DATA_SNAPSHOT = {
           ],
           "chatInfo": null,
           "chatInfos": []
+        },
+        {
+          "sourceSheet": "Расписание",
+          "sourceRow": 139,
+          "teacher": "Ворожейкина Светлана",
+          "firstName": "Светлана",
+          "teacherFormat": "И очно, и онлайн",
+          "direction": "Открытый факультет",
+          "subject": "ВВС ОФ",
+          "group": "ОФ",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
+          "course": 1,
+          "schedule": "1. пн 10:00-11:30 нечет/чет 2. пн 15:40-17:10 нечет",
+          "load": 2.25,
+          "status": "Назначено",
+          "confirmed": true,
+          "syllabusCandidates": [],
+          "chatInfo": null,
+          "chatInfos": []
         }
       ]
     },
@@ -749,14 +861,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Нина",
       "assignments": [
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 5,
+          "sourceSheet": "Расписание",
+          "sourceRow": 101,
           "teacher": "Гайворонская Нина",
           "firstName": "Нина",
           "teacherFormat": "И очно, и онлайн",
           "direction": "ИСП",
           "subject": "Веб-верстка HTML/CSS. Разработка программных модулей",
           "group": "СПБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "ср 17:20-18:50 нечет/чет",
           "load": 1.5,
@@ -795,18 +910,21 @@ export const DATA_SNAPSHOT = {
       "firstName": "Виктория",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 30,
+          "sourceSheet": "Расписание",
+          "sourceRow": 80,
           "teacher": "Горлова Виктория",
           "firstName": "Виктория",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Маркетинговые исследования",
           "group": "СПБ",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "чт 10:00-11:30 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -842,14 +960,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 10,
+          "sourceSheet": "Расписание",
+          "sourceRow": 106,
           "teacher": "Горлова Виктория",
           "firstName": "Виктория",
           "teacherFormat": "И очно, и онлайн",
           "direction": "ИСП",
           "subject": "Управление проектами",
           "group": "МСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "вт 10:00-11:30 нечет/чет",
           "load": 1.5,
@@ -888,14 +1009,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Айсель",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 10,
+          "sourceSheet": "Расписание",
+          "sourceRow": 60,
           "teacher": "Джафарова Айсель",
           "firstName": "Айсель",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Копирайтинг",
           "group": "МСК-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "1. пн 14:00-15:30 нечет; 2. пт 15:40-17:10 нечет/чет",
           "load": 2.25,
@@ -928,18 +1052,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 25,
+          "sourceSheet": "Расписание",
+          "sourceRow": 75,
           "teacher": "Джафарова Айсель",
           "firstName": "Айсель",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Продукт и УТП",
           "group": "МСК",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "1. вт 10:00-11:30 нечет/чет 2. чт 10:00-11:30 нечет/чет",
           "load": 3,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -973,6 +1100,49 @@ export const DATA_SNAPSHOT = {
               "sourceRow": 54
             }
           ]
+        },
+        {
+          "sourceSheet": "Расписание",
+          "sourceRow": 83,
+          "teacher": "Джафарова Айсель",
+          "firstName": "Айсель",
+          "teacherFormat": "И очно, и онлайн",
+          "direction": "Реклама",
+          "subject": "Управление проектами",
+          "group": "ОНЛ-1",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Семинар",
+          "course": 2,
+          "schedule": "пн 10:00-11:30 нечет/чет",
+          "load": 1.5,
+          "status": "Назначено",
+          "confirmed": true,
+          "syllabusCandidates": [
+            {
+              "course": 2,
+              "direction": "Все",
+              "subject": "Управление проектами",
+              "key": "управление проектами",
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
+            }
+          ],
+          "chatInfo": {
+            "group": "ОНЛ 1-25 Реклама",
+            "curator": "Вансович Ксения",
+            "curatorLead": "Гравис",
+            "chat": "https://t.me/+_wFXguku0G8xZThi",
+            "sourceRow": 43
+          },
+          "chatInfos": [
+            {
+              "group": "ОНЛ 1-25 Реклама",
+              "curator": "Вансович Ксения",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+_wFXguku0G8xZThi",
+              "sourceRow": 43
+            }
+          ]
         }
       ]
     },
@@ -981,18 +1151,21 @@ export const DATA_SNAPSHOT = {
       "firstName": "Андрей",
       "assignments": [
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 19,
+          "sourceSheet": "Расписание",
+          "sourceRow": 115,
           "teacher": "Ермолинский Андрей",
           "firstName": "Андрей",
           "teacherFormat": "Только онлайн",
           "direction": "ИСП",
           "subject": "Архитектура аппаратных средств",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "чт 14:00-15:30 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -1021,18 +1194,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 27,
+          "sourceSheet": "Расписание",
+          "sourceRow": 123,
           "teacher": "Ермолинский Андрей",
           "firstName": "Андрей",
           "teacherFormat": "Только онлайн",
           "direction": "ИСП",
           "subject": "Backend-разработка. Разработка программных модулей",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "1. вт 10:00-11:30 нечет/чет 2. пт 10:00-11:30 нечет/чет",
           "load": 3,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -1061,18 +1237,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 28,
+          "sourceSheet": "Расписание",
+          "sourceRow": 124,
           "teacher": "Ермолинский Андрей",
           "firstName": "Андрей",
           "teacherFormat": "Только онлайн",
           "direction": "ИСП",
           "subject": "Поддержка и тестирование программных модулей",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "ср 12:00-13:30 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -1101,18 +1280,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 29,
+          "sourceSheet": "Расписание",
+          "sourceRow": 125,
           "teacher": "Ермолинский Андрей",
           "firstName": "Андрей",
           "teacherFormat": "Только онлайн",
           "direction": "ИСП",
           "subject": "Frontend-разработка. Технологии разработки ПО",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "1. вт 12:00-13:30 нечет/чет 2. пт 12:00-13:30 нечет",
           "load": 2.25,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -1141,18 +1323,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 33,
+          "sourceSheet": "Расписание",
+          "sourceRow": 129,
           "teacher": "Ермолинский Андрей",
           "firstName": "Андрей",
           "teacherFormat": "Только онлайн",
           "direction": "ИСП",
           "subject": "Введение в машинное обучение",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "вт 15:40-17:10 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -1179,6 +1364,27 @@ export const DATA_SNAPSHOT = {
               "sourceRow": 102
             }
           ]
+        },
+        {
+          "sourceSheet": "Расписание",
+          "sourceRow": 139,
+          "teacher": "Ермолинский Андрей",
+          "firstName": "Андрей",
+          "teacherFormat": "Только онлайн",
+          "direction": "Открытый факультет",
+          "subject": "ВВС ОФ",
+          "group": "ОФ",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
+          "course": 1,
+          "schedule": "1. пн 10:00-11:30 нечет/чет 2. пн 15:40-17:10 нечет",
+          "load": 2.25,
+          "status": "Назначено",
+          "confirmed": true,
+          "syllabusCandidates": [],
+          "chatInfo": null,
+          "chatInfos": []
         }
       ]
     },
@@ -1187,14 +1393,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Ксения",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 7,
+          "sourceSheet": "Расписание",
+          "sourceRow": 56,
           "teacher": "Жукова Ксения",
           "firstName": "Ксения",
           "teacherFormat": "Только очно",
           "direction": "Реклама",
           "subject": "Управление проектами",
           "group": "НСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пн 10:00-11:30 нечет/чет",
           "load": 1.5,
@@ -1233,14 +1442,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Ольга",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 15,
+          "sourceSheet": "Расписание",
+          "sourceRow": 65,
           "teacher": "Зарубина Ольга",
           "firstName": "Ольга",
           "teacherFormat": "",
           "direction": "Реклама",
           "subject": "Копирайтинг",
           "group": "НН-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "1. ср 14:00-15:30 нечет; 2. пт 12:00-13:30 нечет/чет",
           "load": 2.25,
@@ -1279,14 +1491,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Ксения",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 21,
+          "sourceSheet": "Расписание",
+          "sourceRow": 22,
           "teacher": "Зубова Ксения",
           "firstName": "Ксения",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Тренинг дизайн-мышления",
           "group": "СПБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "ср 17:20-18:50 чет, 19:00-20:30 чет",
           "load": 1.5,
@@ -1319,14 +1534,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 34,
+          "sourceSheet": "Расписание",
+          "sourceRow": 35,
           "teacher": "Зубова Ксения",
           "firstName": "Ксения",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Растровая графика",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "1. ср 14:00-15:30 нечет/12:00-13:30 чет 2. чт 14:00-15:30 нечет/чет",
           "load": 3,
@@ -1361,64 +1579,21 @@ export const DATA_SNAPSHOT = {
       ]
     },
     {
-      "name": "или",
-      "firstName": "или",
-      "assignments": [
-        {
-          "sourceSheet": "ИСП",
-          "sourceRow": 14,
-          "teacher": "или",
-          "firstName": "или",
-          "teacherFormat": "",
-          "direction": "ИСП",
-          "subject": "Управление проектами",
-          "group": "СПБ-2",
-          "course": 2,
-          "schedule": "вт 12:00-13:30 нечет/чет",
-          "load": 1.5,
-          "status": "Назначено",
-          "confirmed": true,
-          "syllabusCandidates": [
-            {
-              "course": 2,
-              "direction": "Все",
-              "subject": "Управление проектами",
-              "key": "управление проектами",
-              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
-            }
-          ],
-          "chatInfo": {
-            "group": "СПБ 2-25 ИСП",
-            "curator": "Толстикова Алиса",
-            "curatorLead": "Павлова",
-            "chat": "https://t.me/+GKMk6SzaU5g5MTgy",
-            "sourceRow": 60
-          },
-          "chatInfos": [
-            {
-              "group": "СПБ 2-25 ИСП",
-              "curator": "Толстикова Алиса",
-              "curatorLead": "Павлова",
-              "chat": "https://t.me/+GKMk6SzaU5g5MTgy",
-              "sourceRow": 60
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Кадырова Диана",
       "firstName": "Диана",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 9,
+          "sourceSheet": "Расписание",
+          "sourceRow": 59,
           "teacher": "Кадырова Диана",
           "firstName": "Диана",
           "teacherFormat": "Только очно",
           "direction": "Реклама",
           "subject": "Копирайтинг",
           "group": "МСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "1. пн 14:00-15:30 нечет; 2. пт 10:00-11:30 нечет, 12:00-13:30 чет",
           "load": 2.25,
@@ -1451,18 +1626,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 23,
+          "sourceSheet": "Расписание",
+          "sourceRow": 73,
           "teacher": "Кадырова Диана",
           "firstName": "Диана",
           "teacherFormat": "Только очно",
           "direction": "Реклама",
           "subject": "Введение в специальность Реклама",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 1,
           "schedule": "пн 10:00-11:30 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -1491,18 +1669,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 27,
+          "sourceSheet": "Расписание",
+          "sourceRow": 77,
           "teacher": "Кадырова Диана",
           "firstName": "Диана",
           "teacherFormat": "Только очно",
           "direction": "Реклама",
           "subject": "Продукт и УТП",
           "group": "ОНЛ+НН+НСК+ЕКБ",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "1. ср 12:00-13:30 нечет/чет 2. чт 10:00-11:30 нечет/чет",
           "load": 3,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -1552,18 +1733,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 39,
+          "sourceSheet": "Расписание",
+          "sourceRow": 90,
           "teacher": "Кадырова Диана",
           "firstName": "Диана",
           "teacherFormat": "Только очно",
           "direction": "Реклама",
           "subject": "Бренд-менеджмент",
           "group": "ОНЛ-1",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "1. вт 10:00-11:30 нечет/чет 2. ср 10:00-11:30 чет",
           "load": 2.25,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -1598,18 +1782,21 @@ export const DATA_SNAPSHOT = {
       "firstName": "Камилла",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 26,
+          "sourceSheet": "Расписание",
+          "sourceRow": 76,
           "teacher": "Кадырова Камилла",
           "firstName": "Камилла",
           "teacherFormat": "Только онлайн",
           "direction": "Реклама",
           "subject": "Продукт и УТП",
           "group": "СПБ",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "1. вт 10:00-11:30 нечет/чет 2. ср 12:00-13:30 нечет/чет",
           "load": 3,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -1645,18 +1832,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 28,
+          "sourceSheet": "Расписание",
+          "sourceRow": 78,
           "teacher": "Кадырова Камилла",
           "firstName": "Камилла",
           "teacherFormat": "Только онлайн",
           "direction": "Реклама",
           "subject": "Копирайтинг",
           "group": "ОНЛ-1",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "1. пн 14:00-15:30 нечет 2. пт 10:00-11:30 чет, 12:00-13:30 чет",
           "load": 2.25,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -1691,14 +1881,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Елизавета",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 11,
+          "sourceSheet": "Расписание",
+          "sourceRow": 61,
           "teacher": "Капускина Елизавета",
           "firstName": "Елизавета",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Копирайтинг",
           "group": "СПБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "1. пт 15:40-17:10 нечет; 2. пт 15:40-17:10 и 17:20-18:50 чет (2 пары подряд)",
           "load": 2.25,
@@ -1731,14 +1924,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 12,
+          "sourceSheet": "Расписание",
+          "sourceRow": 62,
           "teacher": "Капускина Елизавета",
           "firstName": "Елизавета",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Копирайтинг",
           "group": "СПБ-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "1. пт 17:20-18:50 нечет, чт 17:20-18:50 чет (онлайн); 2. пт 19:00-20:30 чет",
           "load": 2.25,
@@ -1771,14 +1967,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 19,
+          "sourceSheet": "Расписание",
+          "sourceRow": 69,
           "teacher": "Капускина Елизавета",
           "firstName": "Елизавета",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Бренд-менеджмент",
           "group": "СПБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "1. вт 14:00-15:30 нечет/чет 2. ср 17:20-18:50 чет",
           "load": 2.25,
@@ -1817,7 +2016,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Алина",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
+          "sourceSheet": "Расписание",
           "sourceRow": 9,
           "teacher": "Кипяткова Алина",
           "firstName": "Алина",
@@ -1825,6 +2024,9 @@ export const DATA_SNAPSHOT = {
           "direction": "Дизайн",
           "subject": "Дизайн-проектирование (Графика, Figma)",
           "group": "НН-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пт 12:00-13:30 нечет/чет",
           "load": 1.5,
@@ -1857,18 +2059,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 39,
+          "sourceSheet": "Расписание",
+          "sourceRow": 40,
           "teacher": "Кипяткова Алина",
           "firstName": "Алина",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Основы веб-дизайна",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "1. вт 10:00-11:30 нечет/чет 2. чт 10:00-11:30 нечет/чет",
           "load": 3,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -1897,18 +2102,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 24,
+          "sourceSheet": "Расписание",
+          "sourceRow": 74,
           "teacher": "Кипяткова Алина",
           "firstName": "Алина",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Дизайн в маркетинге",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "вт 12:00-13:30 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -1943,18 +2151,21 @@ export const DATA_SNAPSHOT = {
       "firstName": "Карина",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 29,
+          "sourceSheet": "Расписание",
+          "sourceRow": 79,
           "teacher": "Кодзокова Карина",
           "firstName": "Карина",
           "teacherFormat": "Только онлайн",
           "direction": "Реклама",
           "subject": "Маркетинговые исследования",
           "group": "МСК",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "ср 12:00-13:30 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -1990,18 +2201,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 38,
+          "sourceSheet": "Расписание",
+          "sourceRow": 89,
           "teacher": "Кодзокова Карина",
           "firstName": "Карина",
           "teacherFormat": "Только онлайн",
           "direction": "Реклама",
           "subject": "Интернет-реклама 3 курс",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "1. пн 14:00-15:30 нечет/чет 2. чт 14:00-15:30 нечет/чет 3. пт 14:00-15:30 нечет/чет",
           "load": 4.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -2030,18 +2244,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 46,
+          "sourceSheet": "Расписание",
+          "sourceRow": 97,
           "teacher": "Кодзокова Карина",
           "firstName": "Карина",
           "teacherFormat": "Только онлайн",
           "direction": "Реклама",
           "subject": "Интернет-реклама 4 курс",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 4,
           "schedule": "1. пн 12:00-13:30 нечет/чет 2. вт 12:00-13:30 нечет/чет 3. пт 12:00-13:30 нечет/чет",
           "load": 4.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -2090,14 +2307,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Иван",
       "assignments": [
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 8,
+          "sourceSheet": "Расписание",
+          "sourceRow": 104,
           "teacher": "Колосов Иван",
           "firstName": "Иван",
           "teacherFormat": "Очно",
           "direction": "ИСП",
           "subject": "Веб-верстка HTML/CSS. Разработка программных модулей",
           "group": "НСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "ср 10:00-11:30, нечет/чет",
           "load": 1.5,
@@ -2130,14 +2350,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 16,
+          "sourceSheet": "Расписание",
+          "sourceRow": 112,
           "teacher": "Колосов Иван",
           "firstName": "Иван",
           "teacherFormat": "Очно",
           "direction": "ИСП",
           "subject": "Управление проектами",
           "group": "НСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "вт 10:00-11:30 нечет/чет",
           "load": 1.5,
@@ -2176,14 +2399,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Иван",
       "assignments": [
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 2,
+          "sourceSheet": "Расписание",
+          "sourceRow": 98,
           "teacher": "Кретов Иван",
           "firstName": "Иван",
           "teacherFormat": "И очно, и онлайн",
           "direction": "ИСП",
           "subject": "Веб-верстка HTML/CSS. Разработка программных модулей",
           "group": "МСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "ср 12:00-13:30, нечет/чет",
           "load": 1.5,
@@ -2216,14 +2442,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 3,
+          "sourceSheet": "Расписание",
+          "sourceRow": 99,
           "teacher": "Кретов Иван",
           "firstName": "Иван",
           "teacherFormat": "И очно, и онлайн",
           "direction": "ИСП",
           "subject": "Веб-верстка HTML/CSS. Разработка программных модулей",
           "group": "МСК-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "ср 14:00-15:30, нечет/чет",
           "load": 1.5,
@@ -2256,14 +2485,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 12,
+          "sourceSheet": "Расписание",
+          "sourceRow": 108,
           "teacher": "Кретов Иван",
           "firstName": "Иван",
           "teacherFormat": "И очно, и онлайн",
           "direction": "ИСП",
           "subject": "Управление проектами",
           "group": "МСК-3",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "ср 15:40-17:10 нечет/чет",
           "load": 1.5,
@@ -2296,14 +2528,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 26,
+          "sourceSheet": "Расписание",
+          "sourceRow": 122,
           "teacher": "Кретов Иван",
           "firstName": "Иван",
           "teacherFormat": "И очно, и онлайн",
           "direction": "ИСП",
           "subject": "Стандартизация, сертификация и техническое документирование",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "ср 10:00-11:30 нечет/чет",
           "load": 1.5,
@@ -2342,14 +2577,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Юлия",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 16,
+          "sourceSheet": "Расписание",
+          "sourceRow": 66,
           "teacher": "Кузнецова Юлия",
           "firstName": "Юлия",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Бренд-менеджмент",
           "group": "МСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "1. вт 14:00-15:30 нечет/чет 2. ср 14:00-15:30 чет",
           "load": 2.25,
@@ -2382,19 +2620,22 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 36,
+          "sourceSheet": "Расписание",
+          "sourceRow": 87,
           "teacher": "Кузнецова Юлия",
           "firstName": "Юлия",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Маркетинговые исследования",
           "group": "Группа 1",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "1. пн 17:20-18:50 нечет/чет 2. чт 17:20-18:50 нечет/чет",
           "load": 3,
-          "status": "Нужно согласование",
-          "confirmed": false,
+          "status": "Назначено",
+          "confirmed": true,
           "syllabusCandidates": [
             {
               "course": 3,
@@ -2477,18 +2718,21 @@ export const DATA_SNAPSHOT = {
       "firstName": "Александра",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 32,
+          "sourceSheet": "Расписание",
+          "sourceRow": 33,
           "teacher": "Лемешко Александра",
           "firstName": "Александра",
           "teacherFormat": "Только онлайн",
           "direction": "Дизайн",
           "subject": "Введение в специальность Дизайн",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 1,
           "schedule": "пн 10:00-11:30 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -2523,14 +2767,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Ирина",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 4,
+          "sourceSheet": "Расписание",
+          "sourceRow": 53,
           "teacher": "Лихачева Ирина",
           "firstName": "Ирина",
           "teacherFormat": "",
           "direction": "Реклама",
           "subject": "Управление проектами",
           "group": "СПБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пн 15:40-17:10 нечет 10:00-11:30 чет",
           "load": 1.5,
@@ -2569,14 +2816,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Павел",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 16,
+          "sourceSheet": "Расписание",
+          "sourceRow": 17,
           "teacher": "Личман Павел",
           "firstName": "Павел",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Управление проектами",
           "group": "НСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пн 10:00-11:30 нечет/чет",
           "load": 1.5,
@@ -2609,14 +2859,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 14,
+          "sourceSheet": "Расписание",
+          "sourceRow": 64,
           "teacher": "Личман Павел",
           "firstName": "Павел",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Копирайтинг",
           "group": "НСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "1. пн 14:00-15:30 нечет; 2. пт 10:00-11:30 нечет/чет",
           "load": 2.25,
@@ -2649,14 +2902,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 21,
+          "sourceSheet": "Расписание",
+          "sourceRow": 71,
           "teacher": "Личман Павел",
           "firstName": "Павел",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Бренд-менеджмент",
           "group": "НСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "1. вт 12:00-13:30 нечет/чет 2. ср 12:00-13:30 чет",
           "load": 2.25,
@@ -2695,18 +2951,21 @@ export const DATA_SNAPSHOT = {
       "firstName": "Анастасия",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 38,
+          "sourceSheet": "Расписание",
+          "sourceRow": 39,
           "teacher": "Логинова-Цветкова Анастасия",
           "firstName": "Анастасия",
           "teacherFormat": "Только онлайн",
           "direction": "Дизайн",
           "subject": "Основы бренд-дизайн",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "1. вт 15:40-17:10 нечет/чет 2. ср 15:40-17:10 нечет/14:00-15:30 чет",
           "load": 3,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -2735,18 +2994,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 41,
+          "sourceSheet": "Расписание",
+          "sourceRow": 42,
           "teacher": "Логинова-Цветкова Анастасия",
           "firstName": "Анастасия",
           "teacherFormat": "Только онлайн",
           "direction": "Дизайн",
           "subject": "Искусственный интеллект в дизайне",
           "group": "ОНЛ-1",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "ср 12:00-13:30 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -2775,18 +3037,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 43,
+          "sourceSheet": "Расписание",
+          "sourceRow": 44,
           "teacher": "Логинова-Цветкова Анастасия",
           "firstName": "Анастасия",
           "teacherFormat": "Только онлайн",
           "direction": "Дизайн",
           "subject": "Айдентика и фирменный стиль",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "1. пн 12:00-13:30 нечет/чет 2. чт 12:00-13:30 нечет",
           "load": 2.25,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -2815,18 +3080,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 46,
+          "sourceSheet": "Расписание",
+          "sourceRow": 47,
           "teacher": "Логинова-Цветкова Анастасия",
           "firstName": "Анастасия",
           "teacherFormat": "Только онлайн",
           "direction": "Дизайн",
           "subject": "Продвинутое дизайн-проектирование",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 4,
           "schedule": "1. пн 15:40-17:10 нечет/чет 2. пт 15:40-17:10 нечет/чет",
           "load": 3,
-          "status": "Нет доступного онлайн-преподавателя с подходящей дисциплиной",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -2869,19 +3137,22 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 48,
+          "sourceSheet": "Расписание",
+          "sourceRow": 49,
           "teacher": "Логинова-Цветкова Анастасия",
           "firstName": "Анастасия",
           "teacherFormat": "Только онлайн",
           "direction": "Дизайн",
           "subject": "Искусственный интеллект в дизайне",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 4,
           "schedule": "1. вт 10:00-11:30 нечет/чет 2. пт 14:00-15:30 нечет/чет",
           "load": 3,
-          "status": "Нужно согласование",
-          "confirmed": false,
+          "status": "Назначено",
+          "confirmed": true,
           "syllabusCandidates": [
             {
               "course": 4,
@@ -2923,18 +3194,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 49,
+          "sourceSheet": "Расписание",
+          "sourceRow": 50,
           "teacher": "Логинова-Цветкова Анастасия",
           "firstName": "Анастасия",
           "teacherFormat": "Только онлайн",
           "direction": "Дизайн",
           "subject": "UX/UI дизайн",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 4,
           "schedule": "1. пн 14:00-15:30 нечет/чет 2. вт 14:00-15:30 нечет/чет",
           "load": 3,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -2983,14 +3257,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Ксения",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 40,
+          "sourceSheet": "Расписание",
+          "sourceRow": 91,
           "teacher": "Мерида Ксения",
           "firstName": "Ксения",
-          "teacherFormat": "",
+          "teacherFormat": "Онлайн",
           "direction": "Реклама",
           "subject": "Производство рекламной продукции 3 курс",
           "group": "Группа 1",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "1. чт 15:40-17:10 нечет/чет 2. пт 15:40-17:10 нечет/чет",
           "load": 3,
@@ -3070,6 +3347,56 @@ export const DATA_SNAPSHOT = {
               "sourceRow": 87
             }
           ]
+        },
+        {
+          "sourceSheet": "Расписание",
+          "sourceRow": 94,
+          "teacher": "Мерида Ксения",
+          "firstName": "Ксения",
+          "teacherFormat": "Онлайн",
+          "direction": "Реклама",
+          "subject": "Техника и технологии рекламной фотографии и видео",
+          "group": "МСК+ОНЛ",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
+          "course": 4,
+          "schedule": "1. пн 17:20-18:50 нечет/чет 2. пт 17:20-18:50 нечет/чет",
+          "load": 3,
+          "status": "Назначено",
+          "confirmed": true,
+          "syllabusCandidates": [
+            {
+              "course": 4,
+              "direction": "Реклама",
+              "subject": "Техника и технологии рекламной фотографии и видео",
+              "key": "техника и технологии рекламной фотографии и видео",
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQB_Gb4iBFXBT4H2bJ_L828ZAfjgFtUPXBUgWXNiDJyRxc0?e=zCI3gt"
+            }
+          ],
+          "chatInfo": {
+            "group": "МСК 1-23 Реклама",
+            "curator": "Пруцкова Софья",
+            "curatorLead": "Пострелко",
+            "chat": "https://t.me/+_QXYDnQrDjowZTky",
+            "sourceRow": 91
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-23 Реклама",
+              "curator": "Пруцкова Софья",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+_QXYDnQrDjowZTky",
+              "sourceRow": 91
+            },
+            {
+              "group": "ОНЛ 1-23 Реклама",
+              "curator": "Маслова Светлана",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+WSongQf6LFg0NzE6",
+              "sourceRow": 97
+            }
+          ]
         }
       ]
     },
@@ -3078,14 +3405,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Григорий",
       "assignments": [
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 4,
+          "sourceSheet": "Расписание",
+          "sourceRow": 100,
           "teacher": "Микулич Григорий",
           "firstName": "Григорий",
           "teacherFormat": "Только очно",
           "direction": "ИСП",
           "subject": "Веб-верстка HTML/CSS. Разработка программных модулей",
           "group": "МСК-3",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "вт 10:00-11:30 нечет/чет",
           "load": 1.5,
@@ -3118,14 +3448,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 11,
+          "sourceSheet": "Расписание",
+          "sourceRow": 107,
           "teacher": "Микулич Григорий",
           "firstName": "Григорий",
           "teacherFormat": "Только очно",
           "direction": "ИСП",
           "subject": "Управление проектами",
           "group": "МСК-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "вт 12:00-13:30 нечет, ср 15:40-17:10 чет",
           "load": 1.5,
@@ -3158,18 +3491,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 38,
+          "sourceSheet": "Расписание",
+          "sourceRow": 134,
           "teacher": "Микулич Григорий",
           "firstName": "Григорий",
           "teacherFormat": "Только очно",
           "direction": "ИСП",
           "subject": "Бизнес-аналитика",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 4,
           "schedule": "1. пн 10:00-11:30 нечет/чет 2. пт 10:00-11:30 нечет/чет",
           "load": 3,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -3212,18 +3548,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 39,
+          "sourceSheet": "Расписание",
+          "sourceRow": 135,
           "teacher": "Микулич Григорий",
           "firstName": "Григорий",
           "teacherFormat": "Только очно",
           "direction": "ИСП",
           "subject": "Подготовка к государственному экзамену",
           "group": "МСК-1",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Семинар",
           "course": 4,
-          "schedule": "чт 14:00-15:30 нечет/чет",
-          "load": 1.5,
-          "status": "Согласовано",
+          "schedule": "1. чт 12:00-13:30 нечет/чет 2. чт 14:00-15:30 нечет/чет",
+          "load": 3,
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -3258,18 +3597,21 @@ export const DATA_SNAPSHOT = {
       "firstName": "Павел",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 37,
+          "sourceSheet": "Расписание",
+          "sourceRow": 38,
           "teacher": "Молодцов Павел",
           "firstName": "Павел",
           "teacherFormat": "Только онлайн",
           "direction": "Дизайн",
           "subject": "Управление проектами",
           "group": "ОНЛ-1",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "пн 10:00-11:30 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -3298,14 +3640,74 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 6,
+          "sourceSheet": "Расписание",
+          "sourceRow": 48,
+          "teacher": "Молодцов Павел",
+          "firstName": "Павел",
+          "teacherFormat": "Только онлайн",
+          "direction": "Дизайн",
+          "subject": "Дизайн среды",
+          "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
+          "course": 4,
+          "schedule": "1. вт 12:00-13:30 нечет/чет 2. вт 15:40-17:10 нечет/чет 3 пт 12:00-13:30 нечет/чет",
+          "load": 4.5,
+          "status": "Назначено",
+          "confirmed": true,
+          "syllabusCandidates": [
+            {
+              "course": 4,
+              "direction": "Дизайн",
+              "subject": "Дизайн среды",
+              "key": "дизайн среды",
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDn1ZBr6G8zRq4wczmKQpoZAdsDdfBLWtoYNKeCqwNgZ3Q?e=54UhLo"
+            }
+          ],
+          "chatInfo": {
+            "group": "МСК 1-23 Дизайн",
+            "curator": "Пруцкова Софья",
+            "curatorLead": "Пострелко",
+            "chat": "https://t.me/+_QXYDnQrDjowZTky",
+            "sourceRow": 90
+          },
+          "chatInfos": [
+            {
+              "group": "МСК 1-23 Дизайн",
+              "curator": "Пруцкова Софья",
+              "curatorLead": "Пострелко",
+              "chat": "https://t.me/+_QXYDnQrDjowZTky",
+              "sourceRow": 90
+            },
+            {
+              "group": "СПБ 1-23 Дизайн",
+              "curator": "Сатюкова Екатерина",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+onKhAx62cKA4Zjgy",
+              "sourceRow": 93
+            },
+            {
+              "group": "ОНЛ 1-23 Дизайн",
+              "curator": "Маслова Светлана",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+WSongQf6LFg0NzE6",
+              "sourceRow": 96
+            }
+          ]
+        },
+        {
+          "sourceSheet": "Расписание",
+          "sourceRow": 102,
           "teacher": "Молодцов Павел",
           "firstName": "Павел",
           "teacherFormat": "Только онлайн",
           "direction": "ИСП",
           "subject": "Веб-верстка HTML/CSS. Разработка программных модулей",
           "group": "СПБ-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "ср 17:20-18:50 нечет / ср 19:00-20:30 нечет",
           "load": 1.5,
@@ -3338,18 +3740,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 22,
+          "sourceSheet": "Расписание",
+          "sourceRow": 118,
           "teacher": "Молодцов Павел",
           "firstName": "Павел",
           "teacherFormat": "Только онлайн",
           "direction": "ИСП",
           "subject": "Веб-верстка HTML/CSS. Разработка программных модулей",
           "group": "ОНЛ-1",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "ср 12:00-13:30 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -3378,18 +3783,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 23,
+          "sourceSheet": "Расписание",
+          "sourceRow": 119,
           "teacher": "Молодцов Павел",
           "firstName": "Павел",
           "teacherFormat": "Только онлайн",
           "direction": "ИСП",
           "subject": "Управление проектами",
           "group": "ОНЛ-1",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "вт 10:00-11:30 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -3418,18 +3826,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 24,
+          "sourceSheet": "Расписание",
+          "sourceRow": 120,
           "teacher": "Молодцов Павел",
           "firstName": "Павел",
           "teacherFormat": "Только онлайн",
           "direction": "ИСП",
           "subject": "Введение в Java",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "пн 15:40-17:10 нечет 17:20-18:50 чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -3458,18 +3869,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 31,
+          "sourceSheet": "Расписание",
+          "sourceRow": 127,
           "teacher": "Молодцов Павел",
           "firstName": "Павел",
           "teacherFormat": "Только онлайн",
           "direction": "ИСП",
           "subject": "Разработка мобильных приложений",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "1. вт 14:00-15:30 нечет/чет 2. пт 14:00-15:30 нечет",
           "load": 2.25,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -3498,18 +3912,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 36,
+          "sourceSheet": "Расписание",
+          "sourceRow": 132,
           "teacher": "Молодцов Павел",
           "firstName": "Павел",
           "teacherFormat": "Только онлайн",
           "direction": "ИСП",
           "subject": "Подготовка к государственному экзамену",
           "group": "ОНЛ-1",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Семинар",
           "course": 4,
-          "schedule": "чт 12:00-13:30 нечет/чет",
-          "load": 1.5,
-          "status": "Согласовано",
+          "schedule": "1. чт 10:00-11:30 нечет/чет 2. чт 12:00-13:30 нечет/чет",
+          "load": 3,
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -3538,18 +3955,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 40,
+          "sourceSheet": "Расписание",
+          "sourceRow": 136,
           "teacher": "Молодцов Павел",
           "firstName": "Павел",
           "teacherFormat": "Только онлайн",
           "direction": "ИСП",
           "subject": "Подготовка к государственному экзамену",
           "group": "СПБ-1",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Семинар",
           "course": 4,
-          "schedule": "чт 17:20-18:50 нечет/чет",
-          "load": 1.5,
-          "status": "Согласовано",
+          "schedule": "1. чт 14:00-15:30 нечет/чет 2. чт 17:20-18:50 нечет/чет",
+          "load": 3,
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -3584,18 +4004,64 @@ export const DATA_SNAPSHOT = {
       "firstName": "Владислав",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 48,
+          "sourceSheet": "Расписание",
+          "sourceRow": 126,
           "teacher": "Моргунов Владислав",
           "firstName": "Владислав",
           "teacherFormat": "Только онлайн",
-          "direction": "Реклама",
+          "direction": "ИСП",
+          "subject": "Системное программирование",
+          "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
+          "course": 3,
+          "schedule": "ср 14:00-15:30 нечет/чет",
+          "load": 1.5,
+          "status": "Назначено",
+          "confirmed": true,
+          "syllabusCandidates": [
+            {
+              "course": 3,
+              "direction": "ИСП",
+              "subject": "Системное программирование",
+              "key": "системное программирование",
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAOMIy4jWihRrHHEmFksLx2ARCxHNEXQSmhBPbcCzA6SqM?e=WIo6e9"
+            }
+          ],
+          "chatInfo": {
+            "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+            "curator": "",
+            "curatorLead": "",
+            "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+            "sourceRow": 102
+          },
+          "chatInfos": [
+            {
+              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
+              "curator": "",
+              "curatorLead": "",
+              "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
+              "sourceRow": 102
+            }
+          ]
+        },
+        {
+          "sourceSheet": "Расписание",
+          "sourceRow": 138,
+          "teacher": "Моргунов Владислав",
+          "firstName": "Владислав",
+          "teacherFormat": "Только онлайн",
+          "direction": "Экономика",
           "subject": "Бизнес-аналитика",
           "group": "Экономика",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
-          "schedule": "1. ср 15:40-17:10 нечет/чет 2. чт 17:20-18:50 нечет/чет",
+          "schedule": "1. ср 15:40-17:10 нечет/чет 2. ср 17:20-18:50 нечет/чет",
           "load": 3,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -3643,46 +4109,41 @@ export const DATA_SNAPSHOT = {
               "sourceRow": 62
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "name": "Морозова Марьяна",
+      "firstName": "Марьяна",
+      "assignments": [
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 30,
-          "teacher": "Моргунов Владислав",
-          "firstName": "Владислав",
-          "teacherFormat": "Только онлайн",
-          "direction": "ИСП",
-          "subject": "Системное программирование",
-          "group": "Все группы",
-          "course": 3,
-          "schedule": "ср 14:00-15:30 нечет/чет",
+          "sourceSheet": "Расписание",
+          "sourceRow": 58,
+          "teacher": "Морозова Марьяна",
+          "firstName": "Марьяна",
+          "teacherFormat": "",
+          "direction": "Диз+Рек",
+          "subject": "Управление проектами",
+          "group": "ВРН-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
+          "course": 2,
+          "schedule": "пн 10:00-11:30 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
-              "course": 3,
-              "direction": "ИСП",
-              "subject": "Системное программирование",
-              "key": "системное программирование",
-              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAOMIy4jWihRrHHEmFksLx2ARCxHNEXQSmhBPbcCzA6SqM?e=WIo6e9"
+              "course": 2,
+              "direction": "Все",
+              "subject": "Управление проектами",
+              "key": "управление проектами",
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
-          "chatInfo": {
-            "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
-            "curator": "",
-            "curatorLead": "",
-            "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
-            "sourceRow": 102
-          },
-          "chatInfos": [
-            {
-              "group": "ПОТОКОВЫЕ ЛЕКЦИИ 3к (бывш. 2к)",
-              "curator": "",
-              "curatorLead": "",
-              "chat": "https://t.me/+5Sxm65luLFU5ZTYy",
-              "sourceRow": 102
-            }
-          ]
+          "chatInfo": null,
+          "chatInfos": []
         }
       ]
     },
@@ -3691,18 +4152,21 @@ export const DATA_SNAPSHOT = {
       "firstName": "Илья",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 35,
+          "sourceSheet": "Расписание",
+          "sourceRow": 36,
           "teacher": "Паранин Илья",
           "firstName": "Илья",
           "teacherFormat": "Только онлайн",
           "direction": "Дизайн",
           "subject": "Базовые инструменты Figma",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "1. вт 12:00-13:30 нечет/чет 2. ср 12:00-13:30 нечет",
           "load": 2.25,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -3731,18 +4195,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 36,
+          "sourceSheet": "Расписание",
+          "sourceRow": 37,
           "teacher": "Паранин Илья",
           "firstName": "Илья",
           "teacherFormat": "Только онлайн",
           "direction": "Дизайн",
           "subject": "Дизайн-проектирование (Графика, Figma)",
           "group": "ОНЛ-1",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "пт 12:00-13:00 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -3777,7 +4244,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Ксения",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
+          "sourceSheet": "Расписание",
           "sourceRow": 4,
           "teacher": "Петушкова Ксения",
           "firstName": "Ксения",
@@ -3785,11 +4252,14 @@ export const DATA_SNAPSHOT = {
           "direction": "Дизайн",
           "subject": "Дизайн-проектирование (Графика, Figma)",
           "group": "СПБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пн 12:00-13:30 нечет/чет",
           "load": 1.5,
-          "status": "Нужно согласование",
-          "confirmed": false,
+          "status": "Назначено",
+          "confirmed": true,
           "syllabusCandidates": [
             {
               "course": 2,
@@ -3817,7 +4287,7 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
+          "sourceSheet": "Расписание",
           "sourceRow": 6,
           "teacher": "Петушкова Ксения",
           "firstName": "Ксения",
@@ -3825,6 +4295,9 @@ export const DATA_SNAPSHOT = {
           "direction": "Дизайн",
           "subject": "Дизайн-проектирование (Графика, Figma)",
           "group": "СПБ-3",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пн 15:40-17:10 нечет/чет",
           "load": 1.5,
@@ -3857,14 +4330,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 12,
+          "sourceSheet": "Расписание",
+          "sourceRow": 13,
           "teacher": "Петушкова Ксения",
           "firstName": "Ксения",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Управление проектами",
           "group": "СПБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пт 17:20-18:50 нечет/чет",
           "load": 1.5,
@@ -3897,14 +4373,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 13,
+          "sourceSheet": "Расписание",
+          "sourceRow": 14,
           "teacher": "Петушкова Ксения",
           "firstName": "Ксения",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Управление проектами",
           "group": "СПБ-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пт 14:00-15:30 нечет/чет",
           "load": 1.5,
@@ -3937,14 +4416,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 14,
+          "sourceSheet": "Расписание",
+          "sourceRow": 15,
           "teacher": "Петушкова Ксения",
           "firstName": "Ксения",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Управление проектами",
           "group": "СПБ-3",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пт 15:40-17:10 нечет/чет",
           "load": 1.5,
@@ -3977,14 +4459,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 22,
+          "sourceSheet": "Расписание",
+          "sourceRow": 23,
           "teacher": "Петушкова Ксения",
           "firstName": "Ксения",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Тренинг дизайн-мышления",
           "group": "СПБ-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "ср 14:00-15:30 нечет/чет",
           "load": 1.5,
@@ -4017,14 +4502,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 28,
+          "sourceSheet": "Расписание",
+          "sourceRow": 29,
           "teacher": "Петушкова Ксения",
           "firstName": "Ксения",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Искусственный интеллект в дизайне",
           "group": "СПБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "вт 14:00-15:30 нечет/чет",
           "load": 1.5,
@@ -4057,18 +4545,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 42,
+          "sourceSheet": "Расписание",
+          "sourceRow": 43,
           "teacher": "Петушкова Ксения",
           "firstName": "Ксения",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Типографика и верстка",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "1. пн 10:00-11:30 нечет/чет 2. пт 10:00-11:30 нечет",
           "load": 2.25,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -4097,14 +4588,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 22,
+          "sourceSheet": "Расписание",
+          "sourceRow": 72,
           "teacher": "Петушкова Ксения",
           "firstName": "Ксения",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Техника и технологии рекламной фотографии и видео",
           "group": "СПБ",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 4,
           "schedule": "1. чт 12:00-13:30 нечет/чет; 2. ср 17:20-18:50 нечет/чет",
           "load": 3,
@@ -4143,14 +4637,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Максим",
       "assignments": [
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 9,
+          "sourceSheet": "Расписание",
+          "sourceRow": 105,
           "teacher": "Пудеев Максим",
           "firstName": "Максим",
           "teacherFormat": "Онлайн",
           "direction": "ИСП",
           "subject": "Веб-верстка HTML/CSS. Разработка программных модулей",
           "group": "НН-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "ср 12:00-13:30, нечет/чет",
           "load": 1.5,
@@ -4183,18 +4680,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 32,
+          "sourceSheet": "Расписание",
+          "sourceRow": 128,
           "teacher": "Пудеев Максим",
           "firstName": "Максим",
           "teacherFormat": "Онлайн",
           "direction": "ИСП",
           "subject": "Введение в разработку игр",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "пт 15:40-17:10 нечет 14:00-15:30 чет",
           "load": 1.5,
-          "status": "Согласовано",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -4229,18 +4729,21 @@ export const DATA_SNAPSHOT = {
       "firstName": "Елена",
       "assignments": [
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 20,
+          "sourceSheet": "Расписание",
+          "sourceRow": 116,
           "teacher": "Разгулова Елена",
           "firstName": "Елена",
           "teacherFormat": "Только онлайн",
           "direction": "ИСП",
           "subject": "Основы алгоритмизации и программирования",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "1. пн 12:00-13:30 нечет/чет 2. пт 12:00-13:30 нечет/чет",
           "load": 3,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -4269,18 +4772,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 21,
+          "sourceSheet": "Расписание",
+          "sourceRow": 117,
           "teacher": "Разгулова Елена",
           "firstName": "Елена",
           "teacherFormat": "Только онлайн",
           "direction": "ИСП",
           "subject": "Основы проектирования баз данных",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "1. пн 14:00-15:30 нечет/чет 2. пт 14:00-15:30 нечет/чет",
           "load": 3,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -4315,14 +4821,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Никита",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 6,
+          "sourceSheet": "Расписание",
+          "sourceRow": 55,
           "teacher": "Рябухин Никита",
           "firstName": "Никита",
           "teacherFormat": "Очно",
           "direction": "Реклама",
           "subject": "Управление проектами",
           "group": "ЕКБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пн 12:00-13:30 нечет/чет",
           "load": 1.5,
@@ -4355,14 +4864,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 15,
+          "sourceSheet": "Расписание",
+          "sourceRow": 111,
           "teacher": "Рябухин Никита",
           "firstName": "Никита",
           "teacherFormat": "Очно",
           "direction": "ИСП",
           "subject": "Управление проектами",
           "group": "ЕКБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "вт 12:00-13:30 нечет/чет",
           "load": 1.5,
@@ -4401,14 +4913,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Софья",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 25,
+          "sourceSheet": "Расписание",
+          "sourceRow": 26,
           "teacher": "Смыкова Софья",
           "firstName": "Софья",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Искусственный интеллект в дизайне",
           "group": "МСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "ср 15:40-17:10 чет, 17:20-18:50 чет",
           "load": 1.5,
@@ -4447,18 +4962,21 @@ export const DATA_SNAPSHOT = {
       "firstName": "Михаил",
       "assignments": [
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 25,
+          "sourceSheet": "Расписание",
+          "sourceRow": 121,
           "teacher": "Соколов Михаил",
           "firstName": "Михаил",
           "teacherFormat": "Только онлайн",
           "direction": "ИСП",
           "subject": "Введение в анализ данных",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "пт 15:40-17:10 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -4493,7 +5011,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Алина",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
+          "sourceSheet": "Расписание",
           "sourceRow": 5,
           "teacher": "Соловей Алина",
           "firstName": "Алина",
@@ -4501,6 +5019,9 @@ export const DATA_SNAPSHOT = {
           "direction": "Дизайн",
           "subject": "Дизайн-проектирование (Графика, Figma)",
           "group": "СПБ-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пн 10:00-11:30 чет / пн 12:00-13:30 чет",
           "load": 1.5,
@@ -4533,14 +5054,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 29,
+          "sourceSheet": "Расписание",
+          "sourceRow": 30,
           "teacher": "Соловей Алина",
           "firstName": "Алина",
           "teacherFormat": "Только очно",
           "direction": "Дизайн",
           "subject": "Искусственный интеллект в дизайне",
           "group": "СПБ-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "вт 12:00-13:30 нечет/чет",
           "load": 1.5,
@@ -4579,14 +5103,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Матвей",
       "assignments": [
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 7,
+          "sourceSheet": "Расписание",
+          "sourceRow": 103,
           "teacher": "Сухарев Матвей",
           "firstName": "Матвей",
           "teacherFormat": "И очно, и онлайн",
           "direction": "ИСП",
           "subject": "Веб-верстка HTML/CSS. Разработка программных модулей",
           "group": "ЕКБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "ср 12:00-13:30, нечет/чет",
           "load": 1.5,
@@ -4619,18 +5146,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 34,
+          "sourceSheet": "Расписание",
+          "sourceRow": 130,
           "teacher": "Сухарев Матвей",
           "firstName": "Матвей",
           "teacherFormat": "И очно, и онлайн",
           "direction": "ИСП",
           "subject": "Тестирование веб-приложений. Обеспечение качества функционирования компьютерных систем",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 4,
           "schedule": "1. пн 12:00-13:30 нечет/чет 2. пт 12:00-13:30 нечет/чет",
           "load": 3,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -4673,18 +5203,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 35,
+          "sourceSheet": "Расписание",
+          "sourceRow": 131,
           "teacher": "Сухарев Матвей",
           "firstName": "Матвей",
           "teacherFormat": "И очно, и онлайн",
           "direction": "ИСП",
           "subject": "Frontend-разработка продвинутый уровень.Технологии разработки ПО",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 4,
           "schedule": "1. вт 12:00-13:30 нечет/чет 2. пт 14:00-15:30 нечет/чет",
           "load": 3,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [],
           "chatInfo": {
@@ -4725,14 +5258,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Анна",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 17,
+          "sourceSheet": "Расписание",
+          "sourceRow": 18,
           "teacher": "Цаплева Анна",
           "firstName": "Анна",
           "teacherFormat": "",
           "direction": "Дизайн",
           "subject": "Управление проектами",
           "group": "НН-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пн 10:00-11:30 нечет/чет",
           "load": 1.5,
@@ -4765,14 +5301,60 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 17,
+          "sourceSheet": "Расписание",
+          "sourceRow": 57,
+          "teacher": "Цаплева Анна",
+          "firstName": "Анна",
+          "teacherFormat": "",
+          "direction": "Реклама",
+          "subject": "Управление проектами",
+          "group": "НН-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
+          "course": 2,
+          "schedule": "пн 10:00-11:30 нечет/чет",
+          "load": 1.5,
+          "status": "Назначено",
+          "confirmed": true,
+          "syllabusCandidates": [
+            {
+              "course": 2,
+              "direction": "Все",
+              "subject": "Управление проектами",
+              "key": "управление проектами",
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
+            }
+          ],
+          "chatInfo": {
+            "group": "НН 1-25 Реклама",
+            "curator": "Ковальчук Дарья",
+            "curatorLead": "Гравис",
+            "chat": "https://t.me/+dkkzeQBkPHwxMTky",
+            "sourceRow": 36
+          },
+          "chatInfos": [
+            {
+              "group": "НН 1-25 Реклама",
+              "curator": "Ковальчук Дарья",
+              "curatorLead": "Гравис",
+              "chat": "https://t.me/+dkkzeQBkPHwxMTky",
+              "sourceRow": 36
+            }
+          ]
+        },
+        {
+          "sourceSheet": "Расписание",
+          "sourceRow": 113,
           "teacher": "Цаплева Анна",
           "firstName": "Анна",
           "teacherFormat": "",
           "direction": "ИСП",
           "subject": "Управление проектами",
           "group": "НН-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "вт 10:00-11:30 нечет/чет",
           "load": 1.5,
@@ -4811,14 +5393,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Наталия",
       "assignments": [
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 13,
+          "sourceSheet": "Расписание",
+          "sourceRow": 109,
           "teacher": "Чайка Наталия",
           "firstName": "Наталия",
           "teacherFormat": "",
           "direction": "ИСП",
           "subject": "Управление проектами",
           "group": "СПБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "вт 15:40-17:10 нечет/чет",
           "load": 1.5,
@@ -4849,6 +5434,49 @@ export const DATA_SNAPSHOT = {
               "sourceRow": 59
             }
           ]
+        },
+        {
+          "sourceSheet": "Расписание",
+          "sourceRow": 110,
+          "teacher": "Чайка Наталия",
+          "firstName": "Наталия",
+          "teacherFormat": "",
+          "direction": "ИСП",
+          "subject": "Управление проектами",
+          "group": "СПБ-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
+          "course": 2,
+          "schedule": "вт 12:00-13:30 нечет/чет",
+          "load": 1.5,
+          "status": "Назначено",
+          "confirmed": true,
+          "syllabusCandidates": [
+            {
+              "course": 2,
+              "direction": "Все",
+              "subject": "Управление проектами",
+              "key": "управление проектами",
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
+            }
+          ],
+          "chatInfo": {
+            "group": "СПБ 2-25 ИСП",
+            "curator": "Толстикова Алиса",
+            "curatorLead": "Павлова",
+            "chat": "https://t.me/+GKMk6SzaU5g5MTgy",
+            "sourceRow": 60
+          },
+          "chatInfos": [
+            {
+              "group": "СПБ 2-25 ИСП",
+              "curator": "Толстикова Алиса",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+GKMk6SzaU5g5MTgy",
+              "sourceRow": 60
+            }
+          ]
         }
       ]
     },
@@ -4857,14 +5485,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Виктория",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 18,
+          "sourceSheet": "Расписание",
+          "sourceRow": 68,
           "teacher": "Чегодаева Виктория",
           "firstName": "Виктория",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Бренд-менеджмент",
           "group": "МСК-3",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "1. вт 15:40-17:10 нечет/чет 2. ср 15:40-17:10 чет",
           "load": 2.25,
@@ -4897,18 +5528,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 32,
+          "sourceSheet": "Расписание",
+          "sourceRow": 82,
           "teacher": "Чегодаева Виктория",
           "firstName": "Виктория",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Разработка бренд-стратегии",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "чт 14:00-15:30 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -4943,14 +5577,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Ангелина",
       "assignments": [
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 5,
+          "sourceSheet": "Расписание",
+          "sourceRow": 54,
           "teacher": "Черняева Ангелина",
           "firstName": "Ангелина",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Управление проектами",
           "group": "СПБ-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пн 15:40-17:10 нечет/чет",
           "load": 1.5,
@@ -4983,18 +5620,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 31,
+          "sourceSheet": "Расписание",
+          "sourceRow": 81,
           "teacher": "Черняева Ангелина",
           "firstName": "Ангелина",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Маркетинговые исследования",
           "group": "ОНЛ+НН+НСК+ЕКБ",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 2,
           "schedule": "вт 10:00-11:30 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -5044,18 +5684,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 34,
+          "sourceSheet": "Расписание",
+          "sourceRow": 85,
           "teacher": "Черняева Ангелина",
           "firstName": "Ангелина",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Digital-маркетинг",
           "group": "Группа 2",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
-          "schedule": "1. пн 10:00-11:30 нечет/чет 2. чт 10:00-11:30 нечет/чет 3. пт 10:00-11:30 нечет/чет",
+          "schedule": "1. пн 17:20-18:50 нечет/чет 2. чт 15:40-17:10 нечет/чет 3. пт 15:40-17:10 нечет/чет",
           "load": 4.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -5139,7 +5782,7 @@ export const DATA_SNAPSHOT = {
       "firstName": "Анжелика",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
+          "sourceSheet": "Расписание",
           "sourceRow": 7,
           "teacher": "Шелест Анжелика",
           "firstName": "Анжелика",
@@ -5147,6 +5790,9 @@ export const DATA_SNAPSHOT = {
           "direction": "Дизайн",
           "subject": "Дизайн-проектирование (Графика, Figma)",
           "group": "ЕКБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пт 10:00-11:30 нечет/чет",
           "load": 1.5,
@@ -5179,14 +5825,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 15,
+          "sourceSheet": "Расписание",
+          "sourceRow": 16,
           "teacher": "Шелест Анжелика",
           "firstName": "Анжелика",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Управление проектами",
           "group": "ЕКБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пн 12:00-13:30 нечет/чет",
           "load": 1.5,
@@ -5219,14 +5868,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 23,
+          "sourceSheet": "Расписание",
+          "sourceRow": 24,
           "teacher": "Шелест Анжелика",
           "firstName": "Анжелика",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Тренинг дизайн-мышления",
           "group": "ЕКБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "вт 17:20-18:50 нечет, 14:00-15:30 чет",
           "load": 1.5,
@@ -5259,14 +5911,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 30,
+          "sourceSheet": "Расписание",
+          "sourceRow": 31,
           "teacher": "Шелест Анжелика",
           "firstName": "Анжелика",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Дизайн",
           "subject": "Искусственный интеллект в дизайне",
           "group": "ЕКБ-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 3,
           "schedule": "ср 14:00-15:30 нечет/чет",
           "load": 1.5,
@@ -5305,94 +5960,17 @@ export const DATA_SNAPSHOT = {
       "firstName": "Эрика",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 10,
-          "teacher": "Шипилова Эрика",
-          "firstName": "Эрика",
-          "teacherFormat": "И очно, и онлайн",
-          "direction": "Дизайн",
-          "subject": "Управление проектами",
-          "group": "МСК-1",
-          "course": 2,
-          "schedule": "пн 10:00-11:30 нечет/чет",
-          "load": 1.5,
-          "status": "Назначено",
-          "confirmed": true,
-          "syllabusCandidates": [
-            {
-              "course": 2,
-              "direction": "Все",
-              "subject": "Управление проектами",
-              "key": "управление проектами",
-              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
-            }
-          ],
-          "chatInfo": {
-            "group": "МСК 1-25 Дизайн",
-            "curator": "Завражнова Влада",
-            "curatorLead": "Пострелко",
-            "chat": "https://t.me/+lF1kdYUWcUM0OGQy",
-            "sourceRow": 45
-          },
-          "chatInfos": [
-            {
-              "group": "МСК 1-25 Дизайн",
-              "curator": "Завражнова Влада",
-              "curatorLead": "Пострелко",
-              "chat": "https://t.me/+lF1kdYUWcUM0OGQy",
-              "sourceRow": 45
-            }
-          ]
-        },
-        {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 11,
-          "teacher": "Шипилова Эрика",
-          "firstName": "Эрика",
-          "teacherFormat": "И очно, и онлайн",
-          "direction": "Дизайн",
-          "subject": "Управление проектами",
-          "group": "МСК-2",
-          "course": 2,
-          "schedule": "пн 12:00-13:30 нечет/чет",
-          "load": 1.5,
-          "status": "Назначено",
-          "confirmed": true,
-          "syllabusCandidates": [
-            {
-              "course": 2,
-              "direction": "Все",
-              "subject": "Управление проектами",
-              "key": "управление проектами",
-              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
-            }
-          ],
-          "chatInfo": {
-            "group": "МСК 2-25 Дизайн",
-            "curator": "Завражнова Влада",
-            "curatorLead": "Пострелко",
-            "chat": "https://t.me/+R6EMQX0rKZRjNmFi",
-            "sourceRow": 46
-          },
-          "chatInfos": [
-            {
-              "group": "МСК 2-25 Дизайн",
-              "curator": "Завражнова Влада",
-              "curatorLead": "Пострелко",
-              "chat": "https://t.me/+R6EMQX0rKZRjNmFi",
-              "sourceRow": 46
-            }
-          ]
-        },
-        {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 2,
+          "sourceSheet": "Расписание",
+          "sourceRow": 51,
           "teacher": "Шипилова Эрика",
           "firstName": "Эрика",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Управление проектами",
           "group": "МСК-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пн 10:00-11:30 нечет/чет",
           "load": 1.5,
@@ -5425,14 +6003,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 3,
+          "sourceSheet": "Расписание",
+          "sourceRow": 52,
           "teacher": "Шипилова Эрика",
           "firstName": "Эрика",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Управление проектами",
           "group": "МСК-2",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
           "course": 2,
           "schedule": "пн 14:00-15:30 нечет/чет",
           "load": 1.5,
@@ -5465,18 +6046,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 37,
+          "sourceSheet": "Расписание",
+          "sourceRow": 88,
           "teacher": "Шипилова Эрика",
           "firstName": "Эрика",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Маркетинговые исследования",
           "group": "Группа 2",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "1. пн 17:20-18:50 нечет/чет 2. чт 17:20-18:50 нечет/чет",
           "load": 3,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -5554,14 +6138,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 44,
+          "sourceSheet": "Расписание",
+          "sourceRow": 95,
           "teacher": "Шипилова Эрика",
           "firstName": "Эрика",
           "teacherFormat": "И очно, и онлайн",
           "direction": "Реклама",
           "subject": "Проектная компьютерная графика и мультимедиа",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 4,
           "schedule": "1. вт 15:40-17:10 нечет/чет 2. пт 15:40-17:10 нечет/чет",
           "load": 3,
@@ -5614,18 +6201,21 @@ export const DATA_SNAPSHOT = {
       "firstName": "Маргарита",
       "assignments": [
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 18,
+          "sourceSheet": "Расписание",
+          "sourceRow": 114,
           "teacher": "Штучко Маргарита",
           "firstName": "Маргарита",
           "teacherFormat": "И очно, и онлайн",
           "direction": "ИСП",
           "subject": "Введение в специальность (Python)",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 1,
           "schedule": "пн 10:00-11:30 нечет/чет",
           "load": 1.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -5654,18 +6244,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "ИСП",
-          "sourceRow": 37,
+          "sourceSheet": "Расписание",
+          "sourceRow": 133,
           "teacher": "Штучко Маргарита",
           "firstName": "Маргарита",
           "teacherFormat": "И очно, и онлайн",
           "direction": "ИСП",
           "subject": "Технологии искусственного интеллекта",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 4,
           "schedule": "вт 10:00-11:30 нечет/чет",
           "load": 0.75,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -5710,23 +6303,26 @@ export const DATA_SNAPSHOT = {
       ]
     },
     {
-      "name": "Яблонских",
-      "firstName": "Яблонских",
+      "name": "Яблонских Анастасия",
+      "firstName": "Анастасия",
       "assignments": [
         {
-          "sourceSheet": "Дизайн",
-          "sourceRow": 40,
-          "teacher": "Яблонских",
-          "firstName": "Яблонских",
-          "teacherFormat": "",
+          "sourceSheet": "Расписание",
+          "sourceRow": 41,
+          "teacher": "Яблонских Анастасия",
+          "firstName": "Анастасия",
+          "teacherFormat": "Только онлайн",
           "direction": "Дизайн",
           "subject": "Тренинг дизайн-мышления",
           "group": "ОНЛ-1",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "вт 12:00-13:30 нечет/чет",
           "load": 1.5,
-          "status": "Нужно согласование",
-          "confirmed": false,
+          "status": "Назначено",
+          "confirmed": true,
           "syllabusCandidates": [
             {
               "course": 3,
@@ -5752,26 +6348,23 @@ export const DATA_SNAPSHOT = {
               "sourceRow": 70
             }
           ]
-        }
-      ]
-    },
-    {
-      "name": "Яблонских Анастасия",
-      "firstName": "Анастасия",
-      "assignments": [
+        },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 33,
+          "sourceSheet": "Расписание",
+          "sourceRow": 84,
           "teacher": "Яблонских Анастасия",
           "firstName": "Анастасия",
           "teacherFormat": "Только онлайн",
           "direction": "Реклама",
           "subject": "Digital-маркетинг",
           "group": "Группа 1",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "1. пн 10:00-11:30 нечет/чет 2. чт 10:00-11:30 нечет/чет 3. пт 10:00-11:30 нечет/чет",
           "load": 4.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -5849,18 +6442,21 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 35,
+          "sourceSheet": "Расписание",
+          "sourceRow": 86,
           "teacher": "Яблонских Анастасия",
           "firstName": "Анастасия",
           "teacherFormat": "Только онлайн",
           "direction": "Реклама",
           "subject": "Маркетинговые коммуникации",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "1. пт 12:00-13:30 нечет/чет 2. чт 12:00-13:30 нечет/чет 3. пт 12:00-13:30 нечет/чет",
           "load": 4.5,
-          "status": "Назначено (онлайн)",
+          "status": "Назначено",
           "confirmed": true,
           "syllabusCandidates": [
             {
@@ -5889,14 +6485,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 41,
+          "sourceSheet": "Расписание",
+          "sourceRow": 92,
           "teacher": "Яблонских Анастасия",
           "firstName": "Анастасия",
           "teacherFormat": "Только онлайн",
           "direction": "Реклама",
           "subject": "Производство рекламной продукции 3 курс",
           "group": "Группа 2",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 3,
           "schedule": "1. чт 15:40-17:10 нечет/чет 2. пт 15:40-17:10 нечет/чет",
           "load": 3,
@@ -5978,14 +6577,17 @@ export const DATA_SNAPSHOT = {
           ]
         },
         {
-          "sourceSheet": "Реклама+ЭК",
-          "sourceRow": 42,
+          "sourceSheet": "Расписание",
+          "sourceRow": 93,
           "teacher": "Яблонских Анастасия",
           "firstName": "Анастасия",
           "teacherFormat": "Только онлайн",
           "direction": "Реклама",
           "subject": "Производство рекламной продукции 4 курс",
           "group": "Все группы",
+          "audience": "",
+          "mode": "Онлайн",
+          "lessonType": "Поток",
           "course": 4,
           "schedule": "1. пн 14:00-15:30 нечет/чет 2. вт 14:00-15:30 нечет/чет 3. пт 14:00-15:30 нечет/чет",
           "load": 4.5,
@@ -6028,6 +6630,55 @@ export const DATA_SNAPSHOT = {
               "curatorLead": "Гравис",
               "chat": "https://t.me/+WSongQf6LFg0NzE6",
               "sourceRow": 97
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ябриков Артем",
+      "firstName": "Артем",
+      "assignments": [
+        {
+          "sourceSheet": "Расписание",
+          "sourceRow": 10,
+          "teacher": "Ябриков Артем",
+          "firstName": "Артем",
+          "teacherFormat": "",
+          "direction": "Дизайн",
+          "subject": "Дизайн-проектирование (Графика, Figma)",
+          "group": "ВРН-1",
+          "audience": "",
+          "mode": "Очно",
+          "lessonType": "Семинар",
+          "course": 2,
+          "schedule": "пт 12:00-13:00 нечет / пт 14:00-15:30 чет",
+          "load": 1.5,
+          "status": "Назначено",
+          "confirmed": true,
+          "syllabusCandidates": [
+            {
+              "course": 2,
+              "direction": "Дизайн",
+              "subject": "Дизайн-проектирование",
+              "key": "дизайн-проектирование",
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBaKhDXU1vvT4G3vxPk2US7ASJo4sNPTrLz1VM_b5ZHsc0?e=aCofik"
+            }
+          ],
+          "chatInfo": {
+            "group": "ВРН 1-25 Дизайн",
+            "curator": "Дахин Иван",
+            "curatorLead": "Павлова",
+            "chat": "https://t.me/+WzHIudQY8URhNGYy",
+            "sourceRow": 29
+          },
+          "chatInfos": [
+            {
+              "group": "ВРН 1-25 Дизайн",
+              "curator": "Дахин Иван",
+              "curatorLead": "Павлова",
+              "chat": "https://t.me/+WzHIudQY8URhNGYy",
+              "sourceRow": 29
             }
           ]
         }
