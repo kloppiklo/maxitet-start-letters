@@ -23,10 +23,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Реклама",
               "subject": "Копирайтинг",
               "key": "копирайтинг",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAqFlYutuArSba_KvvGWyVuAW8XwTLgF83od80J136BX3k?e=SAqNjK"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCHG5NcDkIsQZde_4MpjNIAATxLusEpNzxrPLewRXBJEtA?e=QeVqlL"
             }
           ],
           "chatInfo": {
@@ -66,7 +66,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Бренд-менеджмент",
               "key": "бренд-менеджмент",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAornHvKGMkQYwMML8ymptYAa-oDoB9ZrCBYjOTEY3-E8U?e=JSpUxn"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCXDsmM_ZHcTYagNg9K3ev2AWOmXCVp4m2tHOSo3ognNCw?e=ekXhrs"
             }
           ],
           "chatInfo": {
@@ -109,10 +109,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -155,10 +155,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Дизайн",
               "subject": "Дизайн-проектирование",
               "key": "дизайн-проектирование",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAjFPww27NqSo3z9kcnqeNeAbZiq2amnfTLTCOpXMuhXJI?e=0hzS5g"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBaKhDXU1vvT4G3vxPk2US7ASJo4sNPTrLz1VM_b5ZHsc0?e=aCofik"
             }
           ],
           "chatInfo": {
@@ -195,10 +195,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Дизайн",
               "subject": "Дизайн-проектирование",
               "key": "дизайн-проектирование",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAjFPww27NqSo3z9kcnqeNeAbZiq2amnfTLTCOpXMuhXJI?e=0hzS5g"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBaKhDXU1vvT4G3vxPk2US7ASJo4sNPTrLz1VM_b5ZHsc0?e=aCofik"
             }
           ],
           "chatInfo": {
@@ -238,7 +238,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Тренинг дизайн-мышления",
               "key": "тренинг дизайн-мышления",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD87IidPMLcSYuTe5lxeBmqATRWtgoT3CUqdb0QZLMf6Xo?e=xiWa0h"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBPOoZpBk-eQoSehHxvXb0lAU0sphe8WuLPQckf9a0fct8?e=Qg3pLJ"
             }
           ],
           "chatInfo": {
@@ -278,7 +278,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Тренинг дизайн-мышления",
               "key": "тренинг дизайн-мышления",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD87IidPMLcSYuTe5lxeBmqATRWtgoT3CUqdb0QZLMf6Xo?e=xiWa0h"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBPOoZpBk-eQoSehHxvXb0lAU0sphe8WuLPQckf9a0fct8?e=Qg3pLJ"
             }
           ],
           "chatInfo": {
@@ -318,7 +318,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Тренинг дизайн-мышления",
               "key": "тренинг дизайн-мышления",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD87IidPMLcSYuTe5lxeBmqATRWtgoT3CUqdb0QZLMf6Xo?e=xiWa0h"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBPOoZpBk-eQoSehHxvXb0lAU0sphe8WuLPQckf9a0fct8?e=Qg3pLJ"
             }
           ],
           "chatInfo": {
@@ -358,7 +358,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Искусственный интеллект в дизайне",
               "key": "искусственный интеллект в дизайне",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD2-HwrM-WFSIyWXavEewxnAdTRWYJ9t-1KP77sBMRp_DY?e=HcxA5I"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAkThdknD39Ta8Wc6efCf5QAYfI0_7PHT6yFERkZ8N53BQ?e=AOBxU0"
             }
           ],
           "chatInfo": {
@@ -398,7 +398,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Искусственный интеллект в дизайне",
               "key": "искусственный интеллект в дизайне",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD2-HwrM-WFSIyWXavEewxnAdTRWYJ9t-1KP77sBMRp_DY?e=HcxA5I"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAkThdknD39Ta8Wc6efCf5QAYfI0_7PHT6yFERkZ8N53BQ?e=AOBxU0"
             }
           ],
           "chatInfo": {
@@ -438,7 +438,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Формальная композиция",
               "key": "формальная композиция",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQDM9wfley2rT76L1rlg8F6oAfblq8mxNVwjBQNW5chwevE?e=GCf3vi"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAR9XwXkQokTbzb-x1ljF96Aa0Ti0m37vB6KZ2QeJi2xP4?e=ktpLXg"
             }
           ],
           "chatInfo": {
@@ -484,7 +484,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Моушен-дизайн",
               "key": "моушен-дизайн",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQB4h-gJOBE3QZ8g1uM7J2KqAThrVsQ13GNrAcKq3cFveNQ?e=uepQDq"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQD3pJRkqD3ASpTa8_ITTwtvAScufwWb_rFIVDhR4h58HUw?e=TtbTRE"
             }
           ],
           "chatInfo": {
@@ -527,10 +527,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Дизайн",
               "subject": "Дизайн-проектирование",
               "key": "дизайн-проектирование",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAjFPww27NqSo3z9kcnqeNeAbZiq2amnfTLTCOpXMuhXJI?e=0hzS5g"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBaKhDXU1vvT4G3vxPk2US7ASJo4sNPTrLz1VM_b5ZHsc0?e=aCofik"
             }
           ],
           "chatInfo": {
@@ -570,7 +570,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Тренинг дизайн-мышления",
               "key": "тренинг дизайн-мышления",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD87IidPMLcSYuTe5lxeBmqATRWtgoT3CUqdb0QZLMf6Xo?e=xiWa0h"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBPOoZpBk-eQoSehHxvXb0lAU0sphe8WuLPQckf9a0fct8?e=Qg3pLJ"
             }
           ],
           "chatInfo": {
@@ -610,7 +610,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Искусственный интеллект в дизайне",
               "key": "искусственный интеллект в дизайне",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD2-HwrM-WFSIyWXavEewxnAdTRWYJ9t-1KP77sBMRp_DY?e=HcxA5I"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAkThdknD39Ta8Wc6efCf5QAYfI0_7PHT6yFERkZ8N53BQ?e=AOBxU0"
             }
           ],
           "chatInfo": {
@@ -650,7 +650,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Стилизация",
               "key": "стилизация",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQBWsiDVxWruToOZ4xf_7dKrAQHS10ot-TX9XNInPA2sVmY?e=t6M0ND"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAmuhSdEBaaRZA5SuTcIOggAf3ZSQuNG1g7cCtoixE-kqM?e=bfK9xm"
             }
           ],
           "chatInfo": {
@@ -696,7 +696,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Бренд-менеджмент",
               "key": "бренд-менеджмент",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAornHvKGMkQYwMML8ymptYAa-oDoB9ZrCBYjOTEY3-E8U?e=JSpUxn"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCXDsmM_ZHcTYagNg9K3ev2AWOmXCVp4m2tHOSo3ognNCw?e=ekXhrs"
             }
           ],
           "chatInfo": {
@@ -733,10 +733,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 1,
-              "direction": "Реклама",
+              "direction": "Экономика",
               "subject": "Введение в специальность Экономика и бух. учёт",
               "key": "введение в специальность экономика и бух. учет",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCnG46EWsPqRYOyGY_po_OAAQW0fh0Mc4Kh_wjl0K7TKj0?e=bIazzU"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCfRRaWfrwgSo0XkAZW_hltAad_684BXuRqO-KQ-UJZfcE?e=lNbgxc"
             }
           ],
           "chatInfo": null,
@@ -765,10 +765,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "ИСП",
               "subject": "Веб-верстка HTML/CSS",
               "key": "веб-верстка html/css",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCOieZtD-7PRI97j53hNNm8ATnch6MgqB7YbutStZ1FExI?e=Sk4b1y"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAmDMiO5SGsTaWKyf9SIaPCAfywFIlPdmTE22u8n3j6aAs?e=ze9g9u"
             }
           ],
           "chatInfo": {
@@ -811,10 +811,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Реклама",
               "subject": "Маркетинговые исследования",
               "key": "маркетинговые исследования",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAIZCZ7RXRcR75eSua0sKKhAYNqHCLjGRMQx5fhDwsXRtE?e=oqdggl"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQALgCmbqtxTSpuVOpGCldEtAR5ZJc7t8HieDZtZE8Tvs3A?e=GcPQuS"
             }
           ],
           "chatInfo": {
@@ -858,10 +858,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -904,10 +904,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Реклама",
               "subject": "Копирайтинг",
               "key": "копирайтинг",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAqFlYutuArSba_KvvGWyVuAW8XwTLgF83od80J136BX3k?e=SAqNjK"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCHG5NcDkIsQZde_4MpjNIAATxLusEpNzxrPLewRXBJEtA?e=QeVqlL"
             }
           ],
           "chatInfo": {
@@ -944,10 +944,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Реклама",
               "subject": "Продукт и УТП",
               "key": "продукт и утп",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQChdNdHlLCYR5hhZLn9vUqhAU_R9fIuc-1dXZKMsqPHwqc?e=9CLxjL"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBoTvpIyu2TSrhW1HXYg0VvAYkZTg90jB4rUEjdcg5xZb8?e=SklEyU"
             }
           ],
           "chatInfo": {
@@ -997,10 +997,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "ИСП",
               "subject": "Архитектура аппаратных средств",
               "key": "архитектура аппаратных средств",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQDnJtzQFv67TacCz0t9X7qUAdS-ZqTahRHe6WmV-aFuDUU?e=82eVsH"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAmlDJacmaYRLrbYMtu26xtAU6ui1O5qU1lwFfZTQB9u_E?e=1sJxPg"
             }
           ],
           "chatInfo": {
@@ -1040,7 +1040,7 @@ export const DATA_SNAPSHOT = {
               "direction": "ИСП",
               "subject": "Backend-разработка. Разработка программных модулей",
               "key": "backend-разработка. разработка программных модулей",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCZz4Owb-YORonpgVVm4o--AYoFV_rNjqEcT_qpVhgsgDk?e=5aoqiy"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQC5KKDWj3HrQ5LXMpjWYPA4AXdC0T0bXI-_sOlRQQCvYD8?e=b8SP5N"
             }
           ],
           "chatInfo": {
@@ -1080,7 +1080,7 @@ export const DATA_SNAPSHOT = {
               "direction": "ИСП",
               "subject": "Поддержка и тестирование программных модулей",
               "key": "поддержка и тестирование программных модулей",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQB4vYy5Rrk6SbuMu18VXG1uATuzaJvnJvju1I-tEAnNFBY?e=25nrvf"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDCX2f3fD1gTJs71T2VlMLeAfJN7BhOxLNCwIJ_ZQQtxls?e=LDq5ts"
             }
           ],
           "chatInfo": {
@@ -1120,7 +1120,7 @@ export const DATA_SNAPSHOT = {
               "direction": "ИСП",
               "subject": "Frontend-разработка. Технологии разработки ПО",
               "key": "frontend-разработка. технологии разработки по",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQBstdSfXE7fSK1xsct15IWCAYvXkwAdw3T_JlFsA6d-RjA?e=jHUkxq"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCI0i5x0mhfRYM-8rNRvl8HAdV9-ShaAk2_jXqQUPBMTOQ?e=4bR64F"
             }
           ],
           "chatInfo": {
@@ -1160,7 +1160,7 @@ export const DATA_SNAPSHOT = {
               "direction": "ИСП",
               "subject": "Введение в машинное обучение",
               "key": "введение в машинное обучение",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAzgmlgLQFgTI3Jr_XY7x49AQ_LfkbOCI1UvjvyeQ4aM-0?e=vE2sL1"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQABiMxGWNOqQIRIUPaZvRPlAYf3TlfF5KLkVqCH_EYTrvk?e=bLMoCd"
             }
           ],
           "chatInfo": {
@@ -1203,10 +1203,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -1249,10 +1249,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Реклама",
               "subject": "Копирайтинг",
               "key": "копирайтинг",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAqFlYutuArSba_KvvGWyVuAW8XwTLgF83od80J136BX3k?e=SAqNjK"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCHG5NcDkIsQZde_4MpjNIAATxLusEpNzxrPLewRXBJEtA?e=QeVqlL"
             }
           ],
           "chatInfo": {
@@ -1298,7 +1298,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Тренинг дизайн-мышления",
               "key": "тренинг дизайн-мышления",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD87IidPMLcSYuTe5lxeBmqATRWtgoT3CUqdb0QZLMf6Xo?e=xiWa0h"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBPOoZpBk-eQoSehHxvXb0lAU0sphe8WuLPQckf9a0fct8?e=Qg3pLJ"
             }
           ],
           "chatInfo": {
@@ -1335,10 +1335,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Дизайн",
               "subject": "Растровая графика",
               "key": "растровая графика",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCNLitCyBnKRpXtZf0aHT_uAbF6MsNvWuU0UN5dmHw0Ook?e=uQ323h"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDXWbi-bHI3Sb9bZK1Mgt0lAZudWTegtH4ppImdyqHpg40?e=9FcUCu"
             }
           ],
           "chatInfo": {
@@ -1381,10 +1381,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -1427,10 +1427,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Реклама",
               "subject": "Копирайтинг",
               "key": "копирайтинг",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAqFlYutuArSba_KvvGWyVuAW8XwTLgF83od80J136BX3k?e=SAqNjK"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCHG5NcDkIsQZde_4MpjNIAATxLusEpNzxrPLewRXBJEtA?e=QeVqlL"
             }
           ],
           "chatInfo": {
@@ -1467,10 +1467,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 1,
-              "direction": "Дизайн",
+              "direction": "Реклама",
               "subject": "Введение в специальность Реклама",
               "key": "введение в специальность реклама",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQBGc7LNJVZaRYorHJPqVToEARge-CZ8afmgSK1ikMqzjb4?e=wk5ruy"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCROHSNh9H4RaZ_HoMpTSeXAcc23qePzoP8baB_eJV12G4?e=obnkmy"
             }
           ],
           "chatInfo": {
@@ -1507,10 +1507,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Реклама",
               "subject": "Продукт и УТП",
               "key": "продукт и утп",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQChdNdHlLCYR5hhZLn9vUqhAU_R9fIuc-1dXZKMsqPHwqc?e=9CLxjL"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBoTvpIyu2TSrhW1HXYg0VvAYkZTg90jB4rUEjdcg5xZb8?e=SklEyU"
             }
           ],
           "chatInfo": {
@@ -1571,7 +1571,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Бренд-менеджмент",
               "key": "бренд-менеджмент",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAornHvKGMkQYwMML8ymptYAa-oDoB9ZrCBYjOTEY3-E8U?e=JSpUxn"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCXDsmM_ZHcTYagNg9K3ev2AWOmXCVp4m2tHOSo3ognNCw?e=ekXhrs"
             }
           ],
           "chatInfo": {
@@ -1614,10 +1614,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Реклама",
               "subject": "Продукт и УТП",
               "key": "продукт и утп",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQChdNdHlLCYR5hhZLn9vUqhAU_R9fIuc-1dXZKMsqPHwqc?e=9CLxjL"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBoTvpIyu2TSrhW1HXYg0VvAYkZTg90jB4rUEjdcg5xZb8?e=SklEyU"
             }
           ],
           "chatInfo": {
@@ -1661,10 +1661,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Реклама",
               "subject": "Копирайтинг",
               "key": "копирайтинг",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAqFlYutuArSba_KvvGWyVuAW8XwTLgF83od80J136BX3k?e=SAqNjK"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCHG5NcDkIsQZde_4MpjNIAATxLusEpNzxrPLewRXBJEtA?e=QeVqlL"
             }
           ],
           "chatInfo": {
@@ -1707,10 +1707,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Реклама",
               "subject": "Копирайтинг",
               "key": "копирайтинг",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAqFlYutuArSba_KvvGWyVuAW8XwTLgF83od80J136BX3k?e=SAqNjK"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCHG5NcDkIsQZde_4MpjNIAATxLusEpNzxrPLewRXBJEtA?e=QeVqlL"
             }
           ],
           "chatInfo": {
@@ -1747,10 +1747,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Реклама",
               "subject": "Копирайтинг",
               "key": "копирайтинг",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAqFlYutuArSba_KvvGWyVuAW8XwTLgF83od80J136BX3k?e=SAqNjK"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCHG5NcDkIsQZde_4MpjNIAATxLusEpNzxrPLewRXBJEtA?e=QeVqlL"
             }
           ],
           "chatInfo": {
@@ -1790,7 +1790,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Бренд-менеджмент",
               "key": "бренд-менеджмент",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAornHvKGMkQYwMML8ymptYAa-oDoB9ZrCBYjOTEY3-E8U?e=JSpUxn"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCXDsmM_ZHcTYagNg9K3ev2AWOmXCVp4m2tHOSo3ognNCw?e=ekXhrs"
             }
           ],
           "chatInfo": {
@@ -1833,10 +1833,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Дизайн",
               "subject": "Дизайн-проектирование",
               "key": "дизайн-проектирование",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAjFPww27NqSo3z9kcnqeNeAbZiq2amnfTLTCOpXMuhXJI?e=0hzS5g"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBaKhDXU1vvT4G3vxPk2US7ASJo4sNPTrLz1VM_b5ZHsc0?e=aCofik"
             }
           ],
           "chatInfo": {
@@ -1873,10 +1873,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Дизайн",
               "subject": "Основы веб-дизайна",
               "key": "основы веб-дизайна",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAAokGSC8lWToLuh65je4ROAd48y4bIbUwrGiDkJl03PQo?e=b8s0o5"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQD9eqA-QYN6SLU_5FBUlivaAX8uvhPeAHMIKtxwp77r0Es?e=DDFldQ"
             }
           ],
           "chatInfo": {
@@ -1913,10 +1913,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Реклама",
               "subject": "Дизайн в маркетинге",
               "key": "дизайн в маркетинге",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQDxbpN4jCfrSZ49hYTBx9xmAQAwbWOB3kGp34s6tVi7VLU?e=YIgm3x"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBb4emc3AUYRJp-nA15eaGuAeq_5KBWjWILHnPs5xtHM1A?e=1cgQZL"
             }
           ],
           "chatInfo": {
@@ -1959,10 +1959,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Реклама",
               "subject": "Маркетинговые исследования",
               "key": "маркетинговые исследования",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAIZCZ7RXRcR75eSua0sKKhAYNqHCLjGRMQx5fhDwsXRtE?e=oqdggl"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQALgCmbqtxTSpuVOpGCldEtAR5ZJc7t8HieDZtZE8Tvs3A?e=GcPQuS"
             }
           ],
           "chatInfo": {
@@ -2009,7 +2009,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Интернет-реклама",
               "key": "интернет-реклама",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAmzJHSNThIR5e9igfSBU1ZATz0tU3KjEPKfkN9wzzjObU?e=p7exCa"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCqGVxICBVwR6o7XsVw9am6AXHcutPECKpbw0s03QWM5DE?e=JrZJdq"
             }
           ],
           "chatInfo": {
@@ -2049,7 +2049,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Интернет-реклама",
               "key": "интернет-реклама",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAX9ZCxIHS5QbIhKlNJpJozASJp3afyne2SJka2wSDkGv8?e=AtnyQV"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAv7LeDhxvjSJUfHa0q3l-QAXie7mVI0d4F91JB5IJxiZA?e=buIAk9"
             }
           ],
           "chatInfo": {
@@ -2106,10 +2106,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "ИСП",
               "subject": "Веб-верстка HTML/CSS",
               "key": "веб-верстка html/css",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCOieZtD-7PRI97j53hNNm8ATnch6MgqB7YbutStZ1FExI?e=Sk4b1y"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAmDMiO5SGsTaWKyf9SIaPCAfywFIlPdmTE22u8n3j6aAs?e=ze9g9u"
             }
           ],
           "chatInfo": {
@@ -2146,10 +2146,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -2192,10 +2192,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "ИСП",
               "subject": "Веб-верстка HTML/CSS",
               "key": "веб-верстка html/css",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCOieZtD-7PRI97j53hNNm8ATnch6MgqB7YbutStZ1FExI?e=Sk4b1y"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAmDMiO5SGsTaWKyf9SIaPCAfywFIlPdmTE22u8n3j6aAs?e=ze9g9u"
             }
           ],
           "chatInfo": {
@@ -2232,10 +2232,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "ИСП",
               "subject": "Веб-верстка HTML/CSS",
               "key": "веб-верстка html/css",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCOieZtD-7PRI97j53hNNm8ATnch6MgqB7YbutStZ1FExI?e=Sk4b1y"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAmDMiO5SGsTaWKyf9SIaPCAfywFIlPdmTE22u8n3j6aAs?e=ze9g9u"
             }
           ],
           "chatInfo": {
@@ -2272,10 +2272,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -2315,7 +2315,7 @@ export const DATA_SNAPSHOT = {
               "direction": "ИСП",
               "subject": "Стандартизация, сертификация и техническое документирование",
               "key": "стандартизация, сертификация и техническое документирование",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQC_EGJfPHUvT4idmtasFp4sAcyr0OplYXo60-EsfLEmv5I?e=l4rBkG"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQC2exsVofjvT4kMkMdYuGL7AZl_g5setjPipiydr-68t3g?e=Yhn7HJ"
             }
           ],
           "chatInfo": {
@@ -2361,7 +2361,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Бренд-менеджмент",
               "key": "бренд-менеджмент",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAornHvKGMkQYwMML8ymptYAa-oDoB9ZrCBYjOTEY3-E8U?e=JSpUxn"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCXDsmM_ZHcTYagNg9K3ev2AWOmXCVp4m2tHOSo3ognNCw?e=ekXhrs"
             }
           ],
           "chatInfo": {
@@ -2401,7 +2401,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Маркетинговые исследования",
               "key": "маркетинговые исследования",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQC9L8-_d75mRY080PkvYKxRATNeFRd1KVBJ0z30Ccv5054?e=vrymcY"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDbUl8Ws4IWTJjtfnNQ0_lxAbqVM9FEJ_k6Eu99DX18I7c?e=hAd6YG"
             }
           ],
           "chatInfo": {
@@ -2496,7 +2496,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Введение в специальность Дизайн",
               "key": "введение в специальность дизайн",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCZE6nN15TVQbFAmfpzrBSQAZxkjtibf0rA1xEFtgU76iM?e=Aj2ZZb"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCv2ZywimQNTZjCeI2boHMoAWf8MSG5U0hp5E60YCJdmgY?e=6BHBxZ"
             }
           ],
           "chatInfo": {
@@ -2539,10 +2539,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -2585,10 +2585,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -2625,10 +2625,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Реклама",
               "subject": "Копирайтинг",
               "key": "копирайтинг",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAqFlYutuArSba_KvvGWyVuAW8XwTLgF83od80J136BX3k?e=SAqNjK"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCHG5NcDkIsQZde_4MpjNIAATxLusEpNzxrPLewRXBJEtA?e=QeVqlL"
             }
           ],
           "chatInfo": {
@@ -2668,7 +2668,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Бренд-менеджмент",
               "key": "бренд-менеджмент",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAornHvKGMkQYwMML8ymptYAa-oDoB9ZrCBYjOTEY3-E8U?e=JSpUxn"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCXDsmM_ZHcTYagNg9K3ev2AWOmXCVp4m2tHOSo3ognNCw?e=ekXhrs"
             }
           ],
           "chatInfo": {
@@ -2711,10 +2711,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Дизайн",
               "subject": "Основы бренд-дизайна",
               "key": "основы бренд-дизайна",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAEemfS6WPQR6wgvIsPWgZIAXf4GhnoBD2dteZunx8wmLc?e=mPQtmL"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQD8LFw-o9H9SLyfj3Utm5rLAckZXj1cLNkZk9P-UqJJqBk?e=RfffLt"
             }
           ],
           "chatInfo": {
@@ -2754,7 +2754,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Искусственный интеллект в дизайне",
               "key": "искусственный интеллект в дизайне",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD2-HwrM-WFSIyWXavEewxnAdTRWYJ9t-1KP77sBMRp_DY?e=HcxA5I"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAkThdknD39Ta8Wc6efCf5QAYfI0_7PHT6yFERkZ8N53BQ?e=AOBxU0"
             }
           ],
           "chatInfo": {
@@ -2794,7 +2794,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Айдентика и фирменный стиль",
               "key": "айдентика и фирменный стиль",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAaC1IcLxOwQYIGeMMBcd3eAUNlM1T2pY4tzYZdIo9sOcI?e=q5rcqj"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDhWlsgdmaPS6jqmv1vIxIXAT2DrQZqAUA2pbEjiNPyUjQ?e=nu0rv9"
             }
           ],
           "chatInfo": {
@@ -2834,7 +2834,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Продвинутое дизайн-проектирование",
               "key": "продвинутое дизайн-проектирование",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQDlm8wWVlUmS43GBndkG2nXAfnkAbYNh5xY1d_hUHeJNBU?e=qpCP7n"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCBi9ReXgNSSplGvPn4OdEuAXy8lv3sAUjFyiPK5pHd_7I?e=4he0bl"
             }
           ],
           "chatInfo": {
@@ -2888,7 +2888,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Искусственный интеллект в дизайне",
               "key": "искусственный интеллект в дизайне",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD2-HwrM-WFSIyWXavEewxnAdTRWYJ9t-1KP77sBMRp_DY?e=HcxA5I"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAkThdknD39Ta8Wc6efCf5QAYfI0_7PHT6yFERkZ8N53BQ?e=AOBxU0"
             }
           ],
           "chatInfo": {
@@ -2942,7 +2942,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "UX/UI дизайн",
               "key": "ux/ui дизайн",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQBDYnIASaXpR70Y5jxVmceSAakaUbrGSrMsTE_XWEpcNkg?e=12xQzE"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCVlxPqNBXaRIPoFPquHX00ASKUam39_uwnU-57hHI_6fY?e=sNFgbq"
             }
           ],
           "chatInfo": {
@@ -3002,7 +3002,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Производство рекламной продукции",
               "key": "производство рекламной продукции",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAawinapoYMQLOvNIXrBjWOAWSC4QaIye4X74dUO7_HMvM?e=FjBzqy"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDDO2gSYfpyR4kpFqqqS0sjATeLoC0P8-waUH4GS1ubGso?e=Zs9Q2U"
             }
           ],
           "chatInfo": {
@@ -3094,10 +3094,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "ИСП",
               "subject": "Веб-верстка HTML/CSS",
               "key": "веб-верстка html/css",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCOieZtD-7PRI97j53hNNm8ATnch6MgqB7YbutStZ1FExI?e=Sk4b1y"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAmDMiO5SGsTaWKyf9SIaPCAfywFIlPdmTE22u8n3j6aAs?e=ze9g9u"
             }
           ],
           "chatInfo": {
@@ -3134,10 +3134,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -3177,7 +3177,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Все",
               "subject": "Бизнес-аналитика(ОП.01 Экономика организации)",
               "key": "бизнес-аналитика(оп.01 экономика организации)",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQC9Qu5NjZPeRbMbp5Cv_pCkAcEtR_0k-rZxJzjqDUTp8jI?e=y58WLn"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDR4XIM3EIrTrUIRm-0G6lJAU9pSxgNe-afvqiO3iG4pro?e=3EkWI4"
             }
           ],
           "chatInfo": {
@@ -3231,7 +3231,7 @@ export const DATA_SNAPSHOT = {
               "direction": "ИСП",
               "subject": "Подготовка к ГИА",
               "key": "подготовка к гиа",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQBxp4waU9JmRq6JyzUsLWmuAVaLmG96brUh7AVU8IsCJK4?e=gUSFbD"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQATJJiLVACPSYPUPgOr7fxuAZgvfR48oEs19U_bu6re8vg?e=XDu2bw"
             }
           ],
           "chatInfo": {
@@ -3274,10 +3274,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -3314,10 +3314,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "ИСП",
               "subject": "Веб-верстка HTML/CSS",
               "key": "веб-верстка html/css",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCOieZtD-7PRI97j53hNNm8ATnch6MgqB7YbutStZ1FExI?e=Sk4b1y"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAmDMiO5SGsTaWKyf9SIaPCAfywFIlPdmTE22u8n3j6aAs?e=ze9g9u"
             }
           ],
           "chatInfo": {
@@ -3354,10 +3354,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "ИСП",
               "subject": "Веб-верстка HTML/CSS",
               "key": "веб-верстка html/css",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCOieZtD-7PRI97j53hNNm8ATnch6MgqB7YbutStZ1FExI?e=Sk4b1y"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAmDMiO5SGsTaWKyf9SIaPCAfywFIlPdmTE22u8n3j6aAs?e=ze9g9u"
             }
           ],
           "chatInfo": {
@@ -3394,10 +3394,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -3434,10 +3434,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "ИСП",
               "subject": "Введение в Java",
               "key": "введение в java",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQB0MdnFy0wUTpju7S8km9EPAb_5wzK5geQxkyg-6G5KiG0?e=jWil7f"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAxHa1wrzTPTqmaE0mLpkHkAY1EwX8Sg73OECBfXiRUho0?e=snrG9R"
             }
           ],
           "chatInfo": {
@@ -3477,7 +3477,7 @@ export const DATA_SNAPSHOT = {
               "direction": "ИСП",
               "subject": "Разработка мобильных приложений",
               "key": "разработка мобильных приложений",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAmCf1fdT_uQ4vM-pB0bz6uAbithLzch7VZ475RQVmEbHE?e=51uh67"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAAWLnAexwrQ7wGcoWgzDFVAYydd4Bwme-BXvCl3T9kRYY?e=49unKf"
             }
           ],
           "chatInfo": {
@@ -3517,7 +3517,7 @@ export const DATA_SNAPSHOT = {
               "direction": "ИСП",
               "subject": "Подготовка к ГИА",
               "key": "подготовка к гиа",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQBxp4waU9JmRq6JyzUsLWmuAVaLmG96brUh7AVU8IsCJK4?e=gUSFbD"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQATJJiLVACPSYPUPgOr7fxuAZgvfR48oEs19U_bu6re8vg?e=XDu2bw"
             }
           ],
           "chatInfo": {
@@ -3557,7 +3557,7 @@ export const DATA_SNAPSHOT = {
               "direction": "ИСП",
               "subject": "Подготовка к ГИА",
               "key": "подготовка к гиа",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQBxp4waU9JmRq6JyzUsLWmuAVaLmG96brUh7AVU8IsCJK4?e=gUSFbD"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQATJJiLVACPSYPUPgOr7fxuAZgvfR48oEs19U_bu6re8vg?e=XDu2bw"
             }
           ],
           "chatInfo": {
@@ -3600,10 +3600,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Экономика",
               "subject": "Бизнес-аналитика(ОП.01 Экономика организации)",
               "key": "бизнес-аналитика(оп.01 экономика организации)",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCW8mlLf3UdSqRcUnUTFKOPAULQCMp5G9j4cLy2C8sJ2e0?e=jvI4JB"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCcTgKmUcHIT6etoJtvdtt_Actnqh3EPMw9jvGYUp8LJ7Q?e=T8UekN"
             }
           ],
           "chatInfo": {
@@ -3664,7 +3664,7 @@ export const DATA_SNAPSHOT = {
               "direction": "ИСП",
               "subject": "Системное программирование",
               "key": "системное программирование",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQBTBRoqSvEaR64upSu16QNRAa-EWXB_leo0Zp2_GT1U7TI?e=zsC6Wg"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAOMIy4jWihRrHHEmFksLx2ARCxHNEXQSmhBPbcCzA6SqM?e=WIo6e9"
             }
           ],
           "chatInfo": {
@@ -3707,10 +3707,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Дизайн",
               "subject": "Базовые инструменты Figma",
               "key": "базовые инструменты figma",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQDrEwzSl99nSqwbI2Ic1zuHAfT4pgC6xgPiR9LHpMfbZcU?e=YnqosG"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAPDF7d91pxR47foriRt0uaAcje3MaNfxzhSASmYeHoAf8?e=LK2gOL"
             }
           ],
           "chatInfo": {
@@ -3747,10 +3747,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Дизайн",
               "subject": "Дизайн-проектирование",
               "key": "дизайн-проектирование",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAjFPww27NqSo3z9kcnqeNeAbZiq2amnfTLTCOpXMuhXJI?e=0hzS5g"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBaKhDXU1vvT4G3vxPk2US7ASJo4sNPTrLz1VM_b5ZHsc0?e=aCofik"
             }
           ],
           "chatInfo": {
@@ -3793,10 +3793,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Дизайн",
               "subject": "Дизайн-проектирование",
               "key": "дизайн-проектирование",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAjFPww27NqSo3z9kcnqeNeAbZiq2amnfTLTCOpXMuhXJI?e=0hzS5g"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBaKhDXU1vvT4G3vxPk2US7ASJo4sNPTrLz1VM_b5ZHsc0?e=aCofik"
             }
           ],
           "chatInfo": {
@@ -3833,10 +3833,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Дизайн",
               "subject": "Дизайн-проектирование",
               "key": "дизайн-проектирование",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAjFPww27NqSo3z9kcnqeNeAbZiq2amnfTLTCOpXMuhXJI?e=0hzS5g"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBaKhDXU1vvT4G3vxPk2US7ASJo4sNPTrLz1VM_b5ZHsc0?e=aCofik"
             }
           ],
           "chatInfo": {
@@ -3873,10 +3873,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -3913,10 +3913,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -3953,10 +3953,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -3996,7 +3996,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Тренинг дизайн-мышления",
               "key": "тренинг дизайн-мышления",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD87IidPMLcSYuTe5lxeBmqATRWtgoT3CUqdb0QZLMf6Xo?e=xiWa0h"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBPOoZpBk-eQoSehHxvXb0lAU0sphe8WuLPQckf9a0fct8?e=Qg3pLJ"
             }
           ],
           "chatInfo": {
@@ -4036,7 +4036,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Искусственный интеллект в дизайне",
               "key": "искусственный интеллект в дизайне",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD2-HwrM-WFSIyWXavEewxnAdTRWYJ9t-1KP77sBMRp_DY?e=HcxA5I"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAkThdknD39Ta8Wc6efCf5QAYfI0_7PHT6yFERkZ8N53BQ?e=AOBxU0"
             }
           ],
           "chatInfo": {
@@ -4076,7 +4076,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Типографика и верстка",
               "key": "типографика и верстка",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAcYrCFf7v1QbBqrk--FXtrAS7ZVUR_0XVd8myi1CugkW4?e=Z5o0wE"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBNI80hf3lKSIf-nsmx493bAdi7EcExSaiaTAOBG5FcvGQ?e=eZqH8W"
             }
           ],
           "chatInfo": {
@@ -4116,7 +4116,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Техника и технологии рекламной фотографии и видео",
               "key": "техника и технологии рекламной фотографии и видео",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAPRrEdEB0hQreUcWpFqRT3AYQ1NxwaCGLtIvrDDZI1uMk?e=ds4Z23"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQB_Gb4iBFXBT4H2bJ_L828ZAfjgFtUPXBUgWXNiDJyRxc0?e=zCI3gt"
             }
           ],
           "chatInfo": {
@@ -4159,10 +4159,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "ИСП",
               "subject": "Веб-верстка HTML/CSS",
               "key": "веб-верстка html/css",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCOieZtD-7PRI97j53hNNm8ATnch6MgqB7YbutStZ1FExI?e=Sk4b1y"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAmDMiO5SGsTaWKyf9SIaPCAfywFIlPdmTE22u8n3j6aAs?e=ze9g9u"
             }
           ],
           "chatInfo": {
@@ -4202,7 +4202,7 @@ export const DATA_SNAPSHOT = {
               "direction": "ИСП",
               "subject": "Введение в разработку игр",
               "key": "введение в разработку игр",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQB_cgMMvFWZR6iBC4oLIMVRAT-KBzzcGLTaaV2jLJmRoiQ?e=XofBln"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDKNf7iICWXRp_5sTGKxmroAaaq92tIobHKw7CeTvbQcO0?e=nawbzb"
             }
           ],
           "chatInfo": {
@@ -4245,10 +4245,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "ИСП",
               "subject": "Основы алгоритмизации и программирования",
               "key": "основы алгоритмизации и программирования",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQDfBN4aLrjpQaeRNlTAp6icATtVgwJ0RvET7MyVQQCC7h0?e=GSgSdQ"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDNsAgC2gdtRov8hTNWbgmuAdOEuQt2EqB_8L5XkLYF1dg?e=U5y6cl"
             }
           ],
           "chatInfo": {
@@ -4285,10 +4285,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "ИСП",
               "subject": "Основы проектирования баз данных",
               "key": "основы проектирования баз данных",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCPJe-DvnfWRJPFeXYtWTNvAfssYZes1rVZoU8e08zdnbQ?e=0mGje6"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBTQVepFqGgSKQuipKXxXveAeYi1hIrUXQXhyEzIW5ceuY?e=guNJBT"
             }
           ],
           "chatInfo": {
@@ -4331,10 +4331,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -4371,10 +4371,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -4420,7 +4420,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Искусственный интеллект в дизайне",
               "key": "искусственный интеллект в дизайне",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD2-HwrM-WFSIyWXavEewxnAdTRWYJ9t-1KP77sBMRp_DY?e=HcxA5I"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAkThdknD39Ta8Wc6efCf5QAYfI0_7PHT6yFERkZ8N53BQ?e=AOBxU0"
             }
           ],
           "chatInfo": {
@@ -4463,10 +4463,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "ИСП",
               "subject": "Введение в анализ данных",
               "key": "введение в анализ данных",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAXqB_Lnc1zQrdR1Puurcy-ATpgEU28I6SeDMipNhXsCSY?e=2OgSs3"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCuO1MuY4zBRKcOSEZpdxu3AS3THMTqVytQnOM5mAYTY44?e=dNr96L"
             }
           ],
           "chatInfo": {
@@ -4509,10 +4509,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Дизайн",
               "subject": "Дизайн-проектирование",
               "key": "дизайн-проектирование",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAjFPww27NqSo3z9kcnqeNeAbZiq2amnfTLTCOpXMuhXJI?e=0hzS5g"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBaKhDXU1vvT4G3vxPk2US7ASJo4sNPTrLz1VM_b5ZHsc0?e=aCofik"
             }
           ],
           "chatInfo": {
@@ -4552,7 +4552,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Искусственный интеллект в дизайне",
               "key": "искусственный интеллект в дизайне",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD2-HwrM-WFSIyWXavEewxnAdTRWYJ9t-1KP77sBMRp_DY?e=HcxA5I"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAkThdknD39Ta8Wc6efCf5QAYfI0_7PHT6yFERkZ8N53BQ?e=AOBxU0"
             }
           ],
           "chatInfo": {
@@ -4595,10 +4595,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "ИСП",
               "subject": "Веб-верстка HTML/CSS",
               "key": "веб-верстка html/css",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCOieZtD-7PRI97j53hNNm8ATnch6MgqB7YbutStZ1FExI?e=Sk4b1y"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAmDMiO5SGsTaWKyf9SIaPCAfywFIlPdmTE22u8n3j6aAs?e=ze9g9u"
             }
           ],
           "chatInfo": {
@@ -4638,7 +4638,7 @@ export const DATA_SNAPSHOT = {
               "direction": "ИСП",
               "subject": "Тестирование веб-приложений. Обеспечение качества функционирования компьютерных систем",
               "key": "тестирование веб-приложений. обеспечение качества функционирования компьютерных систем",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQDsU1B5Y4dsTIRvHoxPrn7WAZjIpzxe2j1lC6kQtAwFOlU?e=zL6uD7"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDQPkRtX3OtR7Ld4pYJL0A9AWpX1ScfwQCvf6mIm4ch1KE?e=jhmgYd"
             }
           ],
           "chatInfo": {
@@ -4741,10 +4741,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -4781,10 +4781,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -4827,10 +4827,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -4876,7 +4876,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Бренд-менеджмент",
               "key": "бренд-менеджмент",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAornHvKGMkQYwMML8ymptYAa-oDoB9ZrCBYjOTEY3-E8U?e=JSpUxn"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCXDsmM_ZHcTYagNg9K3ev2AWOmXCVp4m2tHOSo3ognNCw?e=ekXhrs"
             }
           ],
           "chatInfo": {
@@ -4913,10 +4913,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Реклама",
               "subject": "Разработка бренд-стратегии",
               "key": "разработка бренд-стратегии",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQDv621cjkbiS5D39L69X-rUAb2el5m-Ac9-NnMlOPmfhWw?e=cTYHlI"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQC0rzVaFdl-Qa4Qd9ETREagAT921XBXjGvGX6mCyTADXKo?e=q66SA8"
             }
           ],
           "chatInfo": {
@@ -4959,10 +4959,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -4999,10 +4999,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Реклама",
               "subject": "Маркетинговые исследования",
               "key": "маркетинговые исследования",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAIZCZ7RXRcR75eSua0sKKhAYNqHCLjGRMQx5fhDwsXRtE?e=oqdggl"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQALgCmbqtxTSpuVOpGCldEtAR5ZJc7t8HieDZtZE8Tvs3A?e=GcPQuS"
             }
           ],
           "chatInfo": {
@@ -5063,7 +5063,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Digital-маркетинг",
               "key": "digital-маркетинг",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQDsqcs9DOKETadOT_S3LghRATQOv36oBlCUUK1_Ra5Li5I?e=F27E2N"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCtoh0R4tB8QqC1OmJHv9-KAbWM4L6qS9eKZjLQ95HX2g0?e=2GApy7"
             }
           ],
           "chatInfo": {
@@ -5155,10 +5155,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Дизайн",
               "subject": "Дизайн-проектирование",
               "key": "дизайн-проектирование",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAjFPww27NqSo3z9kcnqeNeAbZiq2amnfTLTCOpXMuhXJI?e=0hzS5g"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBaKhDXU1vvT4G3vxPk2US7ASJo4sNPTrLz1VM_b5ZHsc0?e=aCofik"
             }
           ],
           "chatInfo": {
@@ -5195,10 +5195,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -5238,7 +5238,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Тренинг дизайн-мышления",
               "key": "тренинг дизайн-мышления",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD87IidPMLcSYuTe5lxeBmqATRWtgoT3CUqdb0QZLMf6Xo?e=xiWa0h"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBPOoZpBk-eQoSehHxvXb0lAU0sphe8WuLPQckf9a0fct8?e=Qg3pLJ"
             }
           ],
           "chatInfo": {
@@ -5278,7 +5278,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Искусственный интеллект в дизайне",
               "key": "искусственный интеллект в дизайне",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD2-HwrM-WFSIyWXavEewxnAdTRWYJ9t-1KP77sBMRp_DY?e=HcxA5I"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAkThdknD39Ta8Wc6efCf5QAYfI0_7PHT6yFERkZ8N53BQ?e=AOBxU0"
             }
           ],
           "chatInfo": {
@@ -5321,10 +5321,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -5361,10 +5361,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -5401,10 +5401,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -5441,10 +5441,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 2,
-              "direction": "Другое",
+              "direction": "Все",
               "subject": "Управление проектами",
               "key": "управление проектами",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlYHqJZ_8LQ5QQLurOAaWQAT6b4fe1r36G7iBfZ-GuyTk"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDs3_a-1XeUQaNThRkjqAG-AZi9taJpBONoue9dIfY5QPk?e=P18Mxl"
             }
           ],
           "chatInfo": {
@@ -5484,7 +5484,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Маркетинговые исследования",
               "key": "маркетинговые исследования",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQC9L8-_d75mRY080PkvYKxRATNeFRd1KVBJ0z30Ccv5054?e=vrymcY"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDbUl8Ws4IWTJjtfnNQ0_lxAbqVM9FEJ_k6Eu99DX18I7c?e=hAd6YG"
             }
           ],
           "chatInfo": {
@@ -5573,7 +5573,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Проектная компьютерная графика и мультимедиа",
               "key": "проектная компьютерная графика и мультимедиа",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCBb1qyEH8nQqIk9x_zkEbiAcmGJK42YG1XHu2eaG2pH_A?e=TcYZl0"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAS1V0KpaYxTYveylAZGIm9AW_bqGQJxUBG2IF6t8A7Wf0?e=f1mJEZ"
             }
           ],
           "chatInfo": {
@@ -5630,10 +5630,10 @@ export const DATA_SNAPSHOT = {
           "syllabusCandidates": [
             {
               "course": 1,
-              "direction": "Реклама",
+              "direction": "ИСП",
               "subject": "Введение в специальность (Python)",
               "key": "введение в специальность (python)",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAlhP22WlCITqT_XVYC0oDQAZrHOndOlZMc4kI97hp2MvM?e=gOSaqy"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDnMaj_YXf0SoMY3hUb3JZ5Ab8GfrnAJNrYO00RseTFios?e=XQ3yes"
             }
           ],
           "chatInfo": {
@@ -5673,7 +5673,7 @@ export const DATA_SNAPSHOT = {
               "direction": "ИСП",
               "subject": "Технологии искусственного интеллекта",
               "key": "технологии искусственного интеллекта",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD8euKacg4KRYqVTxKvVT4gAfLAHTH3fZVHj36YfGaiMEQ?e=vmzysi"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQAG9cldXf5eQogX0mPOrqI8AQx8pZbCgP-u4vn5cOAFD1k?e=K9X508"
             }
           ],
           "chatInfo": {
@@ -5733,7 +5733,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Дизайн",
               "subject": "Тренинг дизайн-мышления",
               "key": "тренинг дизайн-мышления",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQD87IidPMLcSYuTe5lxeBmqATRWtgoT3CUqdb0QZLMf6Xo?e=xiWa0h"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBPOoZpBk-eQoSehHxvXb0lAU0sphe8WuLPQckf9a0fct8?e=Qg3pLJ"
             }
           ],
           "chatInfo": {
@@ -5779,7 +5779,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Digital-маркетинг",
               "key": "digital-маркетинг",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQDsqcs9DOKETadOT_S3LghRATQOv36oBlCUUK1_Ra5Li5I?e=F27E2N"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCtoh0R4tB8QqC1OmJHv9-KAbWM4L6qS9eKZjLQ95HX2g0?e=2GApy7"
             }
           ],
           "chatInfo": {
@@ -5868,7 +5868,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Маркетинговые коммуникации",
               "key": "маркетинговые коммуникации",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQCRIRpmdbFmTaiV49vLnWZqAUMU165d2OSc3l-79h-PsCI?e=emv6Hi"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQCf_IbCok_-SLRny2VnhpQvAaGPQLuQvg4Out5b_g1i02k?e=Fa2cWQ"
             }
           ],
           "chatInfo": {
@@ -5908,7 +5908,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Производство рекламной продукции",
               "key": "производство рекламной продукции",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQAawinapoYMQLOvNIXrBjWOAWSC4QaIye4X74dUO7_HMvM?e=FjBzqy"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQDDO2gSYfpyR4kpFqqqS0sjATeLoC0P8-waUH4GS1ubGso?e=Zs9Q2U"
             }
           ],
           "chatInfo": {
@@ -5997,7 +5997,7 @@ export const DATA_SNAPSHOT = {
               "direction": "Реклама",
               "subject": "Производство рекламной продукции",
               "key": "производство рекламной продукции",
-              "link": "https://maximum02.sharepoint.com/:x:/s/razrabotka2027/IQBnQvTsb_wGRrKRvSCMNyV7AR-ki_LYP3xuhiiBWDpdmlE?e=CCVX4W"
+              "link": "https://maximumkz.sharepoint.com/:x:/s/razrabotka2027/IQBnDaAYkhFMSrBREdZaR4zdAdbe5rMB2rzhGGRb01e1yHw?e=9SlaA4"
             }
           ],
           "chatInfo": {
