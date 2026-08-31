@@ -276,7 +276,7 @@ export default function Home() {
     <main>
       <header className="topbar">
         <a className="brand" href="#top" aria-label="Макситет — стартовые письма"><span>МАКСИТЕТ</span><i /></a>
-        <div className="snapshot"><span className="status-dot" /> Данные на 25 августа 2026</div>
+        <div className="snapshot"><span className="status-dot" /> Данные на 31 августа 2026</div>
       </header>
 
       <section className="hero" id="top">
