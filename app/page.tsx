@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { DATA_SNAPSHOT } from "./data/generated";
+import { TopNav } from "./components/top-nav";
 
 type Assignment = (typeof DATA_SNAPSHOT.teachers)[number]["assignments"][number];
 
@@ -275,10 +276,7 @@ export default function Home() {
 
   return (
     <main>
-      <header className="topbar">
-        <a className="brand" href="#top" aria-label="Макситет — стартовые письма"><span>МАКСИТЕТ</span><i /></a>
-        <div className="snapshot"><span className="status-dot" /> Данные на 31 августа 2026</div>
-      </header>
+      <TopNav active="letters" />
 
       <section className="hero" id="top">
         <div className="eyebrow">СТАРТ СЕМЕСТРА · 2026/27</div>
