@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { Fragment, useMemo, useState } from "react";
 import { TopNav } from "../components/top-nav";
 import { SCHEDULE_DATA } from "../data/schedule.generated";
 
@@ -8,6 +8,7 @@ type Flow = "replacement" | "transfer";
 type Week = "Нечётная" | "Чётная";
 
 const DAYS = ["Пн", "Вт", "Ср", "Чт", "Пт"] as const;
+const TIMES = ["10:00-11:30", "12:00-13:30", "14:00-15:30", "15:40-17:10", "17:20-18:50", "19:00-20:30"] as const;
 const DAY_INDEX: Record<string, number> = Object.fromEntries(DAYS.map((day, index) => [day, index]));
 
 function normalize(value: string) {
@@ -92,8 +93,9 @@ export default function SchedulePage() {
 
   const freeSlots = useMemo(() => SCHEDULE_DATA.freeSlots
     .filter((slot) => slot.group === groupName && slot.week === transferWeek)
-    .sort((a, b) => (DAY_INDEX[a.day] ?? 9) - (DAY_INDEX[b.day] ?? 9) || a.time.localeCompare(b.time))
-    .slice(0, 18), [groupName, transferWeek]);
+    .sort((a, b) => (DAY_INDEX[a.day] ?? 9) - (DAY_INDEX[b.day] ?? 9) || a.time.localeCompare(b.time)), [groupName, transferWeek]);
+
+  const freeSlotKeys = useMemo(() => new Set(freeSlots.map((slot) => `${slot.day}|${slot.time}`)), [freeSlots]);
 
   const changeTeacher = (nextTeacher: string) => {
     setTeacherName(nextTeacher);
@@ -172,7 +174,26 @@ export default function SchedulePage() {
 
             <div className="tool-results">
               <div className="result-heading"><div><span className="ready-dot" /><b>Свободные слоты группы</b></div><strong>{freeSlots.length}</strong></div>
-              {freeSlots.length ? <div className="slot-list">{freeSlots.map((slot) => { const key = `${slot.day}|${slot.time}`; const selected = selectedSlots.includes(key); return <button className={selected ? "slot-card selected" : "slot-card"} key={key} onClick={() => toggleSlot(key)} aria-pressed={selected}><span className="slot-check">{selected ? "✓" : "+"}</span><b>{slot.day}</b><strong>{slot.time}</strong><small>{transferWeek} неделя</small></button>; })}</div> : <div className="empty-result"><strong>Свободных слотов нет</strong><p>В выбранной неделе все доступные интервалы группы заняты.</p></div>}
+              {freeSlots.length ? (
+                <div className="week-grid-scroll">
+                  <div className="week-grid" role="grid" aria-label={`Свободные слоты группы ${groupName}, ${transferWeek.toLowerCase()} неделя`}>
+                    <div className="week-grid-corner" role="columnheader">Время</div>
+                    {DAYS.map((weekDay) => <div className="week-grid-day" role="columnheader" key={weekDay}>{weekDay}</div>)}
+                    {TIMES.map((slotTime) => (
+                      <Fragment key={slotTime}>
+                        <div className="week-grid-time" role="rowheader">{slotTime}</div>
+                        {DAYS.map((weekDay) => {
+                          const key = `${weekDay}|${slotTime}`;
+                          const available = freeSlotKeys.has(key);
+                          const selected = selectedSlots.includes(key);
+                          if (!available) return <div className="week-slot occupied" role="gridcell" key={key} aria-label={`${weekDay}, ${slotTime}: занято`}><span>—</span><small>Занято</small></div>;
+                          return <button className={selected ? "week-slot available selected" : "week-slot available"} role="gridcell" key={key} onClick={() => toggleSlot(key)} aria-pressed={selected} disabled={!selected && selectedSlots.length >= 5} aria-label={`${weekDay}, ${slotTime}: ${selected ? "выбрано" : "свободно"}`}><span>{selected ? "✓" : "+"}</span><small>{selected ? "Выбрано" : "Свободно"}</small></button>;
+                        })}
+                      </Fragment>
+                    ))}
+                  </div>
+                </div>
+              ) : <div className="empty-result"><strong>Свободных слотов нет</strong><p>В выбранной неделе все доступные интервалы группы заняты.</p></div>}
               <div className="result-footnote">Общеобразовательные и профильные пары уже учтены как занятые. Выберите до пяти вариантов для преподавателя.</div>
             </div>
           </div>

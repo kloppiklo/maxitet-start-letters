@@ -153,14 +153,25 @@ footer { max-width: 1220px; margin: 0 auto; padding: 24px; border-top: 1px solid
 .selection-count strong { font-size: 15px; }
 .copy-slots { width: 100%; margin-top: 14px; border: 0; border-radius: 11px; padding: 13px; color: white; background: var(--blue); font-size: 12px; font-weight: 800; }
 .copy-slots:disabled { cursor: not-allowed; color: #939bad; background: #e7eaf0; }
-.slot-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; padding: 17px; }
-.slot-card { position: relative; min-height: 116px; display: grid; align-content: center; justify-items: start; gap: 5px; border: 1px solid var(--line); border-radius: 14px; padding: 16px; text-align: left; color: var(--ink); background: #fafbfc; transition: border .16s ease, background .16s ease, transform .16s ease; }
-.slot-card:hover { transform: translateY(-1px); border-color: #9aabef; }
-.slot-card.selected { border-color: var(--blue); background: var(--blue-soft); box-shadow: inset 0 0 0 1px var(--blue); }
-.slot-check { position: absolute; top: 11px; right: 11px; width: 24px; height: 24px; display: grid; place-items: center; border-radius: 8px; color: var(--blue); background: white; font-weight: 900; }
-.slot-card b { color: var(--blue); font-size: 11px; }
-.slot-card strong { font-size: 15px; letter-spacing: -.02em; }
-.slot-card small { color: var(--muted); font-size: 9px; }
+.week-grid-scroll { overflow-x: auto; padding: 17px; }
+.week-grid { min-width: 760px; display: grid; grid-template-columns: 112px repeat(5, minmax(120px, 1fr)); border: 1px solid var(--line); border-radius: 15px; overflow: hidden; background: var(--line); gap: 1px; }
+.week-grid-corner, .week-grid-day { min-height: 48px; display: grid; place-items: center; padding: 10px; background: #f0f2f7; font-size: 11px; font-weight: 850; }
+.week-grid-corner { justify-items: start; padding-left: 15px; color: var(--muted); }
+.week-grid-day { color: var(--ink); }
+.week-grid-time { min-height: 74px; display: flex; align-items: center; padding: 12px 15px; color: #414958; background: #f7f8fb; font-size: 11px; font-weight: 800; white-space: nowrap; }
+.week-slot { min-height: 74px; border: 0; display: grid; place-content: center; justify-items: center; gap: 5px; background: white; }
+.week-slot span { width: 25px; height: 25px; display: grid; place-items: center; border-radius: 8px; font-size: 16px; font-weight: 900; }
+.week-slot small { font-size: 9px; font-weight: 750; }
+.week-slot.available { color: var(--blue); transition: background .16s ease, box-shadow .16s ease; }
+.week-slot.available span { background: var(--blue-soft); }
+.week-slot.available small { color: #5368bc; }
+.week-slot.available:hover { background: #f4f6ff; box-shadow: inset 0 0 0 2px #9aabef; }
+.week-slot.available.selected { position: relative; z-index: 1; background: var(--blue-soft); box-shadow: inset 0 0 0 2px var(--blue); }
+.week-slot.available.selected span { color: white; background: var(--blue); }
+.week-slot.available:disabled { cursor: not-allowed; opacity: .46; }
+.week-slot.occupied { color: #a6adba; background: #f8f9fb; }
+.week-slot.occupied span { background: #eef0f4; }
+.week-slot.occupied small { color: #989fac; }
 
 @media (max-width: 860px) {
   .topbar { padding: 12px 20px; grid-template-columns: 1fr auto; gap: 12px; }
@@ -204,7 +215,7 @@ footer { max-width: 1220px; margin: 0 auto; padding: 24px; border-top: 1px solid
   .flow-tabs { width: 100%; }
   .flow-tabs button { flex: 1; padding: 10px 8px; font-size: 11px; }
   .tool-filters { padding: 21px; }
-  .slot-list { grid-template-columns: repeat(2, minmax(0, 1fr)); padding: 12px; }
+  .week-grid-scroll { padding: 12px; }
   .candidate-card { grid-template-columns: 34px minmax(0, 1fr); }
   .candidate-load { display: none; }
   footer { flex-direction: column; padding: 24px 18px; }
