@@ -3,9 +3,10 @@
 import { Fragment, useMemo, useState } from "react";
 import { TopNav } from "../components/top-nav";
 import { SCHEDULE_DATA } from "../data/schedule.generated";
+import { getCurrentAcademicWeek, type AcademicWeek } from "../lib/current-week";
 
 type Flow = "replacement" | "transfer";
-type Week = "Нечётная" | "Чётная";
+type Week = AcademicWeek;
 
 const DAYS = ["Пн", "Вт", "Ср", "Чт", "Пт"] as const;
 const TIMES = ["10:00-11:30", "12:00-13:30", "14:00-15:30", "15:40-17:10", "17:20-18:50", "19:00-20:30"] as const;
@@ -59,6 +60,7 @@ function slotsForAssignment(assignment: (typeof SCHEDULE_DATA.assignments)[numbe
 
 const initialSlot = slotsForAssignment(defaultAssignment)[0] ?? { week: "Нечётная" as Week, day: "Пн", time: "10:00-11:30" };
 const defaultGroup = SCHEDULE_DATA.groups.find((group) => group.name === "МСК 1-26 Дизайн")?.name ?? SCHEDULE_DATA.groups[0].name;
+const currentWeek = getCurrentAcademicWeek();
 
 export default function SchedulePage() {
   const [flow, setFlow] = useState<Flow>("replacement");
@@ -68,7 +70,7 @@ export default function SchedulePage() {
   const [day, setDay] = useState(initialSlot.day);
   const [time, setTime] = useState(initialSlot.time);
   const [groupName, setGroupName] = useState(defaultGroup);
-  const [transferWeek, setTransferWeek] = useState<Week>("Нечётная");
+  const [transferWeek, setTransferWeek] = useState<Week>(currentWeek);
   const [selectedSlots, setSelectedSlots] = useState<string[]>([]);
   const [copied, setCopied] = useState(false);
 
@@ -136,7 +138,7 @@ export default function SchedulePage() {
       <TopNav active="schedule" />
       <section className="tool-heading">
         <div><div className="eyebrow">РАСПИСАНИЕ · 2026/27</div><h1>Замены и переносы</h1><p>Работаем только с профильными дисциплинами. Общеобразовательные пары остаются на месте и блокируют слот.</p></div>
-        <div className="week-pill"><span>Текущая неделя</span><strong>Нечётная</strong></div>
+        <div className="week-pill"><span>Текущая неделя</span><strong>{currentWeek}</strong></div>
       </section>
 
       <section className="schedule-tool">

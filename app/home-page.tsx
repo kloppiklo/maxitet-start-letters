@@ -1,4 +1,5 @@
 import { TopNav } from "./components/top-nav";
+import { getCurrentAcademicWeek } from "./lib/current-week";
 
 const tools = [
   {
@@ -20,6 +21,8 @@ const tools = [
 ] as const;
 
 export default function HomePage() {
+  const currentWeek = getCurrentAcademicWeek();
+
   return (
     <main>
       <TopNav active="home" />
@@ -32,7 +35,7 @@ export default function HomePage() {
         </div>
         <div className="portal-week">
           <span className="status-dot" />
-          <div><small>Учебная неделя</small><strong>Нечётная</strong></div>
+          <div><small>Учебная неделя</small><strong>{currentWeek}</strong></div>
         </div>
       </section>
 
