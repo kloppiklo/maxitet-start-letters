@@ -15,6 +15,7 @@ export default defineConfig({
         main: fileURLToPath(new URL("./pages/index.html", import.meta.url)),
         letters: fileURLToPath(new URL("./pages/letters/index.html", import.meta.url)),
         schedule: fileURLToPath(new URL("./pages/schedule/index.html", import.meta.url)),
+        reports: fileURLToPath(new URL("./pages/reports/index.html", import.meta.url)),
       },
     },
   },
