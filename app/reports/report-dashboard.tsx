@@ -10,6 +10,11 @@ const PUBLIC_SHEETS = [
   "https://docs.google.com/spreadsheets/d/1jH55sr0RFtJnxUCZ4KswKVpSCtTU-n6ES7UUClNh078/export?format=csv&gid=0",
 ] as const;
 
+const SOURCE_LINKS = [
+  { label: "Стандартные показатели", url: "https://docs.google.com/spreadsheets/d/1kxNYk29BoPG_4GXHYE0qIMiIO6UAlS45NQt-4N5i0YA/edit" },
+  { label: "Метрики М.Класс", url: "https://docs.google.com/spreadsheets/d/1jH55sr0RFtJnxUCZ4KswKVpSCtTU-n6ES7UUClNh078/edit" },
+] as const;
+
 const STATUS_LABEL: Record<SignalStatus, string> = {
   red: "Требует внимания",
   yellow: "Нужно наблюдать",
@@ -181,6 +186,9 @@ export function ReportDashboard() {
           <span><i className="status-dot" /> ДАННЫЕ АКТУАЛЬНЫ</span>
           <strong>{updatedAt}</strong>
           <button onClick={() => void load(true)} disabled={loading}>{loading ? "Обновляем…" : "Обновить данные ↻"}</button>
+          <div className="report-source-links">
+            {SOURCE_LINKS.map((source) => <a href={source.url} target="_blank" rel="noreferrer" key={source.url}>{source.label}<span aria-hidden="true">↗</span></a>)}
+          </div>
         </div>
       </section>
 
