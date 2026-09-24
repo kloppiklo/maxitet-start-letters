@@ -3,7 +3,7 @@
 import { Fragment, useMemo, useState } from "react";
 import { TopNav } from "../components/top-nav";
 import { SCHEDULE_DATA } from "../data/schedule.generated";
-import { getCurrentAcademicWeek, type AcademicWeek } from "../lib/current-week";
+import { getCurrentAcademicWeek, getCurrentAcademicWeekRange, type AcademicWeek } from "../lib/current-week";
 
 type Flow = "replacement" | "transfer";
 type Week = AcademicWeek;
@@ -61,6 +61,7 @@ function slotsForAssignment(assignment: (typeof SCHEDULE_DATA.assignments)[numbe
 const initialSlot = slotsForAssignment(defaultAssignment)[0] ?? { week: "Нечётная" as Week, day: "Пн", time: "10:00-11:30" };
 const defaultGroup = SCHEDULE_DATA.groups.find((group) => group.name === "МСК 1-26 Дизайн")?.name ?? SCHEDULE_DATA.groups[0].name;
 const currentWeek = getCurrentAcademicWeek();
+const currentWeekRange = getCurrentAcademicWeekRange();
 
 export default function SchedulePage() {
   const [flow, setFlow] = useState<Flow>("replacement");
@@ -138,7 +139,7 @@ export default function SchedulePage() {
       <TopNav active="schedule" />
       <section className="tool-heading">
         <div><div className="eyebrow">РАСПИСАНИЕ · 2026/27</div><h1>Замены и переносы</h1><p>Работаем только с профильными дисциплинами. Общеобразовательные пары остаются на месте и блокируют слот.</p></div>
-        <div className="week-pill"><span>Текущая неделя</span><strong>{currentWeek}</strong></div>
+        <div className="week-pill"><span>Текущая неделя</span><strong>{currentWeek}</strong><small>{currentWeekRange}</small></div>
       </section>
 
       <section className="schedule-tool">

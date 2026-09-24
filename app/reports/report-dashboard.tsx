@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { toPng } from "html-to-image";
 import { buildTeacherReport, parseCsv } from "./report-data";
 import type { ReportMetric, SignalStatus, TeacherReport, TeacherReportPayload } from "./report-data";
 
@@ -101,6 +102,8 @@ export function ReportDashboard() {
   const [status, setStatus] = useState<"all" | "red" | "yellow" | "green">("all");
   const [teamLead, setTeamLead] = useState("all");
   const [selectedId, setSelectedId] = useState("");
+  const [exporting, setExporting] = useState(false);
+  const reportRef = useRef<HTMLDivElement>(null);
 
   const load = async (force = false) => {
     setLoading(true);
@@ -146,6 +149,20 @@ export function ReportDashboard() {
     setSelectedId(teacher.id);
     setView("teacher");
     window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const downloadPng = async () => {
+    if (!reportRef.current || !selected) return;
+    setExporting(true);
+    try {
+      const dataUrl = await toPng(reportRef.current, { cacheBust: true, pixelRatio: 2, backgroundColor: "#f3f5f9" });
+      const link = document.createElement("a");
+      link.download = `Отчёт — ${selected.name}.png`;
+      link.href = dataUrl;
+      link.click();
+    } finally {
+      setExporting(false);
+    }
   };
 
   if (loading && !data) return <div className="report-loading" role="status"><span /><span /><span /><p>Собираем данные из двух таблиц…</p></div>;
@@ -239,9 +256,13 @@ export function ReportDashboard() {
           <div>
             <div className="teacher-picker-card">
               <label htmlFor="teacher-report-select"><span className="report-kicker">ПРЕПОДАВАТЕЛЬ</span>Выберите отчёт</label>
-              <select id="teacher-report-select" value={selected?.id ?? ""} onChange={(event) => setSelectedId(event.target.value)}>{data.teachers.map((teacher) => <option key={teacher.id} value={teacher.id}>{teacher.name} · {teacher.teamLead}</option>)}</select>
+              <div className="teacher-picker-actions">
+                <select id="teacher-report-select" value={selected?.id ?? ""} onChange={(event) => setSelectedId(event.target.value)}>{data.teachers.map((teacher) => <option key={teacher.id} value={teacher.id}>{teacher.name} · {teacher.teamLead}</option>)}</select>
+                <button type="button" className="report-export-button report-export-secondary" onClick={() => window.print()}>Сохранить PDF</button>
+                <button type="button" className="report-export-button" onClick={() => void downloadPng()} disabled={exporting}>{exporting ? "Готовим…" : "Скачать PNG"}</button>
+              </div>
             </div>
-            {selected && <TeacherDetails teacher={selected} methodology={data.methodology} />}
+            <div ref={reportRef} className="report-capture">{selected && <TeacherDetails teacher={selected} methodology={data.methodology} />}</div>
           </div>
         )}
       </section>

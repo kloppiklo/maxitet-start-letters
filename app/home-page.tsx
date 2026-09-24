@@ -1,5 +1,5 @@
 import { TopNav } from "./components/top-nav";
-import { getCurrentAcademicWeek } from "./lib/current-week";
+import { getCurrentAcademicWeek, getCurrentAcademicWeekRange, getCurrentDateLabel } from "./lib/current-week";
 
 const tools = [
   {
@@ -22,6 +22,7 @@ const tools = [
 
 export default function HomePage() {
   const currentWeek = getCurrentAcademicWeek();
+  const currentWeekRange = getCurrentAcademicWeekRange();
 
   return (
     <main>
@@ -35,7 +36,7 @@ export default function HomePage() {
         </div>
         <div className="portal-week">
           <span className="status-dot" />
-          <div><small>Учебная неделя</small><strong>{currentWeek}</strong></div>
+          <div><small>Учебная неделя</small><strong>{currentWeek}</strong><em>{currentWeekRange}</em></div>
         </div>
       </section>
 
@@ -57,7 +58,7 @@ export default function HomePage() {
         <p><b>Общеобразовательные пары защищены</b><small>В расписании они учитываются как занятые и не предлагаются для переноса.</small></p>
       </section>
 
-      <footer><span>МАКСИТЕТ · ВНУТРЕННИЙ СЕРВИС</span><span>Данные на 31 августа 2026</span></footer>
+      <footer><span>МАКСИТЕТ · ВНУТРЕННИЙ СЕРВИС</span><span>Актуально на {getCurrentDateLabel()}</span></footer>
     </main>
   );
 }

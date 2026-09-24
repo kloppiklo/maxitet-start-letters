@@ -33,9 +33,10 @@ button { cursor: pointer; }
 .portal-intro h1 em { color: var(--blue); font-style: normal; font-weight: 500; }
 .portal-intro p { max-width: 660px; margin: 0; color: var(--muted); font-size: 17px; line-height: 1.55; }
 .portal-week { flex: 0 0 218px; display: flex; align-items: center; gap: 15px; padding: 20px; border: 1px solid var(--line); border-radius: 17px; background: rgba(255,255,255,.75); }
-.portal-week small, .portal-week strong { display: block; }
+.portal-week small, .portal-week strong, .portal-week em { display: block; }
 .portal-week small { margin-bottom: 4px; color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: .1em; }
 .portal-week strong { font-size: 18px; }
+.portal-week em { margin-top: 3px; color: var(--muted); font-size: 11px; font-style: normal; }
 .portal-tools { max-width: 1220px; margin: 0 auto; padding: 0 24px 22px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
 .portal-tool-card { min-height: 330px; padding: 30px; display: flex; flex-direction: column; justify-content: space-between; color: var(--ink); text-decoration: none; border: 1px solid var(--line); border-radius: 24px; background: var(--paper); box-shadow: 0 18px 50px rgba(32,42,76,.07); transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease; }
 .portal-tool-card:hover { transform: translateY(-3px); border-color: #a7b3db; box-shadow: 0 24px 60px rgba(32,42,76,.12); }
@@ -193,6 +194,11 @@ footer { max-width: 1220px; margin: 0 auto; padding: 24px; border-top: 1px solid
 .teacher-picker-card label { font-size: 18px; font-weight: 800; }
 .teacher-picker-card label span { margin-bottom: 5px; }
 .teacher-picker-card select { min-width: 300px; }
+.teacher-picker-actions { display: flex; align-items: center; gap: 8px; }
+.report-export-button { min-width: 118px; padding: 10px 13px; border: 0; border-radius: 10px; color: white; background: var(--blue); font-size: 11px; font-weight: 800; }
+.report-export-button:disabled { cursor: wait; opacity: .65; }
+.report-export-secondary { color: var(--ink); background: #edf0f6; }
+.report-capture { border-radius: 20px; }
 .teacher-detail-head { padding: 25px; display: flex; align-items: center; gap: 15px; border-radius: 20px; color: white; background: var(--ink); }
 .teacher-detail-head h2 { margin: 3px 0; font-size: 30px; letter-spacing: -.045em; }
 .teacher-detail-head p { margin: 0; color: #aeb6c6; font-size: 11px; }
@@ -269,6 +275,7 @@ footer { max-width: 1220px; margin: 0 auto; padding: 24px; border-top: 1px solid
 .week-pill span, .week-pill strong { display: block; }
 .week-pill span { margin-bottom: 4px; color: #aab3c3; font-size: 10px; text-transform: uppercase; letter-spacing: .12em; }
 .week-pill strong { font-size: 17px; }
+.week-pill small { display: block; margin-top: 4px; color: #aab3c3; font-size: 10px; }
 
 .schedule-tool { max-width: 1220px; margin: 0 auto; padding: 0 24px 72px; }
 .flow-tabs { display: inline-flex; gap: 5px; padding: 5px; margin-bottom: 18px; border: 1px solid var(--line); border-radius: 14px; background: #e9ecf3; }
@@ -411,7 +418,19 @@ footer { max-width: 1220px; margin: 0 auto; padding: 24px; border-top: 1px solid
   .report-filters label { grid-column: auto; }
   .teacher-picker-card { align-items: stretch; flex-direction: column; }
   .teacher-picker-card select { min-width: 0; width: 100%; }
+  .teacher-picker-actions { align-items: stretch; flex-direction: column; }
+  .report-export-button { width: 100%; }
   .teacher-detail-head { align-items: flex-start; flex-wrap: wrap; }
   .teacher-detail-head .report-status { margin-left: 67px; }
   footer { flex-direction: column; padding: 24px 18px; }
+}
+
+@media print {
+  @page { size: A4 landscape; margin: 9mm; }
+  body { background: white; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .topbar, .reports-heading, .report-view-tabs, .teacher-picker-card, footer { display: none !important; }
+  .report-workspace { max-width: none; padding: 0; }
+  .report-capture { width: 100%; }
+  .teacher-detail-head, .report-panel, .report-metric { break-inside: avoid; box-shadow: none; }
+  .teacher-detail-layout { grid-template-columns: minmax(0, 1fr) 290px; }
 }
