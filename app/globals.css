@@ -118,6 +118,10 @@ footer { max-width: 1220px; margin: 0 auto; padding: 24px; border-top: 1px solid
 .report-view-tabs button { min-width: 195px; padding: 10px 15px; border: 0; border-radius: 10px; background: transparent; color: var(--muted); font-size: 13px; font-weight: 800; text-align: left; }
 .report-view-tabs button span { display: block; margin-top: 2px; font-size: 10px; font-weight: 500; }
 .report-view-tabs button.active { background: white; color: var(--ink); box-shadow: 0 2px 9px rgba(27,39,74,.1); }
+.report-export-toolbar { margin: -4px 0 16px; padding: 12px 14px; display: flex; align-items: center; justify-content: space-between; gap: 18px; border: 1px solid var(--line); border-radius: 13px; background: rgba(255,255,255,.72); }
+.report-export-toolbar > span { color: var(--muted); font-size: 11px; }
+.report-export-toolbar > span b { color: var(--ink); }
+.report-export-toolbar > div { display: flex; gap: 8px; }
 .team-dashboard { display: grid; gap: 20px; }
 .report-summary-grid { display: grid; grid-template-columns: 1.25fr repeat(4, 1fr); gap: 12px; }
 .report-summary-card { min-height: 128px; padding: 19px; border: 1px solid var(--line); border-radius: 18px; background: white; box-shadow: 0 12px 32px rgba(32,42,76,.055); display: flex; flex-direction: column; justify-content: space-between; }
@@ -424,6 +428,8 @@ footer { max-width: 1220px; margin: 0 auto; padding: 24px; border-top: 1px solid
   .teacher-picker-card select { min-width: 0; width: 100%; }
   .teacher-picker-actions { align-items: stretch; flex-direction: column; }
   .report-export-button { width: 100%; }
+  .report-export-toolbar { align-items: stretch; flex-direction: column; }
+  .report-export-toolbar > div { display: grid; grid-template-columns: 1fr 1fr; }
   .teacher-detail-head { align-items: flex-start; flex-wrap: wrap; }
   .teacher-detail-head .report-status { margin-left: 67px; }
   footer { flex-direction: column; padding: 24px 18px; }
@@ -432,7 +438,7 @@ footer { max-width: 1220px; margin: 0 auto; padding: 24px; border-top: 1px solid
 @media print {
   @page { size: A4 landscape; margin: 9mm; }
   body { background: white; print-color-adjust: exact; -webkit-print-color-adjust: exact; }
-  .topbar, .reports-heading, .report-view-tabs, .teacher-picker-card, footer { display: none !important; }
+  .topbar, .reports-heading, .report-view-tabs, .report-export-toolbar, .teacher-picker-card, footer { display: none !important; }
   .report-workspace { max-width: none; padding: 0; }
   .report-capture { width: 100%; }
   .teacher-detail-head, .report-panel, .report-metric { break-inside: avoid; box-shadow: none; }

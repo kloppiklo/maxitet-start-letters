@@ -109,6 +109,7 @@ export function ReportDashboard() {
   const [selectedId, setSelectedId] = useState("");
   const [exporting, setExporting] = useState(false);
   const reportRef = useRef<HTMLDivElement>(null);
+  const teamReportRef = useRef<HTMLDivElement>(null);
 
   const load = async (force = false) => {
     setLoading(true);
@@ -157,12 +158,13 @@ export function ReportDashboard() {
   };
 
   const downloadPng = async () => {
-    if (!reportRef.current || !selected) return;
+    const target = view === "team" ? teamReportRef.current : reportRef.current;
+    if (!target || (view === "teacher" && !selected)) return;
     setExporting(true);
     try {
-      const dataUrl = await toPng(reportRef.current, { cacheBust: true, pixelRatio: 2, backgroundColor: "#f3f5f9" });
+      const dataUrl = await toPng(target, { cacheBust: true, pixelRatio: 2, backgroundColor: "#f3f5f9" });
       const link = document.createElement("a");
-      link.download = `Отчёт — ${selected.name}.png`;
+      link.download = view === "team" ? "Командный отчёт.png" : `Отчёт — ${selected!.name}.png`;
       link.href = dataUrl;
       link.click();
     } finally {
@@ -198,9 +200,16 @@ export function ReportDashboard() {
           <button className={view === "team" ? "active" : ""} onClick={() => setView("team")} role="tab" aria-selected={view === "team"}>Команда <span>Общая сводка</span></button>
           <button className={view === "teacher" ? "active" : ""} onClick={() => setView("teacher")} role="tab" aria-selected={view === "teacher"}>Преподаватель <span>Подробный отчёт</span></button>
         </div>
+        <div className="report-export-toolbar">
+          <span>Экспорт: <b>{view === "team" ? "командный отчёт" : selected?.name}</b></span>
+          <div>
+            <button type="button" className="report-export-button report-export-secondary" onClick={() => window.print()}>Сохранить PDF</button>
+            <button type="button" className="report-export-button" onClick={() => void downloadPng()} disabled={exporting}>{exporting ? "Готовим…" : "Скачать PNG"}</button>
+          </div>
+        </div>
 
         {view === "team" ? (
-          <div className="team-dashboard">
+          <div className="team-dashboard report-capture" ref={teamReportRef}>
             <div className="report-summary-grid">
               <article className="report-summary-card report-summary-primary"><span>Преподавателей</span><strong>{data.summary.teachers}</strong><small>в объединённом отчёте</small></article>
               <article className="report-summary-card"><span className="summary-icon summary-icon-red">!</span><strong>{data.summary.red}</strong><small>требуют внимания</small></article>
@@ -266,8 +275,6 @@ export function ReportDashboard() {
               <label htmlFor="teacher-report-select"><span className="report-kicker">ПРЕПОДАВАТЕЛЬ</span>Выберите отчёт</label>
               <div className="teacher-picker-actions">
                 <select id="teacher-report-select" value={selected?.id ?? ""} onChange={(event) => setSelectedId(event.target.value)}>{data.teachers.map((teacher) => <option key={teacher.id} value={teacher.id}>{teacher.name} · {teacher.teamLead}</option>)}</select>
-                <button type="button" className="report-export-button report-export-secondary" onClick={() => window.print()}>Сохранить PDF</button>
-                <button type="button" className="report-export-button" onClick={() => void downloadPng()} disabled={exporting}>{exporting ? "Готовим…" : "Скачать PNG"}</button>
               </div>
             </div>
             <div ref={reportRef} className="report-capture">{selected && <TeacherDetails teacher={selected} methodology={data.methodology} />}</div>
