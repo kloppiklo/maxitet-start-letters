@@ -2,13 +2,23 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { toPng } from "html-to-image";
+import { read, utils } from "xlsx";
 import { buildTeacherReport, parseCsv } from "./report-data";
 import type { ReportMetric, SignalStatus, TeacherReport, TeacherReportPayload } from "./report-data";
 
-const PUBLIC_SHEETS = [
-  "https://docs.google.com/spreadsheets/d/1kxNYk29BoPG_4GXHYE0qIMiIO6UAlS45NQt-4N5i0YA/export?format=csv&gid=0",
-  "https://docs.google.com/spreadsheets/d/1jH55sr0RFtJnxUCZ4KswKVpSCtTU-n6ES7UUClNh078/export?format=csv&gid=0",
+const PUBLIC_WORKBOOKS = [
+  "https://docs.google.com/spreadsheets/d/1kxNYk29BoPG_4GXHYE0qIMiIO6UAlS45NQt-4N5i0YA/export?format=xlsx",
+  "https://docs.google.com/spreadsheets/d/1jH55sr0RFtJnxUCZ4KswKVpSCtTU-n6ES7UUClNh078/export?format=xlsx",
 ] as const;
+
+async function loadLatestSheet(url: string) {
+  const response = await fetch(url);
+  if (!response.ok) throw new Error(`Источник данных ответил ${response.status}`);
+  const workbook = read(await response.arrayBuffer(), { type: "array" });
+  const sheetName = workbook.SheetNames.at(-1);
+  if (!sheetName) throw new Error("В таблице нет листов с данными");
+  return parseCsv(utils.sheet_to_csv(workbook.Sheets[sheetName]));
+}
 
 const SOURCE_LINKS = [
   { label: "Стандартные показатели", url: "https://docs.google.com/spreadsheets/d/1kxNYk29BoPG_4GXHYE0qIMiIO6UAlS45NQt-4N5i0YA/edit" },
@@ -120,11 +130,7 @@ export function ReportDashboard() {
       if (response.ok) {
         payload = await response.json();
       } else {
-        const sheets = await Promise.all(PUBLIC_SHEETS.map(async (url) => {
-          const sheetResponse = await fetch(url);
-          if (!sheetResponse.ok) throw new Error(`Источник данных ответил ${sheetResponse.status}`);
-          return parseCsv(await sheetResponse.text());
-        }));
+        const sheets = await Promise.all(PUBLIC_WORKBOOKS.map(loadLatestSheet));
         payload = buildTeacherReport(sheets[0], sheets[1]);
       }
       setData(payload);
