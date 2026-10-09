@@ -38,6 +38,62 @@ const METRIC_LABELS: Record<string, string> = {
   rejected: "непринятые ДЗ",
 };
 
+type SortKey = "name" | "status" | "attendance" | "homework" | "lessonDuration" | "overdue" | "cameraTime" | "riskGroups";
+type SortDirection = "asc" | "desc";
+type NumericFilterKey = "attendance" | "homework" | "lessonDuration" | "overdue" | "cameraTime" | "riskGroups";
+
+const EMPTY_NUMERIC_FILTERS: Record<NumericFilterKey, string> = {
+  attendance: "",
+  homework: "",
+  lessonDuration: "",
+  overdue: "",
+  cameraTime: "",
+  riskGroups: "",
+};
+
+const STATUS_SORT: Record<TeacherReport["overall"], number> = { red: 3, yellow: 2, green: 1 };
+
+function teacherMetricValue(teacher: TeacherReport, id: string) {
+  return [...teacher.metrics, ...teacher.mclassMetrics].find((item) => item.id === id)?.value ?? null;
+}
+
+function matchesNumericFilter(value: number | null, filter: string) {
+  const normalized = filter.trim().replace(",", ".").replace(/\s+/g, "");
+  if (!normalized) return true;
+  if (value == null) return false;
+
+  const range = normalized.match(/^(-?\d+(?:\.\d+)?)[–—-](-?\d+(?:\.\d+)?)$/);
+  if (range) {
+    const min = Number(range[1]);
+    const max = Number(range[2]);
+    return value >= Math.min(min, max) && value <= Math.max(min, max);
+  }
+
+  const comparison = normalized.match(/^(>=|<=|>|<|=|≥|≤)?(-?\d+(?:\.\d+)?)$/);
+  if (!comparison) return true;
+  const target = Number(comparison[2]);
+  if (comparison[1] === ">" ) return value > target;
+  if (comparison[1] === "<" ) return value < target;
+  if (comparison[1] === ">=" || comparison[1] === "≥") return value >= target;
+  if (comparison[1] === "<=" || comparison[1] === "≤") return value <= target;
+  return value === target;
+}
+
+function SortButton({ column, label, active, direction, onSort }: {
+  column: SortKey;
+  label: string;
+  active: boolean;
+  direction: SortDirection;
+  onSort: (column: SortKey) => void;
+}) {
+  return (
+    <button type="button" className={active ? "table-sort table-sort-active" : "table-sort"} onClick={() => onSort(column)}>
+      <span>{label}</span>
+      <i aria-hidden="true">{active ? (direction === "asc" ? "↑" : "↓") : "↕"}</i>
+    </button>
+  );
+}
+
 function format(value: number | null, unit = "") {
   if (value == null) return "—";
   const formatted = new Intl.NumberFormat("ru-RU", { maximumFractionDigits: 1 }).format(value);
@@ -117,6 +173,9 @@ export function ReportDashboard() {
   const [status, setStatus] = useState<"all" | "red" | "yellow" | "green">("all");
   const [teamLead, setTeamLead] = useState("all");
   const [selectedId, setSelectedId] = useState("");
+  const [sortKey, setSortKey] = useState<SortKey>("status");
+  const [sortDirection, setSortDirection] = useState<SortDirection>("desc");
+  const [numericFilters, setNumericFilters] = useState<Record<NumericFilterKey, string>>(EMPTY_NUMERIC_FILTERS);
   const [exporting, setExporting] = useState(false);
   const reportRef = useRef<HTMLDivElement>(null);
   const teamReportRef = useRef<HTMLDivElement>(null);
@@ -147,12 +206,33 @@ export function ReportDashboard() {
   const filtered = useMemo(() => {
     if (!data) return [];
     const normalized = query.trim().toLocaleLowerCase("ru-RU");
-    return data.teachers.filter((teacher) =>
+    const result = data.teachers.filter((teacher) =>
       (status === "all" || teacher.overall === status) &&
       (teamLead === "all" || teacher.teamLead === teamLead) &&
-      (!normalized || `${teacher.name} ${teacher.teamLead}`.toLocaleLowerCase("ru-RU").includes(normalized)),
+      (!normalized || `${teacher.name} ${teacher.teamLead}`.toLocaleLowerCase("ru-RU").includes(normalized)) &&
+      matchesNumericFilter(teacherMetricValue(teacher, "attendance"), numericFilters.attendance) &&
+      matchesNumericFilter(teacherMetricValue(teacher, "homework"), numericFilters.homework) &&
+      matchesNumericFilter(teacherMetricValue(teacher, "lessonDuration"), numericFilters.lessonDuration) &&
+      matchesNumericFilter(teacherMetricValue(teacher, "overdue"), numericFilters.overdue) &&
+      matchesNumericFilter(teacherMetricValue(teacher, "cameraTime"), numericFilters.cameraTime) &&
+      matchesNumericFilter(teacher.riskGroups.length, numericFilters.riskGroups),
     );
-  }, [data, query, status, teamLead]);
+
+    return result.sort((left, right) => {
+      let comparison = 0;
+      if (sortKey === "name") comparison = left.name.localeCompare(right.name, "ru");
+      else if (sortKey === "status") comparison = STATUS_SORT[left.overall] - STATUS_SORT[right.overall];
+      else {
+        const leftValue = sortKey === "riskGroups" ? left.riskGroups.length : teacherMetricValue(left, sortKey);
+        const rightValue = sortKey === "riskGroups" ? right.riskGroups.length : teacherMetricValue(right, sortKey);
+        if (leftValue == null && rightValue == null) comparison = left.name.localeCompare(right.name, "ru");
+        else if (leftValue == null) return 1;
+        else if (rightValue == null) return -1;
+        else comparison = leftValue - rightValue;
+      }
+      return (sortDirection === "asc" ? comparison : -comparison) || left.name.localeCompare(right.name, "ru");
+    });
+  }, [data, numericFilters, query, sortDirection, sortKey, status, teamLead]);
 
   const selected = data?.teachers.find((teacher) => teacher.id === selectedId) ?? data?.teachers[0];
   const updatedAt = data ? new Intl.DateTimeFormat("ru-RU", { day: "numeric", month: "long", hour: "2-digit", minute: "2-digit" }).format(new Date(data.generatedAt)) : "";
@@ -161,6 +241,26 @@ export function ReportDashboard() {
     setSelectedId(teacher.id);
     setView("teacher");
     window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const toggleSort = (column: SortKey) => {
+    if (sortKey === column) {
+      setSortDirection((current) => current === "asc" ? "desc" : "asc");
+      return;
+    }
+    setSortKey(column);
+    setSortDirection(column === "name" ? "asc" : "desc");
+  };
+
+  const updateNumericFilter = (key: NumericFilterKey, value: string) => {
+    setNumericFilters((current) => ({ ...current, [key]: value }));
+  };
+
+  const clearTableFilters = () => {
+    setQuery("");
+    setStatus("all");
+    setTeamLead("all");
+    setNumericFilters(EMPTY_NUMERIC_FILTERS);
   };
 
   const downloadPng = async () => {
@@ -259,7 +359,34 @@ export function ReportDashboard() {
               </div>
               <div className="teacher-table-wrap">
                 <table className="teacher-table">
-                  <thead><tr><th>Преподаватель</th><th>Статус</th><th>Посещ.</th><th>ДЗ</th><th>Средняя длительность урока</th><th>Просрочено</th><th>Среднее время с камерой</th><th>Риск-группы</th><th><span className="sr-only">Открыть</span></th></tr></thead>
+                  <thead>
+                    <tr>
+                      <th aria-sort={sortKey === "name" ? (sortDirection === "asc" ? "ascending" : "descending") : "none"}><SortButton column="name" label="Преподаватель" active={sortKey === "name"} direction={sortDirection} onSort={toggleSort} /></th>
+                      <th aria-sort={sortKey === "status" ? (sortDirection === "asc" ? "ascending" : "descending") : "none"}><SortButton column="status" label="Статус" active={sortKey === "status"} direction={sortDirection} onSort={toggleSort} /></th>
+                      <th aria-sort={sortKey === "attendance" ? (sortDirection === "asc" ? "ascending" : "descending") : "none"}><SortButton column="attendance" label="Посещ." active={sortKey === "attendance"} direction={sortDirection} onSort={toggleSort} /></th>
+                      <th aria-sort={sortKey === "homework" ? (sortDirection === "asc" ? "ascending" : "descending") : "none"}><SortButton column="homework" label="ДЗ" active={sortKey === "homework"} direction={sortDirection} onSort={toggleSort} /></th>
+                      <th aria-sort={sortKey === "lessonDuration" ? (sortDirection === "asc" ? "ascending" : "descending") : "none"}><SortButton column="lessonDuration" label="Средняя длительность урока" active={sortKey === "lessonDuration"} direction={sortDirection} onSort={toggleSort} /></th>
+                      <th aria-sort={sortKey === "overdue" ? (sortDirection === "asc" ? "ascending" : "descending") : "none"}><SortButton column="overdue" label="Просрочено" active={sortKey === "overdue"} direction={sortDirection} onSort={toggleSort} /></th>
+                      <th aria-sort={sortKey === "cameraTime" ? (sortDirection === "asc" ? "ascending" : "descending") : "none"}><SortButton column="cameraTime" label="Среднее время с камерой" active={sortKey === "cameraTime"} direction={sortDirection} onSort={toggleSort} /></th>
+                      <th aria-sort={sortKey === "riskGroups" ? (sortDirection === "asc" ? "ascending" : "descending") : "none"}><SortButton column="riskGroups" label="Риск-группы" active={sortKey === "riskGroups"} direction={sortDirection} onSort={toggleSort} /></th>
+                      <th><span className="sr-only">Открыть</span></th>
+                    </tr>
+                    <tr className="teacher-filter-row">
+                      <th><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Имя или тимлид" aria-label="Фильтр по преподавателю" /></th>
+                      <th><select value={status} onChange={(event) => setStatus(event.target.value as typeof status)} aria-label="Фильтр столбца Статус"><option value="all">Все</option><option value="red">Требует внимания</option><option value="yellow">Наблюдать</option><option value="green">В норме</option></select></th>
+                      {([
+                        ["attendance", "≥75"],
+                        ["homework", "≥60"],
+                        ["lessonDuration", "60–90"],
+                        ["overdue", "≤3"],
+                        ["cameraTime", "≥30"],
+                        ["riskGroups", "≥1"],
+                      ] as [NumericFilterKey, string][]).map(([key, placeholder]) => (
+                        <th key={key}><input value={numericFilters[key]} onChange={(event) => updateNumericFilter(key, event.target.value)} placeholder={placeholder} inputMode="decimal" aria-label={`Числовой фильтр: ${placeholder}`} title="Введите число, условие ≥ / ≤ или диапазон 60–75" /></th>
+                      ))}
+                      <th><button type="button" className="table-filter-clear" onClick={clearTableFilters} aria-label="Сбросить фильтры" title="Сбросить все фильтры">×</button></th>
+                    </tr>
+                  </thead>
                   <tbody>{filtered.map((teacher) => {
                     const get = (id: string) => [...teacher.metrics, ...teacher.mclassMetrics].find((item) => item.id === id);
                     return <tr key={teacher.id}>
