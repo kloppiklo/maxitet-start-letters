@@ -259,13 +259,13 @@ export function ReportDashboard() {
               </div>
               <div className="teacher-table-wrap">
                 <table className="teacher-table">
-                  <thead><tr><th>Преподаватель</th><th>Статус</th><th>Посещ.</th><th>ДЗ</th><th>Непринятые</th><th>Просрочено</th><th>М.Класс</th><th>Риск-группы</th><th><span className="sr-only">Открыть</span></th></tr></thead>
+                  <thead><tr><th>Преподаватель</th><th>Статус</th><th>Посещ.</th><th>ДЗ</th><th>Средняя длительность урока</th><th>Просрочено</th><th>Среднее время с камерой</th><th>Риск-группы</th><th><span className="sr-only">Открыть</span></th></tr></thead>
                   <tbody>{filtered.map((teacher) => {
                     const get = (id: string) => [...teacher.metrics, ...teacher.mclassMetrics].find((item) => item.id === id);
                     return <tr key={teacher.id}>
                       <td><div className="teacher-cell"><span className="teacher-avatar">{initials(teacher.name)}</span><p><b>{teacher.name}</b><small>{teacher.teamLead} · {teacher.groupsCount} групп</small></p></div></td>
                       <td><span className={`report-status report-status-${teacher.overall}`}>{STATUS_LABEL[teacher.overall]}</span></td>
-                      {["attendance", "homework", "rejected", "overdue", "presence"].map((id) => { const item = get(id); return <td key={id}><span className={`table-value table-value-${item?.status ?? "neutral"}`}>{format(item?.value ?? null, item?.unit)}</span></td>; })}
+                      {["attendance", "homework", "lessonDuration", "overdue", "cameraTime"].map((id) => { const item = get(id); return <td key={id}><span className={`table-value table-value-${item?.status ?? "neutral"}`}>{format(item?.value ?? null, item?.unit)}</span></td>; })}
                       <td><b>{teacher.riskGroups.length}</b></td>
                       <td><button className="row-open" onClick={() => openTeacher(teacher)} aria-label={`Открыть отчёт: ${teacher.name}`}>→</button></td>
                     </tr>;
