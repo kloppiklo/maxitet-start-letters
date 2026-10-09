@@ -142,6 +142,8 @@ export function buildTeacherReport(standardRows: Row[], mclassRows: Row[]): Teac
     const camera = total(lesson.students.map((row) => numeric(row["Время с камерой"])));
     const distractions = total(lesson.students.map((row) => numeric(row["Отвлечений"])));
     const stats = {
+      lessonDuration: mean(lesson.students.map((row) => numeric(row["Длительность урока"]))),
+      cameraTime: mean(lesson.students.map((row) => numeric(row["Время с камерой"]))),
       presence: ratio(onLesson, duration),
       camera: ratio(camera, onLesson),
       meaningful: lesson.students.length ? lesson.students.filter((row) => (numeric(row["Количество сообщ >5 символов"]) ?? 0) > 0).length / lesson.students.length * 100 : null,
@@ -178,6 +180,8 @@ export function buildTeacherReport(standardRows: Row[], mclassRows: Row[]): Teac
       metric("control", "ТК на проверке", values.control),
     ];
     const mclassMetrics = [
+      metric("lessonDuration", "Средняя длительность урока", mean(teacherLessons.map((item) => item.lessonDuration)), "мин.", "в среднем по занятиям"),
+      metric("cameraTime", "Среднее время с камерой", mean(teacherLessons.map((item) => item.cameraTime)), "мин.", "в среднем на студента"),
       metric("presence", "Присутствие", mean(teacherLessons.map((item) => item.presence)), "%", "от длительности занятия"),
       metric("camera", "Камера", mean(teacherLessons.map((item) => item.camera)), "%", "от времени на занятии"),
       metric("meaningful", "Содержательные сообщения", mean(teacherLessons.map((item) => item.meaningful)), "%", "студентов с сообщением >5 символов"),
